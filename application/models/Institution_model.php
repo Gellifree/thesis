@@ -12,7 +12,7 @@ class Institution_model extends CI_Model {
     }
 
     public function get_list() {
-        $this->db->select('i.id, i.megnevezes');
+        $this->db->select('i.id, i.megnevezes, i.megye, i.telefon');
         $this->db->from('institution i');
         $this->db->where('i.aktiv', 1);
         $this->db->order_by('i.megnevezes', 'asc');
