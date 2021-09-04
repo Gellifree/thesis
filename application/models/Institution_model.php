@@ -19,4 +19,13 @@ class Institution_model extends CI_Model {
 
         return $this->db->get()->result();
     }
+
+    public function get_one($id) {
+        $this->db->select('i.id, i.megnevezes, i.megye, i.cím, i.igazgató_neve, i.e_mail, i.telefon, i.weboldal, i.aktiv');
+        $this->db->from('institution i');
+        $this->db->where('id', $id);
+        $this->db->where('aktiv', 1);
+
+        return $this->db->get()->row();
+    }
 }

@@ -1,7 +1,7 @@
 <?php $this->load->view('common/bootstrap'); ?>
 
 <div class="container my-2 border shadow-sm text-white bg-dark rounded">
-<h5 class="m-2"><?=$title?></h5>
+<h6 class="m-2"><?=$title?></h6>
 </div>
 
 <body class="bg-light">
@@ -20,15 +20,19 @@
                 <th>Megnevezés</th>
                 <th>Megye</th>
                 <th>Telefonszám</th>
+                <th>Műveletek</th>
             </tr>
         </thead>
         <tbody id="db_result">
             <?php foreach ($records as $record): ?>
                 <tr>
-                <!-- <td> <?=$record->id?> </td> -->
-                <td> <?=$record->megnevezes?> </td>
-                <td> <?=$record->megye?> </td>
-                <td> <?=$record->telefon?> </td>
+                    <!-- <td> <?=$record->id?> </td> -->
+                    <td> <?=$record->megnevezes?> </td>
+                    <td> <?=$record->megye?> </td>
+                    <td> <?=$record->telefon?> </td>
+                    <td>
+                        <?php echo anchor(base_url('institution/list/'.$record->id), '<h4 class="fas fa-info-circle"></h4>'); ?>
+                    </td>
                 </tr>
             <?php endforeach; ?>
         </tbody>
