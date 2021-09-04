@@ -28,4 +28,10 @@ class Institution_model extends CI_Model {
 
         return $this->db->get()->row();
     }
+
+    public function delete($id) {
+        $this->db->where('id', $id);
+        $this->db->where('aktiv', 1);
+        return $this->db->delete('institution');
+    }
 }

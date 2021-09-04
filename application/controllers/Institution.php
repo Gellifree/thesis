@@ -11,10 +11,11 @@ class Institution extends CI_Controller {
     public function __construct() {
         parent::__construct();
         $this->load->model('institution_model');
+        $this->load->helper('url');
     }
 
     public function list($institution_id = NULL) {
-        $this->load->helper('url');
+
         if($institution_id == null) {
             $view_params = [
                 'title'      => 'Intézmények listája',
@@ -55,7 +56,26 @@ class Institution extends CI_Controller {
         echo 'update';
     }
 
-    public function delete() {
-        echo 'delete';
+    public function delete($institution_id = NULL) {
+        if($institution_id == NULL) {
+            redirect(base_url('institution/list'));
+        }
+
+        if(!is_numeric($institution_id)) {
+            redirect(base_url('institution/list'));
+        }
+
+        $record = $this->institution_model->get_one($institution_id);
+
+        if($record == NULL || empty($record)) {
+            redirect(base_url('institution/list'));
+        }
+
+        if($this->institution_model->delete($institution_id)) {
+            redirect(base_url('institution/list'));
+        }
+        else {
+            show_error('A törlés sikertelen!');
+        }
     }
 }

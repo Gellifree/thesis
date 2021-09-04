@@ -28,7 +28,7 @@
 <p><?=$record->telefon?></p>
 
 <h2>Weboldal</h2>
-<p><?=$record->weboldal?></p>
+<p><?=($record->weboldal == NULL ? 'Nincs elérhető weboldal az adatbázisban.' : $record->weboldal)?></p>
 
 <h2>Aktív</h2>
 <p><?=($record->aktiv == 1 ? 'Aktív intézmény' : 'Inaktív intézmény' )?></p>

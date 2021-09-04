@@ -36,3 +36,14 @@ insert into institution(megnevezes, megye, cím, igazgató_neve, e_mail, telefon
         '0636324808',
         'www.szilagyi-eger.hu'
     );
+
+insert into institution(megnevezes, megye, cím, igazgató_neve, e_mail, telefon)
+	values
+	(
+		'Földes Ferenc Gimnázium',
+	    'Borsod-Abaúj Zemplén megye',
+	    '3527, Miskolc, Hősök tere 7.',
+	    'Veres Pál',
+	    'foldes@ffg.sulinet.hu',
+		'0646508459'
+	);

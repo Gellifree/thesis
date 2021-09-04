@@ -32,12 +32,13 @@
                     <td> <?=$record->telefon?> </td>
                     <td>
                         <?php echo anchor(base_url('institution/list/'.$record->id), '<h4 class="fas fa-info-circle"></h4>'); ?>
+                        <?php echo anchor(base_url('institution/delete/'.$record->id), '<h4 class="fas fa-trash"></h4>'); ?>
                     </td>
                 </tr>
             <?php endforeach; ?>
         </tbody>
     </table>
-    <p class="text-right">Lekérdezett rekordok: <?=count($records)?> </p>
+    <p class="text-right">Lekérdezett rekordok: <?=count($records)?>  db.</p>
 
     <script>
     $(document).ready(function(){
