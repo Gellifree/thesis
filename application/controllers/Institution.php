@@ -10,13 +10,14 @@ class Institution extends CI_Controller {
 
     public function __construct() {
       parent::__construct();
+      $this->load->model('institution_model');
     }
 
     public function list() {
 
        $view_params = [
            'title'      => 'Intézmények listája',
-           'records'    => []
+           'records'    => $this->institution_model->get_list()
        ];
 
       $this->load->view('institution/list', $view_params);
@@ -34,5 +35,3 @@ class Institution extends CI_Controller {
         echo 'delete';
     }
 }
-
-?>
