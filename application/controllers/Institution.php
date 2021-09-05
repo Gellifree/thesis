@@ -14,6 +14,10 @@ class Institution extends CI_Controller {
         $this->load->helper('url');
     }
 
+    public function index() {
+        echo "index";
+    }
+
     public function list($institution_id = NULL) {
 
         if($institution_id == null) {

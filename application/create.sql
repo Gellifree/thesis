@@ -1,3 +1,5 @@
+
+-- Intézmény létrehozásának első verziója
 create table institution(
 	id int not null auto_increment,
     megnevezes varchar(200) not null,
@@ -47,3 +49,17 @@ insert into institution(megnevezes, megye, cím, igazgató_neve, e_mail, telefon
 	    'foldes@ffg.sulinet.hu',
 		'0646508459'
 	);
+
+-- Ha azt szeretnénk, hogy a megyéket ki tudjuk az adatbázisból listázni, akkor
+-- Újra kell gondolnunk a táblákat.
+
+create table megye(
+	id int not null auto_increment,
+	megnevezes varchar(200),
+
+	constraint PK_megye primary key(id)
+);
+
+insert into megye(megnevezes) values('Heves');
+insert into megye(megnevezes) values('Nógrád');
+insert into megye(megnevezes) values('Borsod-Abaúj Zemplén');
