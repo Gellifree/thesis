@@ -63,3 +63,17 @@ create table megye(
 insert into megye(megnevezes) values('Heves');
 insert into megye(megnevezes) values('Nógrád');
 insert into megye(megnevezes) values('Borsod-Abaúj Zemplén');
+
+
+
+create table tag(
+	id int not null auto_increment,
+	nev varchar(200) not null,
+	statusz varchar(100) not null,
+	osztondij int not null default 20000,
+	e_mail varchar(150) not null,
+	tagsag_kezdete int,
+	aktiv tinyint default 1,
+
+	constraint PK_tag primary key(id)
+);
