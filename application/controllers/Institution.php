@@ -49,7 +49,8 @@ class Institution extends CI_Controller {
     }
 
     public function insert() {
-        echo 'insert';
+        $this->load->helper('form');
+        $this->load->view('institution/add');
     }
 
     public function update() {
