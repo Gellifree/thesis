@@ -15,7 +15,7 @@ class Institution extends CI_Controller {
     }
 
     public function index() {
-        echo "index";
+        echo "index page of institution";
     }
 
     public function list($institution_id = NULL) {

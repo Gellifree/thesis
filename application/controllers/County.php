@@ -14,7 +14,7 @@ class County extends CI_Controller {
     }
 
     public function index() {
-        echo "index";
+        echo "index page of county";
     }
 
     public function list($county_id = NULL) {

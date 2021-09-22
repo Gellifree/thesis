@@ -6,22 +6,22 @@
 * @author Kovács Norbert
 */
 
-class Member extends CI_Controller {
+class Presentation extends CI_Controller {
   public function __construct() {
     parent::__construct();
 
-    $this->load->model('member_model');
+    $this->load->model('Presentation_model');
     $this->load->helper('url');
   }
 
   public function index() {
-    echo "index page of member";
+    echo "index page of presentation";
   }
 
   public function list($member_id = NULL) {
     if($member_id == null) {
       $view_params = [
-        'title'     => 'Tagok listája',
+        'title'     => 'Előadások listája',
         'records'   => $this->member_model->get_list()
       ];
 
