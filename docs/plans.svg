@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1920"
    height="1080"
    viewBox="0 0 508 285.75"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
-   sodipodi:docname="plans.svg">
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="plans.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <style
      id="style4991" />
   <defs
@@ -33,8 +33,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="1022.3226"
-     inkscape:cy="614.59691"
+     inkscape:cx="1449.3164"
+     inkscape:cy="142.68405"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -43,8 +43,9 @@
      inkscape:window-width="1920"
      inkscape:window-height="1016"
      inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -126,7 +127,7 @@
     <text
        xml:space="preserve"
        id="text3005"
-       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:10.58333333px;line-height:1.25;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect3007);" />
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:10.58333333px;line-height:1.25;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect3007)" />
     <text
        xml:space="preserve"
        style="font-size:1.33532px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
@@ -2480,6 +2481,306 @@
          y="119.46585"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan2819-5-8-3-0">Listázás ?</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.165;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2997-2-3"
+       width="147.67099"
+       height="45.496891"
+       x="329.3967"
+       y="6.194623"
+       ry="1.5551158" />
+    <g
+       id="g2881-78-6"
+       transform="translate(220.17306,-173.62169)">
+      <rect
+         style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect19-8-5-7"
+         width="24.396646"
+         height="5.5512018"
+         x="112.73757"
+         y="186.42757"
+         ry="0.38157356" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="120.37079"
+         y="189.99138"
+         id="text17-3-0-3-5"
+         transform="scale(0.99985872,1.0001413)"><tspan
+           sodipodi:role="line"
+           id="tspan15-6-21-3-3"
+           x="120.37079"
+           y="189.99138"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583">Előadás</tspan></text>
+    </g>
+    <g
+       id="g2886-8-5"
+       transform="translate(246.79461,-173.86653)">
+      <rect
+         style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect19-7-0-3-6"
+         width="24.396646"
+         height="5.5512018"
+         x="141.54866"
+         y="186.67241"
+         ry="0.38157356" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="151.83441"
+         y="189.96167"
+         id="text17-3-5-5-7-2"
+         transform="scale(0.99985872,1.0001413)"><tspan
+           sodipodi:role="line"
+           x="151.83441"
+           y="189.96167"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583"
+           id="tspan896-1-9-9">Tag</tspan></text>
+    </g>
+    <g
+       id="g2891-3-1"
+       transform="translate(246.24835,-173.65366)">
+      <rect
+         style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect19-5-1-7-2"
+         width="24.396646"
+         height="5.5512018"
+         x="169.81123"
+         y="186.45953"
+         ry="0.38157356" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="175.83224"
+         y="189.81416"
+         id="text17-3-6-0-8-7"
+         transform="scale(0.99985872,1.0001413)"><tspan
+           sodipodi:role="line"
+           id="tspan15-6-2-8-7-0"
+           x="175.83224"
+           y="189.81416"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583">Intézmény</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="332.77719"
+       y="22.432426"
+       id="text17-3-0-5-4-9"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         id="tspan15-6-21-0-1-3"
+         x="332.77719"
+         y="22.432426"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Listázás</tspan><tspan
+         sodipodi:role="line"
+         x="332.77719"
+         y="25.025677"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan2514">   - Megnevezés</tspan><tspan
+         sodipodi:role="line"
+         x="332.77719"
+         y="27.618927"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan7653">   - Iskola</tspan><tspan
+         sodipodi:role="line"
+         x="332.77719"
+         y="30.212177"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan7655">   - Időpont</tspan><tspan
+         sodipodi:role="line"
+         x="332.77719"
+         y="32.805428"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan7661" /><tspan
+         sodipodi:role="line"
+         x="332.77719"
+         y="35.398678"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan2819-9-6">Részletes</tspan><tspan
+         sodipodi:role="line"
+         x="332.77719"
+         y="37.991928"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan7663">   - Taglista</tspan><tspan
+         sodipodi:role="line"
+         x="332.77719"
+         y="40.585175"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan7665" /><tspan
+         sodipodi:role="line"
+         x="332.77719"
+         y="43.178425"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan7669">Hozzáadás</tspan><tspan
+         sodipodi:role="line"
+         x="332.77719"
+         y="45.771675"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan21735">    - Iskola ID referencia</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="388.21765"
+       y="22.432426"
+       id="text17-3-0-5-6-8-2"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         id="tspan15-6-21-0-4-8-6"
+         x="388.21765"
+         y="22.432426"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Listázás</tspan><tspan
+         sodipodi:role="line"
+         x="388.21765"
+         y="25.025677"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan2819-5-4-7">    - Név</tspan><tspan
+         sodipodi:role="line"
+         x="388.21765"
+         y="27.618927"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan36793">    - Státusz</tspan><tspan
+         sodipodi:role="line"
+         x="388.21765"
+         y="30.212177"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan36795">    - Ösztöndíj</tspan><tspan
+         sodipodi:role="line"
+         x="388.21765"
+         y="32.805428"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan36797">Részletes</tspan><tspan
+         sodipodi:role="line"
+         x="388.21765"
+         y="35.398678"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan37997">    - Regisztrált előadás </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="415.93784"
+       y="22.432426"
+       id="text17-3-0-5-8-3-9"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         id="tspan15-6-21-0-6-7-2"
+         x="415.93784"
+         y="22.432426"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Listázás</tspan><tspan
+         sodipodi:role="line"
+         x="415.93784"
+         y="25.025677"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan2819-4-8-3">    - Megnevezés</tspan><tspan
+         sodipodi:role="line"
+         x="415.93784"
+         y="27.618927"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan56221">    - Megye</tspan><tspan
+         sodipodi:role="line"
+         x="415.93784"
+         y="30.212177"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan56223" /><tspan
+         sodipodi:role="line"
+         x="415.93784"
+         y="32.805428"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan56225">Részletes</tspan><tspan
+         sodipodi:role="line"
+         x="415.93784"
+         y="35.398678"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan56227">    - Regisztrált előadás</tspan></text>
+    <g
+       id="g2881-7-0-7"
+       transform="translate(247.88938,-173.62169)">
+      <rect
+         style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect19-8-2-9-5"
+         width="24.396646"
+         height="5.5512018"
+         x="112.73757"
+         y="186.42757"
+         ry="0.38157356" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="121.69324"
+         y="189.74068"
+         id="text17-3-0-4-7-9"
+         transform="scale(0.99985872,1.0001413)"><tspan
+           sodipodi:role="line"
+           id="tspan15-6-21-06-9-2"
+           x="121.69324"
+           y="189.74068"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583">Tartja</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="360.49741"
+       y="22.432426"
+       id="text17-3-0-5-6-2-9-2"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         x="360.49741"
+         y="22.432426"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan2819-5-8-3-8" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="332.68805"
+       y="10.600182"
+       id="text17-7-4-1-2-9"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         id="tspan15-9-9-3-4-7"
+         x="332.68805"
+         y="10.600182"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">ELVÁRT ADATOK</tspan></text>
+    <g
+       id="g1030-3"
+       transform="translate(324.58699,-96.974484)">
+      <rect
+         style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect19-4-5-66-6"
+         width="24.396646"
+         height="5.5512018"
+         x="119.12367"
+         y="109.78036"
+         ry="0.38157356" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="127.43751"
+         y="113.07238"
+         id="text17-3-5-1-0-4-1"
+         transform="scale(0.99985872,1.0001413)"><tspan
+           sodipodi:role="line"
+           x="127.43751"
+           y="113.07238"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583"
+           id="tspan896-28-3-9-2">Megye</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="443.50375"
+       y="22.581116"
+       id="text17-3-0-5-6-2-9-5-9"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         x="443.50375"
+         y="22.581116"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan2819-5-8-3-0-3">Listázás</tspan><tspan
+         sodipodi:role="line"
+         x="443.50375"
+         y="25.174366"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan57387">    - Megnevezés</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-6-8-3-7-6-7"
