@@ -7,14 +7,14 @@
 <body class="bg-light">
 
 
-<div class="container border p-3 shadow-smt bg-white">
+<div class="container border shadow-smt bg-white">
 <?php if($records == null || empty($records)): ?>
-    <p> Nincs rögzítve eggyetlen intézmény sem. </p>
+    <p class="m-3"> Nincs rögzítve eggyetlen megye sem. </p>
 <?php else: ?>
     <ul class="list-group" id="db_result">
         <?php foreach ($records as $record): ?>
             <li class="list-group-item">
-                <?=$record->megnevezes?>
+                <?=$record->nev?>
                 <?php echo anchor(base_url('county/delete/'.$record->id), '<h5 class="fas fa-trash"></h5>'); ?>
             </li>
             <?php endforeach; ?>

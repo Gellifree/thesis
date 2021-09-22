@@ -12,15 +12,15 @@ class County_model extends CI_Model {
     }
 
     public function get_list() {
-        $this->db->select('m.id, m.megnevezes');
+        $this->db->select('m.id, m.nev');
         $this->db->from('megye m');
-        $this->db->order_by('m.megnevezes', 'asc');
+        $this->db->order_by('m.nev', 'asc');
 
         return $this->db->get()->result();
     }
 
     public function get_one($id) {
-        $this->db->select('m.id, m.megnevezes');
+        $this->db->select('m.id, m.nev');
         $this->db->from('megye m');
         $this->db->where('id', $id);
 

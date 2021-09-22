@@ -7,9 +7,9 @@
 <body class="bg-light">
 
 
-<div class="container border shadow-smt bg-white">
+<div class="container border p-3 shadow-smt bg-white">
 <?php if($records == null || empty($records)): ?>
-    <p class="m-3"> Nincs rögzítve eggyetlen intézmény sem. </p>
+    <p> Nincs rögzítve eggyetlen tag sem. </p>
 <?php else: ?>
     <input class="form-control" id="searchInput" type="text" placeholder="Szűrés a táblázatban..">
     <br>
@@ -17,9 +17,9 @@
         <thead>
             <tr>
                 <!-- <th>Azonosító</th> -->
-                <th>Megnevezés</th>
-                <th>Megye</th>
-                <th>Telefonszám</th>
+                <th>Név</th>
+                <th>Státusz</th>
+                <th>Ösztöndíj</th>
                 <th>Műveletek</th>
             </tr>
         </thead>
@@ -28,11 +28,11 @@
                 <tr>
                     <!-- <td> <?=$record->id?> </td> -->
                     <td> <?=$record->nev?> </td>
-                    <td> <?=$record->megye?> </td>
-                    <td> <?=$record->telefon?> </td>
+                    <td> <?=$record->statusz?> </td>
+                    <td> <?=$record->osztondij?> </td>
                     <td>
-                        <?php echo anchor(base_url('institution/list/'.$record->id), '<h4 class="fas fa-info-circle"></h4>'); ?>
-                        <?php echo anchor(base_url('institution/delete/'.$record->id), '<h4 class="fas fa-trash"></h4>'); ?>
+                        <?php echo anchor(base_url('member/list/'.$record->id), '<h4 class="fas fa-info-circle"></h4>'); ?>
+                        <?php echo anchor(base_url('member/delete/'.$record->id), '<h4 class="fas fa-trash"></h4>'); ?>
                     </td>
                 </tr>
             <?php endforeach; ?>
