@@ -32,9 +32,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="1449.3164"
-     inkscape:cy="142.68405"
+     inkscape:zoom="11.2"
+     inkscape:cx="65.758928"
+     inkscape:cy="556.91964"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -65,64 +65,51 @@
     <rect
        style="fill:#ffffff;stroke:#2c7a8a;stroke-width:0.165;stroke-linejoin:round"
        id="rect1084"
-       width="169.86102"
-       height="39.495033"
-       x="155.93268"
-       y="138.29327"
+       width="173.78896"
+       height="39.495026"
+       x="4.8452506"
+       y="136.16345"
        ry="1.1186212" />
-    <rect
-       style="fill:#ffffff;stroke:#2c7a8a;stroke-width:0.165;stroke-linejoin:round"
-       id="rect997"
-       width="147.69749"
-       height="77.005768"
-       x="5.0780182"
-       y="138.38226"
-       ry="0.95307416" />
-    <path
-       style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 28.509691,171.24346 v 0 h 12.243611"
-       id="path3311-6-1-1-7-6-2-7"
-       sodipodi:nodetypes="ccc" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.165;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2997-2"
-       width="147.6713"
-       height="31.681885"
-       x="5.0780187"
-       y="103.09305"
+       width="174.12566"
+       height="33.408157"
+       x="4.8452506"
+       y="100.72114"
        ry="1.5551158" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.165;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2991-3"
        width="28.217113"
-       height="39.963177"
-       x="5.0780187"
-       y="6.207325"
+       height="48.744247"
+       x="4.8452506"
+       y="5.8025708"
        ry="0.95947832" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.165;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2993-7"
-       width="115.19302"
+       width="144.99442"
        height="92.75824"
-       x="37.145096"
-       y="6.207325"
+       x="34.138687"
+       y="5.8025708"
        ry="0.9530738" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 120.80835,23.313773 v 7.5434 h 2.6652"
+       d="m 117.80194,22.909018 v 7.5434 h 2.6652"
        id="path3311-6-5-5-1-6"
        sodipodi:nodetypes="ccc" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.165;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2995-1"
-       width="169.93141"
+       width="173.44699"
        height="128.5676"
-       x="155.93269"
-       y="6.207325"
+       x="180.83891"
+       y="5.8025708"
        ry="1.1186203" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 296.28206,95.477743 12.7736,-12.77358"
+       d="m 321.18825,100.12561 12.7736,12.77358"
        id="path2065-83-3-38-6-8-96-5" />
     <text
        xml:space="preserve"
@@ -146,97 +133,97 @@
          id="tspan3037">ANOXWJ</tspan></text>
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 94.248341,68.251576 v 7.5434 h 2.6652"
+       d="m 91.24193,67.846821 v 7.5434 h 2.6652"
        id="path3311-6-3-2-1-4-0-4"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 94.248341,60.708176 v 7.5434 h 2.6652"
+       d="m 91.24193,60.303421 v 7.5434 h 2.6652"
        id="path3311-6-3-2-1-4-7-8"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 94.248341,53.164766 v 7.54341 h 2.6652"
+       d="m 91.24193,52.760011 v 7.54341 h 2.6652"
        id="path3311-6-3-2-1-4-04"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 94.248341,45.621366 v 7.5434 h 2.6652"
+       d="m 91.24193,45.216611 v 7.5434 h 2.6652"
        id="path3311-6-3-2-9-9-2"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 94.248341,38.077966 v 7.5434 h 2.6652"
+       d="m 91.24193,37.673211 v 7.5434 h 2.6652"
        id="path3311-6-3-2-10-9"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 94.248341,30.534566 v 7.5434 h 2.6652"
+       d="m 91.24193,30.129811 v 7.5434 h 2.6652"
        id="path3311-6-1-1-7-6"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 94.248341,22.991156 v 7.5434 h 2.6652"
+       d="m 91.24193,22.586401 v 7.5434 h 2.6652"
        id="path3311-6-5-5-1"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 94.248341,18.012526 v 4.97863 h 2.6652"
+       d="m 91.24193,17.607771 v 4.97863 h 2.6652"
        id="path3311-9-8-0"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 67.911711,53.127616 v 7.5434 h 2.6652"
+       d="m 64.9053,52.722861 v 7.5434 h 2.6652"
        id="path3311-6-3-2-1-42"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 67.911711,45.584216 v 7.5434 h 2.6652"
+       d="m 64.9053,45.179461 v 7.5434 h 2.6652"
        id="path3311-6-3-2-9-2"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 67.911711,38.040806 v 7.54341 h 2.6652"
+       d="m 64.9053,37.636051 v 7.54341 h 2.6652"
        id="path3311-6-3-2-2"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 67.911711,30.497406 v 7.5434 h 2.6652"
+       d="m 64.9053,30.092651 v 7.5434 h 2.6652"
        id="path3311-6-1-1-0"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 67.911711,22.954006 v 7.5434 h 2.6652"
+       d="m 64.9053,22.549251 v 7.5434 h 2.6652"
        id="path3311-6-5-55"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 67.911711,17.975376 v 4.97863 h 2.6652"
+       d="m 64.9053,17.570621 v 4.97863 h 2.6652"
        id="path3311-9-2"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 40.560981,38.056416 v 7.5434 h 2.6652"
+       d="m 37.55457,37.651661 v 7.5434 h 2.6652"
        id="path3311-6-3-9"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 40.560981,30.513006 v 7.54341 h 2.6652"
+       d="m 37.55457,30.108251 v 7.54341 h 2.6652"
        id="path3311-6-1-0"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 40.560981,22.969606 v 7.5434 h 2.6652"
+       d="m 37.55457,22.564851 v 7.5434 h 2.6652"
        id="path3311-6-2"
        sodipodi:nodetypes="ccc" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 40.560981,17.990976 v 4.97863 h 2.6652"
+       d="m 37.55457,17.586221 v 4.97863 h 2.6652"
        id="path3311-8"
        sodipodi:nodetypes="ccc" />
     <g
        id="g2709-9-3"
-       transform="matrix(-1.5932032,0,0,1.5932161,529.03748,-20.923473)"
+       transform="matrix(-1.5932032,0,0,1.5932161,553.94367,-21.328228)"
        style="stroke-width:0.627664">
       <path
          style="fill:none;stroke:#2c7a8a;stroke-width:0.103564;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -251,142 +238,154 @@
     </g>
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 218.18562,112.94412 h -16.5333"
+       d="m 243.09181,112.53936 h -16.5333"
        id="path2065-83-6-7-4" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 213.00576,127.86942 199.44469,114.30835"
+       d="M 237.91195,127.46466 224.35088,113.90359"
        id="path2065-83-3-3-8-7-0" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 179.36307,127.18021 12.7736,-12.77358"
+       d="m 204.26926,126.77545 12.7736,-12.77358"
        id="path2065-83-3-38-6-8-9-9" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 171.67433,113.49664 13.42859,-13.42859"
+       d="M 196.58052,113.09188 210.00911,99.663295"
        id="path2065-83-3-38-6-8-8-1" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 208.3459,95.670505 12.7736,-12.77358"
+       d="m 233.25209,95.26575 12.7736,-12.77358"
        id="path2065-83-3-38-6-8-96" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 172.72283,46.915685 12.13516,-12.13515"
+       d="M 197.62902,46.51093 209.76418,34.37578"
        id="path2065-83-3-38-6-4-2" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 296.09097,30.069665 11.26511,-11.26509"
+       d="M 320.99716,29.66491 332.26227,18.39982"
        id="path2065-83-3-38-6-0-5" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 260.73236,46.582825 11.72512,-11.7251"
+       d="m 285.63855,46.17807 11.72512,-11.7251"
        id="path2065-83-3-38-6-44" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 307.66234,46.331645 296.27007,34.939385"
+       d="M 332.56853,45.92689 321.17626,34.53463"
        id="path2065-83-3-38-9" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 184.77446,29.965885 -11.3168,-11.3168"
+       d="m 209.68065,29.56113 -11.3168,-11.3168"
        id="path2065-83-3-36" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 184.74918,97.947425 H 172.37553"
+       d="M 209.65537,97.54267 H 197.28172"
        id="path2065-83-4-0" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 272.65522,97.947419 H 208.56491"
+       d="M 297.56141,97.542664 H 233.4711"
        id="path2065-83-6-5" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 184.48092,32.414975 H 173.74828"
+       d="M 209.38711,32.01022 H 198.65447"
        id="path2065-83-9-0" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 307.6606,32.414975 H 296.17711"
+       d="M 332.56679,32.01022 H 321.0833"
        id="path2065-83-8-2" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 272.58167,32.414975 H 247.70999"
+       d="M 330.7798,64.776453 H 319.29631"
+       id="path2065-83-8-2-5" />
+    <path
+       style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 298.08486,64.776453 H 286.60137"
+       id="path2065-83-8-2-5-4" />
+    <path
+       style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 297.48786,32.01022 H 272.61618"
        id="path2065-83-1-9" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 233.41086,32.414975 H 208.66529"
+       d="M 258.31705,32.01022 H 233.57148"
        id="path2065-83-43" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 284.32296,34.664335 v 9.27472"
+       d="M 309.22915,34.25958 V 43.5343"
        id="path2065-8-5" />
     <path
+       style="fill:none;stroke:#2c7a8a;stroke-width:0.301106px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 309.22915,52.51921 V 64.531204"
+       id="path2065-8-5-7" />
+    <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 284.32295,19.916705 v 9.89253"
+       d="m 309.22914,19.51195 v 9.89253"
        id="path2065-3-1" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 196.64626,100.54781 v 9.74141"
+       d="m 221.55245,100.14306 v 9.7414"
        id="path2065-5-7" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 196.64625,68.201825 V 100.46199"
+       d="m 221.55244,67.79707 v 32.26017"
        id="path2065-7-4" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 196.64626,35.042595 v 24.95288"
+       d="M 221.55245,34.63784 V 59.59072"
        id="path2065-9-3" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 196.64627,20.989735 v 8.68459"
+       d="m 221.55246,20.58498 v 8.68459"
        id="path2065-1" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583;"
-       x="6.7276478"
-       y="9.5366707"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="6.4948468"
+       y="9.1319742"
        id="text17-4"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-69"
-         x="6.7276478"
-         y="9.5366707"
-         style="font-size:2.0746px;stroke-width:0.264583;fill:#2c7a8a;fill-opacity:1;">ENTITÁSOK</tspan></text>
+         x="6.4948468"
+         y="9.1319742"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">ENTITÁSOK</tspan></text>
     <rect
        style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect19-4"
        width="24.396646"
        height="5.5512018"
-       x="6.9610143"
-       y="11.756641"
+       x="6.7282467"
+       y="11.351887"
        ry="0.38157356" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="14.579287"
-       y="15.345127"
+       x="14.346486"
+       y="14.940431"
        id="text17-3-22"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-6-6"
-         x="14.579287"
-         y="15.345127"
+         x="14.346486"
+         y="14.940431"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583">Előadás</tspan></text>
     <rect
        style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect19-7-4"
        width="24.396646"
        height="5.5512018"
-       x="6.9610143"
-       y="20.573109"
+       x="6.7282467"
+       y="20.168356"
        ry="0.38157356" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="17.227739"
-       y="23.877735"
+       x="16.99494"
+       y="23.473038"
        id="text17-3-5-1"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
-         x="17.227739"
-         y="23.877735"
+         x="16.99494"
+         y="23.473038"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583"
          id="tspan896-28">Tag</tspan></text>
     <rect
@@ -394,24 +393,24 @@
        id="rect19-5-8"
        width="24.396646"
        height="5.5512018"
-       x="6.9610143"
-       y="29.389591"
+       x="6.7282467"
+       y="28.984838"
        ry="0.38157356" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="12.959017"
-       y="32.766407"
+       x="12.726216"
+       y="32.36171"
        id="text17-3-6-9"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-6-2-2"
-         x="12.959017"
-         y="32.766407"
+         x="12.726216"
+         y="32.36171"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583">Intézmény</tspan></text>
     <g
        id="g3042-8"
-       transform="translate(-3.5458432,2.4007257)">
+       transform="translate(-6.5522543,1.9959716)">
       <ellipse
          style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path930-8"
@@ -434,7 +433,7 @@
     </g>
     <g
        id="g3047-8"
-       transform="translate(-3.5458432,2.6965157)">
+       transform="translate(-6.5522543,2.2917616)">
       <ellipse
          style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path930-2-3"
@@ -457,7 +456,7 @@
     </g>
     <g
        id="g3052-3"
-       transform="translate(-3.5458432,2.9922957)">
+       transform="translate(-6.5522543,2.5875416)">
       <ellipse
          style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path930-2-9-3"
@@ -468,19 +467,19 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="48.448296"
-         y="35.699009"
+         x="52.862915"
+         y="35.900082"
          id="text17-9-7-3-8"
          transform="scale(0.99985872,1.0001413)"><tspan
            sodipodi:role="line"
            id="tspan15-1-0-6-0"
-           x="48.448296"
-           y="35.699009"
-           style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Megnevezés</tspan></text>
+           x="52.862915"
+           y="35.900082"
+           style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Név</tspan></text>
     </g>
     <g
        id="g3057-4"
-       transform="translate(-3.5458432,2.1219857)">
+       transform="translate(-6.5522543,1.7172316)">
       <ellipse
          style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path930-2-6-7"
@@ -503,59 +502,59 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583;"
-       x="39.410797"
-       y="10.235371"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="36.403961"
+       y="9.8306742"
        id="text17-7-9"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-9-0"
-         x="39.410797"
-         y="10.235371"
-         style="font-size:2.0746px;stroke-width:0.264583;fill:#2c7a8a;fill-opacity:1;">TULAJDONSÁGOK</tspan></text>
+         x="36.403961"
+         y="9.8306742"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">TULAJDONSÁGOK</tspan></text>
     <rect
        style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect19-0-6"
        width="24.396646"
        height="5.5512018"
-       x="39.460724"
-       y="12.596638"
+       x="36.454315"
+       y="12.191883"
        ry="0.38157356" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="47.083588"
-       y="16.185017"
+       x="44.076752"
+       y="15.78032"
        id="text17-3-2-8"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-6-3-7"
-         x="47.083588"
-         y="16.185017"
+         x="44.076752"
+         y="15.78032"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583">Előadás</tspan></text>
     <rect
        style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect19-7-5-9"
        width="24.396646"
        height="5.5512018"
-       x="66.313446"
-       y="12.600986"
+       x="63.307034"
+       y="12.196231"
        ry="0.38157356" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.132;stroke-miterlimit:4;stroke-dasharray:none"
-       x="76.58857"
-       y="15.906727"
+       x="73.581734"
+       y="15.50203"
        id="text17-3-5-9-0"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
-         x="76.58857"
-         y="15.906727"
+         x="73.581734"
+         y="15.50203"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.132;stroke-miterlimit:4;stroke-dasharray:none"
          id="tspan896-2-3">Tag</tspan></text>
     <g
        id="g3067-3"
-       transform="translate(-3.1097177,1.7239357)">
+       transform="translate(-6.1161288,1.3191816)">
       <ellipse
          style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path930-2-6-8-37"
@@ -578,7 +577,7 @@
     </g>
     <g
        id="g3072-2"
-       transform="translate(-3.1097177,1.5356057)">
+       transform="translate(-6.1161288,1.1308516)">
       <ellipse
          style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path930-2-6-8-3-6"
@@ -601,7 +600,7 @@
     </g>
     <g
        id="g3077-7"
-       transform="translate(-3.1097177,1.3472757)">
+       transform="translate(-6.1161288,0.94252158)">
       <ellipse
          style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path930-2-6-8-2-9"
@@ -624,7 +623,7 @@
     </g>
     <g
        id="g3082-1"
-       transform="translate(-3.1097177,1.1589357)">
+       transform="translate(-6.1161288,0.75418158)">
       <ellipse
          style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path930-2-6-8-1-0"
@@ -647,7 +646,7 @@
     </g>
     <g
        id="g3087-7"
-       transform="translate(-3.1097177,0.97061575)">
+       transform="translate(-6.1161288,0.56586163)">
       <ellipse
          style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path930-2-6-8-8-0"
@@ -670,7 +669,7 @@
     </g>
     <g
        id="g3062-2"
-       transform="translate(-3.1097177,1.9122757)">
+       transform="translate(-6.1161288,1.5075216)">
       <ellipse
          style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path930-2-6-8-0-4"
@@ -696,24 +695,24 @@
        id="rect19-5-0-3"
        width="24.396646"
        height="5.5512018"
-       x="92.850189"
-       y="12.728138"
+       x="89.843773"
+       y="12.323383"
        ry="0.38157356" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="98.860359"
-       y="16.107304"
+       x="95.853523"
+       y="15.702607"
        id="text17-3-6-6-92"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-6-2-3-8"
-         x="98.860359"
-         y="16.107304"
+         x="95.853523"
+         y="15.702607"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583">Intézmény</tspan></text>
     <g
        id="g3092-3"
-       transform="translate(-3.2931992,0.21972575)">
+       transform="translate(-6.2996103,-0.18502842)">
       <ellipse
          style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path930-2-6-8-0-2-0"
@@ -736,7 +735,7 @@
     </g>
     <g
        id="g3097-8"
-       transform="translate(-3.2931992,-1.5340243)">
+       transform="translate(-6.2996103,-1.9387784)">
       <ellipse
          style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path930-2-6-8-0-1-9"
@@ -747,19 +746,19 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="101.84534"
-         y="32.653519"
+         x="106.25993"
+         y="32.854595"
          id="text17-9-7-1-9-3-5-1"
          transform="scale(0.99985872,1.0001413)"><tspan
            sodipodi:role="line"
            id="tspan15-1-0-8-7-6-5-54"
-           x="101.84534"
-           y="32.653519"
-           style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Megnevezés</tspan></text>
+           x="106.25993"
+           y="32.854595"
+           style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Név</tspan></text>
     </g>
     <g
        id="g3102-9"
-       transform="translate(-3.2931992,-3.2877543)">
+       transform="translate(-6.2996103,-3.6925084)">
       <ellipse
          style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path930-2-6-8-0-1-4-2"
@@ -782,7 +781,7 @@
     </g>
     <g
        id="g3107-4"
-       transform="translate(-3.2931992,-5.0414843)">
+       transform="translate(-6.2996103,-5.4462384)">
       <ellipse
          style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path930-2-6-8-0-1-5-9"
@@ -805,7 +804,7 @@
     </g>
     <g
        id="g3112-9"
-       transform="translate(-3.2931992,-6.7952143)">
+       transform="translate(-6.2996103,-7.1999684)">
       <ellipse
          style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path930-2-6-8-0-1-3-3"
@@ -828,7 +827,7 @@
     </g>
     <g
        id="g3117-0"
-       transform="translate(-3.2931992,-8.5489543)">
+       transform="translate(-6.2996103,-8.9537086)">
       <ellipse
          style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path930-2-6-8-0-1-2-8"
@@ -851,7 +850,7 @@
     </g>
     <g
        id="g3122-9"
-       transform="translate(-3.2931992,-10.302684)">
+       transform="translate(-6.2996103,-10.707439)">
       <ellipse
          style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path930-2-6-8-0-1-7-7"
@@ -874,7 +873,7 @@
     </g>
     <g
        id="g3127-5"
-       transform="translate(-3.2931992,-12.056424)">
+       transform="translate(-6.2996103,-12.461179)">
       <ellipse
          style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path930-2-6-8-0-1-0-3"
@@ -898,128 +897,145 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="158.59245"
-       y="10.236383"
+       x="183.50217"
+       y="9.831687"
        id="text17-7-4-0"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-9-9-2"
-         x="158.59245"
-         y="10.236383"
+         x="183.50217"
+         y="9.831687"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">ER MODELL</tspan></text>
     <path
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 232.02269,32.414975 8.28732,-4.49246 8.28733,4.49246 -8.28733,4.49245 z"
+       d="m 256.92888,32.01022 8.28732,-4.49246 8.28733,4.49246 -8.28733,4.49245 z"
        id="path1569-0"
        sodipodi:nodetypes="ccccc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.132;stroke-miterlimit:4;stroke-dasharray:none"
-       x="237.58662"
-       y="32.982727"
+       x="262.49634"
+       y="32.57803"
        id="text17-3-5-9-2-1"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
-         x="237.58662"
-         y="32.982727"
+         x="262.49634"
+         y="32.57803"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.132;stroke-miterlimit:4;stroke-dasharray:none"
          id="tspan896-2-0-96">Tartja</tspan></text>
     <path
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 188.35894,64.062475 8.28731,-4.49245 8.28733,4.49245 -8.28733,4.49246 z"
+       d="m 300.94183,48.02676 8.28732,-4.49246 8.28733,4.49246 -8.28733,4.49245 z"
+       id="path1569-0-7"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.132;stroke-miterlimit:4;stroke-dasharray:none"
+       x="302.98419"
+       y="48.793388"
+       id="text17-3-5-9-2-1-6"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         x="302.98419"
+         y="48.793388"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.132;stroke-miterlimit:4;stroke-dasharray:none"
+         id="tspan896-2-0-96-5">Rendelkezik</tspan></text>
+    <path
+       style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 213.26513,63.65772 8.28731,-4.49245 8.28733,4.49245 -8.28733,4.49246 z"
        id="path1569-6-2"
        sodipodi:nodetypes="ccccc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.132;stroke-miterlimit:4;stroke-dasharray:none"
-       x="192.73201"
-       y="64.625763"
+       x="217.64172"
+       y="64.221069"
        id="text17-3-5-9-2-8-1"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
-         x="192.73201"
-         y="64.625763"
+         x="217.64172"
+         y="64.221069"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.132;stroke-miterlimit:4;stroke-dasharray:none"
          id="tspan896-2-0-9-2">Lezajlik</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-6-0"
-       cx="196.64626"
-       cy="18.278072"
+       cx="221.55246"
+       cy="17.87332"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="195.52888"
-       y="19.031679"
+       x="220.4386"
+       y="18.626982"
        id="text17-9-6-7"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-4-3"
-         x="195.52888"
-         y="19.031679"
+         x="220.4386"
+         y="18.626982"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">ID</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-5-1"
-       cx="167.36769"
-       cy="18.278072"
+       cx="192.27391"
+       cy="17.87332"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="163.35811"
-       y="18.889345"
+       x="188.26782"
+       y="18.484648"
        id="text17-9-7-0-1"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-0-4-9"
-         x="163.35811"
-         y="18.889345"
+         x="188.26782"
+         y="18.484648"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Időpont</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-9-7-0"
-       cx="167.36769"
-       cy="32.414989"
+       cx="192.27391"
+       cy="32.010235"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="160.87782"
-       y="33.024261"
+       x="190.20215"
+       y="32.82066"
        id="text17-9-7-3-1-5"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-0-6-7-6"
-         x="160.87782"
-         y="33.024261"
-         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Megnevezés</tspan></text>
+         x="190.20215"
+         y="32.82066"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Név</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-6-1-7"
-       cx="167.36769"
-       cy="46.551891"
+       cx="192.27391"
+       cy="46.147137"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="160.64229"
-       y="47.085739"
+       x="185.552"
+       y="46.681042"
        id="text17-9-7-1-0-7"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-0-8-6-4"
-         x="160.64229"
-         y="47.085739"
+         x="185.552"
+         y="46.681042"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Eggyeztetett</tspan></text>
     <g
        id="g2709-97"
-       transform="matrix(1.5348619,0,0,1.5348738,-38.675683,-18.972154)"
+       transform="matrix(1.5348619,0,0,1.5348738,-13.769488,-19.376909)"
        style="stroke-width:0.651523">
       <path
          style="fill:none;stroke:#2c7a8a;stroke-width:0.1075;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1032,171 +1048,186 @@
          id="path2705-9"
          sodipodi:nodetypes="cc" />
     </g>
+    <g
+       id="g2709-97-7"
+       transform="matrix(0,1.5348619,-1.5348738,0,360.61438,-212.40645)"
+       style="stroke-width:0.651523">
+      <path
+         style="fill:none;stroke:#2c7a8a;stroke-width:0.1075;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 161.0528,32.98532 1.0417,0.49508 -1.03769,0.495079"
+         id="path2703-5-4"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#2c7a8a;stroke-width:0.107501;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 162.12212,32.907008 v 1.14293"
+         id="path2705-9-4"
+         sodipodi:nodetypes="cc" />
+    </g>
     <rect
        style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect19-0-5-0"
        width="24.396646"
        height="5.5512018"
-       x="184.44792"
-       y="29.639385"
+       x="209.35414"
+       y="29.234632"
        ry="0.38157356" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="192.09129"
-       y="33.225342"
+       x="217.00101"
+       y="32.820644"
        id="text17-3-2-9-6"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-6-3-4-4"
-         x="192.09129"
-         y="33.225342"
+         x="217.00101"
+         y="32.820644"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583">Előadás</tspan></text>
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 272.37269,29.868809 261.10758,18.603719"
+       d="M 297.27888,29.464054 286.01377,18.198964"
        id="path2065-83-3-38-6-0-5-1" />
     <rect
        style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect19-7-5-0-7"
        width="24.396646"
        height="5.5512018"
-       x="272.1246"
-       y="29.639385"
+       x="297.03079"
+       y="29.234632"
        ry="0.38157356" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.132;stroke-miterlimit:4;stroke-dasharray:none"
-       x="282.42883"
-       y="32.942719"
+       x="307.33853"
+       y="32.538021"
        id="text17-3-5-9-9-4"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
-         x="282.42883"
-         y="32.942719"
+         x="307.33853"
+         y="32.538021"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.132;stroke-miterlimit:4;stroke-dasharray:none"
          id="tspan896-2-1-8">Tag</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-6-8-7-5"
-       cx="284.32291"
-       cy="17.949383"
+       cx="309.2291"
+       cy="17.54463"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="282.26419"
-       y="18.761782"
+       x="307.17389"
+       y="18.357084"
        id="text17-9-7-1-9-1-8"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-0-8-7-15-2"
-         x="282.26419"
-         y="18.761782"
+         x="307.17389"
+         y="18.357084"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Név</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-6-8-3-7-6"
-       cx="311.22406"
-       cy="17.949383"
+       cx="281.29529"
+       cy="64.776451"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="307.39438"
-       y="18.761782"
+       x="280.18985"
+       y="65.523499"
        id="text17-9-7-1-9-6-7-0"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-0-8-7-1-6-6"
-         x="307.39438"
-         y="18.761782"
-         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Státusz</tspan></text>
+         x="280.18985"
+         y="65.523499"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">ID</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-6-8-2-3-6"
-       cx="311.22406"
-       cy="32.414989"
+       cx="338.15305"
+       cy="32.010235"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="306.47205"
-       y="33.141769"
+       x="333.40485"
+       y="32.737072"
        id="text17-9-7-1-9-9-6-4"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-0-8-7-3-5-6"
-         x="306.47205"
-         y="33.141769"
+         x="333.40485"
+         y="32.737072"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Ösztöndíj</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-6-8-1-3-2"
-       cx="311.22397"
-       cy="46.526867"
+       cx="338.15305"
+       cy="46.122112"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="308.01123"
-       y="47.293701"
+       x="334.94406"
+       y="46.889004"
        id="text17-9-7-1-9-94-9-8"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-0-8-7-7-4-9"
-         x="308.01123"
-         y="47.293701"
+         x="334.94406"
+         y="46.889004"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">E-mail</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-6-8-8-1-6"
-       cx="284.32291"
-       cy="46.526867"
+       cx="338.15305"
+       cy="17.569324"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.60672px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="278.15585"
-       y="46.995705"
+       x="332.04382"
+       y="18.042252"
        id="text17-9-7-1-9-4-2-0"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-0-8-7-5-9-7"
-         x="278.15585"
-         y="46.995705"
+         x="332.04382"
+         y="18.042252"
          style="font-size:1.60672px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Tagság kezdete</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-6-8-0-9-0"
-       cx="258.76999"
-       cy="46.526867"
+       cx="283.67618"
+       cy="46.122112"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="257.66135"
-       y="47.276474"
+       x="282.57104"
+       y="46.871777"
        id="text17-9-7-1-9-3-08-1"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-0-8-7-6-8-0"
-         x="257.66135"
-         y="47.276474"
+         x="282.57104"
+         y="46.871777"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">ID</tspan></text>
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 184.71479,95.438713 170.88685,81.610766"
+       d="M 209.62098,95.033958 195.79304,81.206011"
        id="path2065-83-3-3-8-7-0-8" />
     <g
        id="g2709-97-4"
-       transform="matrix(1.5348619,0,0,1.5348738,-38.57915,46.562188)"
+       transform="matrix(1.5348619,0,0,1.5348738,-13.672955,46.157433)"
        style="stroke-width:0.651523">
       <path
          style="fill:none;stroke:#2c7a8a;stroke-width:0.1075;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1211,7 +1242,7 @@
     </g>
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 191.44442,95.506111 170.91386,73.024669"
+       d="M 216.35061,95.101356 195.82005,72.619914"
        id="path2065-83-3-3-8-7-0-8-1"
        sodipodi:nodetypes="cc" />
     <rect
@@ -1219,176 +1250,195 @@
        id="rect19-5-0-0-1"
        width="24.396646"
        height="5.5512018"
-       x="184.44792"
-       y="95.171837"
+       x="209.35414"
+       y="94.767082"
        ry="0.38157356" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="190.47102"
-       y="98.53936"
+       x="215.38074"
+       y="98.134666"
        id="text17-3-6-6-9-3"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-6-2-3-6-7"
-         x="190.47102"
-         y="98.53936"
+         x="215.38074"
+         y="98.134666"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583">Intézmény</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-6-8-0-2-8-7"
-       cx="167.02339"
-       cy="82.138039"
+       cx="191.92961"
+       cy="81.733284"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="165.90181"
-       y="82.882637"
+       x="190.81152"
+       y="82.477943"
        id="text17-9-7-1-9-3-0-5-2"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-0-8-7-6-6-6-6"
-         x="165.90181"
-         y="82.882637"
+         x="190.81152"
+         y="82.477943"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">ID</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-6-8-0-1-1-4"
-       cx="225.31071"
-       cy="82.138039"
+       cx="250.21692"
+       cy="81.733284"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="218.82903"
-       y="82.740303"
+       x="248.15334"
+       y="82.53669"
        id="text17-9-7-1-9-3-5-59-5"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-0-8-7-6-5-8-2"
-         x="218.82903"
-         y="82.740303"
-         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Megnevezés</tspan></text>
+         x="248.15334"
+         y="82.53669"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Név</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path930-2-6-8-0-1-5-0-0"
-       cx="167.36769"
-       cy="97.947441"
+       id="path930-2-6-8-0-1-1-4-4"
+       cx="336.7821"
+       cy="64.776451"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="165.39827"
-       y="98.748543"
+       x="334.73077"
+       y="65.582253"
+       id="text17-9-7-1-9-3-5-59-5-5"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         id="tspan15-1-0-8-7-6-5-8-2-2"
+         x="334.73077"
+         y="65.582253"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Név</tspan></text>
+    <ellipse
+       style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path930-2-6-8-0-1-5-0-0"
+       cx="192.27391"
+       cy="97.542686"
+       rx="8.1668339"
+       ry="2.7589047" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="190.30798"
+       y="98.343849"
        id="text17-9-7-1-9-3-5-6-4-9"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-0-8-7-6-5-9-4-9"
-         x="165.39827"
-         y="98.748543"
+         x="190.30798"
+         y="98.343849"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Cím</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-6-8-0-1-3-4-4"
-       cx="167.36769"
-       cy="112.9441"
+       cx="192.27391"
+       cy="112.53934"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.82731px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="160.86995"
-       y="113.46885"
+       x="185.77966"
+       y="113.06416"
        id="text17-9-7-1-9-3-5-74-7-5"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-0-8-7-6-5-5-6-1"
-         x="160.86995"
-         y="113.46885"
+         x="185.77966"
+         y="113.06416"
          style="font-size:1.82731px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Igazgató neve</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-6-8-0-1-2-1-0"
-       cx="179.76421"
-       cy="128.74619"
+       cx="204.67043"
+       cy="128.34143"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="176.53285"
-       y="129.50142"
+       x="201.44257"
+       y="129.09673"
        id="text17-9-7-1-9-3-5-5-7-3"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-0-8-7-6-5-4-5-7"
-         x="176.53285"
-         y="129.50142"
+         x="201.44257"
+         y="129.09673"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">E-mail</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-6-8-0-1-7-6-8"
-       cx="213.82433"
-       cy="128.74619"
+       cx="238.73053"
+       cy="128.34143"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="207.53554"
-       y="129.54292"
+       x="232.44527"
+       y="129.13821"
        id="text17-9-7-1-9-3-5-4-2-8"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
-         x="207.53554"
-         y="129.54292"
+         x="232.44527"
+         y="129.13821"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan1501-1-6">Telefonszám</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-6-8-0-1-0-8-0"
-       cx="225.31071"
-       cy="112.9441"
+       cx="250.21692"
+       cy="112.53934"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="220.63875"
-       y="113.70157"
+       x="245.54848"
+       y="113.29688"
        id="text17-9-7-1-9-3-5-78-5-4"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-0-8-7-6-5-68-7-6"
-         x="220.63875"
-         y="113.70157"
+         x="245.54848"
+         y="113.29688"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Weboldal</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-6-8-0-1-2-1-1-7"
-       cx="196.53276"
-       cy="112.9441"
+       cx="221.43896"
+       cy="112.53934"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="190.3889"
-       y="113.54203"
+       x="215.29861"
+       y="113.13734"
        id="text17-9-7-1-9-3-5-5-7-8-6"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-0-8-7-6-5-4-5-5-0"
-         x="190.3889"
-         y="113.54203"
+         x="215.29861"
+         y="113.13734"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Elérhetőség</tspan></text>
     <g
        id="g2881-78"
-       transform="translate(-104.14562,-76.723265)">
+       transform="translate(-104.37839,-79.095172)">
       <rect
          style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect19-8-5"
@@ -1412,7 +1462,7 @@
     </g>
     <g
        id="g2886-8"
-       transform="translate(-77.524069,-76.968105)">
+       transform="translate(-77.756837,-79.340012)">
       <rect
          style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect19-7-0-3"
@@ -1436,7 +1486,7 @@
     </g>
     <g
        id="g2891-3"
-       transform="translate(-78.070329,-76.755235)">
+       transform="translate(-78.303097,-79.127142)">
       <rect
          style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect19-5-1-7"
@@ -1461,87 +1511,102 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="8.4126911"
-       y="119.31716"
+       x="8.1798906"
+       y="116.94559"
        id="text17-3-0-5-4"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-6-21-0-1"
-         x="8.4126911"
-         y="119.31716"
+         x="8.1798906"
+         y="116.94559"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Listázás</tspan><tspan
          sodipodi:role="line"
-         x="8.4126911"
-         y="121.91041"
+         x="8.1798906"
+         y="119.53884"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan2815-9">Egyéni megtekintés</tspan><tspan
          sodipodi:role="line"
-         x="8.4126911"
-         y="124.50366"
+         x="8.1798906"
+         y="122.1321"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan2817-0">Hozzáadás</tspan><tspan
          sodipodi:role="line"
-         x="8.4126911"
-         y="127.09691"
+         x="8.1798906"
+         y="124.72534"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
-         id="tspan2819-9">Módosítás</tspan></text>
+         id="tspan2819-9">Módosítás</tspan><tspan
+         sodipodi:role="line"
+         x="8.1798906"
+         y="127.3186"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan98647">Törlés</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="63.853153"
-       y="119.31716"
+       x="63.620354"
+       y="116.94559"
        id="text17-3-0-5-6-8"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-6-21-0-4-8"
-         x="63.853153"
-         y="119.31716"
+         x="63.620354"
+         y="116.94559"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Listázás</tspan><tspan
          sodipodi:role="line"
-         x="63.853153"
-         y="121.91041"
+         x="63.620354"
+         y="119.53884"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan2815-6-5">Egyéni megtekintés</tspan><tspan
          sodipodi:role="line"
-         x="63.853153"
-         y="124.50366"
+         x="63.620354"
+         y="122.1321"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan2817-2-8">Hozzáadás</tspan><tspan
          sodipodi:role="line"
-         x="63.853153"
-         y="127.09691"
+         x="63.620354"
+         y="124.72534"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
-         id="tspan2819-5-4">Módosítás</tspan></text>
+         id="tspan2819-5-4">Módosítás</tspan><tspan
+         sodipodi:role="line"
+         x="63.620354"
+         y="127.3186"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan100449">Törlés (Inaktív) - alumni</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="91.573341"
-       y="119.31716"
+       x="91.340538"
+       y="116.94559"
        id="text17-3-0-5-8-3"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-6-21-0-6-7"
-         x="91.573341"
-         y="119.31716"
+         x="91.340538"
+         y="116.94559"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Listázás</tspan><tspan
          sodipodi:role="line"
-         x="91.573341"
-         y="121.91041"
+         x="91.340538"
+         y="119.53884"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan2815-2-1">Egyéni megtekintés</tspan><tspan
          sodipodi:role="line"
-         x="91.573341"
-         y="124.50366"
+         x="91.340538"
+         y="122.1321"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan2817-8-3">Hozzáadás</tspan><tspan
          sodipodi:role="line"
-         x="91.573341"
-         y="127.09691"
+         x="91.340538"
+         y="124.72534"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
-         id="tspan2819-4-8">Módosítás</tspan></text>
+         id="tspan2819-4-8">Módosítás</tspan><tspan
+         sodipodi:role="line"
+         x="91.340538"
+         y="127.3186"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan105797">Törlés</tspan></text>
     <g
        id="g2881-7-0"
-       transform="translate(-76.429299,-76.723265)">
+       transform="translate(-76.662067,-79.095172)">
       <rect
          style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect19-8-2-9"
@@ -1566,30 +1631,30 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="36.132904"
-       y="119.31716"
+       x="35.900105"
+       y="116.94559"
        id="text17-3-0-5-6-2-9"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
-         x="36.132904"
-         y="119.31716"
+         x="35.900105"
+         y="116.94559"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan2819-5-8-3">Listázás ?</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="8.3235493"
-       y="107.48492"
+       x="8.0907488"
+       y="105.11334"
        id="text17-7-4-1-2"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-9-9-3-4"
-         x="8.3235493"
-         y="107.48492"
+         x="8.0907488"
+         y="105.11334"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">MŰVELETEK</tspan></text>
     <g
        id="g4948"
-       transform="translate(155.30421,-4.1224491)">
+       transform="translate(31.287144,-8.2478689)">
       <rect
          style="fill:#ffffff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.165;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect4524"
@@ -1640,7 +1705,7 @@
            x="63.320198"
            y="162.20782"
            style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
-           id="tspan4601">Megnevezés</tspan><tspan
+           id="tspan4601">Név</tspan><tspan
            sodipodi:role="line"
            x="63.320198"
            y="164.80109"
@@ -1654,7 +1719,7 @@
     </g>
     <g
        id="g4937"
-       transform="translate(154.43823,-4.2200291)">
+       transform="translate(30.421164,-8.3454489)">
       <rect
          style="fill:#ffffff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.165;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect4524-7"
@@ -1708,7 +1773,7 @@
     </g>
     <g
        id="g4927"
-       transform="translate(153.14399,-4.1187591)">
+       transform="translate(29.126924,-8.2441789)">
       <rect
          style="fill:#ffffff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.165;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect4524-4"
@@ -1783,18 +1848,18 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="159.51465"
-       y="143.26364"
+       x="6.4128232"
+       y="139.13881"
        id="text17-4-6"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-69-4"
-         x="159.51465"
-         y="143.26364"
+         x="6.4128232"
+         y="139.13881"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">TÁBLÁK</tspan></text>
     <g
        id="g4963"
-       transform="translate(153.14399,-4.0441091)">
+       transform="translate(29.126924,-8.1695289)">
       <rect
          style="fill:#ffffff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.165;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect4524-4-8"
@@ -1839,7 +1904,7 @@
            x="94.662277"
            y="159.53627"
            style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
-           id="tspan4814-6">Megnevezés</tspan><tspan
+           id="tspan4814-6">Név</tspan><tspan
            sodipodi:role="line"
            x="94.662277"
            y="162.12952"
@@ -1878,376 +1943,126 @@
     </g>
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 184.09042,151.74869 h 2.2761 v 3.11803 h 2.34728"
+       d="m 60.073354,147.62327 h 2.2761 v 3.11803 h 2.34728"
        id="path4965"
        sodipodi:nodetypes="cccc" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 213.17483,152.15482 h 4.69702"
+       d="m 30.75034,147.63966 h 2.2761 v 5.41478 h 2.34728"
+       id="path4965-9"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#2c7a8a;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 89.157764,148.0294 h 4.69702"
        id="path4967" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 246.98576,152.1539 h -2.27611 v 10.47038 h -2.34727"
+       d="m 122.9687,148.02848 h -2.27611 v 10.47038 h -2.34727"
        id="path4965-6"
        sodipodi:nodetypes="cccc" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 160.33364,153.294 h 2.35179"
+       d="m 36.316574,149.16858 h 2.35179"
        id="path4995" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 189.46963,153.33038 h 8.80627"
+       d="m 65.452564,149.20496 h 8.80627"
        id="path4995-3" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 189.46963,155.83916 h 2.24364"
+       d="m 65.452564,151.71374 h 2.24364"
        id="path4995-3-7" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 218.70448,153.27291 h 2.35179"
+       d="m 94.687414,149.14749 h 2.35179"
        id="path4995-7" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 247.76992,153.23281 h 2.35179"
+       d="m 123.75286,149.10739 h 2.35179"
        id="path4995-4" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 218.5339,163.60792 h 6.02727"
+       d="m 94.516834,159.4825 h 6.027276"
        id="path4995-9" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="8.4753208"
-       y="142.54596"
-       id="text17-7-4-1-2-3"
-       transform="scale(0.99985872,1.0001413)"><tspan
-         sodipodi:role="line"
-         id="tspan15-9-9-3-4-6"
-         x="8.4753208"
-         y="142.54596"
-         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">PROBLÉMÁK</tspan></text>
-    <path
-       style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 10.293241,201.41266 v 7.5434 h 2.6652"
-       id="path3311-6-3-2-1-4-0-4-7"
-       sodipodi:nodetypes="ccc" />
-    <path
-       style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 10.293241,193.86926 v 7.5434 h 2.6652"
-       id="path3311-6-3-2-1-4-7-8-5"
-       sodipodi:nodetypes="ccc" />
-    <path
-       style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 10.293241,186.32585 v 7.54341 h 2.6652"
-       id="path3311-6-3-2-1-4-04-3"
-       sodipodi:nodetypes="ccc" />
-    <path
-       style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 10.293241,178.78245 v 7.5434 h 2.6652"
-       id="path3311-6-3-2-9-9-2-5"
-       sodipodi:nodetypes="ccc" />
-    <path
-       style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 10.293241,171.23905 v 7.5434 h 2.6652"
-       id="path3311-6-3-2-10-9-6"
-       sodipodi:nodetypes="ccc" />
-    <path
-       style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 10.293241,163.69565 v 7.5434 h 2.6652"
-       id="path3311-6-1-1-7-6-2"
-       sodipodi:nodetypes="ccc" />
-    <path
-       style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 10.293241,156.15224 v 7.5434 h 2.6652"
-       id="path3311-6-5-5-1-9"
-       sodipodi:nodetypes="ccc" />
-    <path
-       style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 10.293241,151.17361 v 4.97863 h 2.6652"
-       id="path3311-9-8-0-1"
-       sodipodi:nodetypes="ccc" />
-    <rect
-       style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect19-5-0-3-2"
-       width="24.396646"
-       height="5.5512018"
-       x="8.8950901"
-       y="145.88921"
-       ry="0.38157356" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="14.893396"
-       y="149.24957"
-       id="text17-3-6-6-92-7"
-       transform="scale(0.99985872,1.0001413)"><tspan
-         sodipodi:role="line"
-         id="tspan15-6-2-3-8-0"
-         x="14.893396"
-         y="149.24957"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583">Intézmény</tspan></text>
-    <g
-       id="g3092-3-9"
-       transform="translate(-87.248299,133.38081)">
-      <ellipse
-         style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path930-2-6-8-0-2-0-3"
-         cx="108.34354"
-         cy="22.718193"
-         rx="8.1668339"
-         ry="2.7589047" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="107.21368"
-         y="23.47118"
-         id="text17-9-7-1-9-3-0-1-6"
-         transform="scale(0.99985872,1.0001413)"><tspan
-           sodipodi:role="line"
-           id="tspan15-1-0-8-7-6-6-7-0"
-           x="107.21368"
-           y="23.47118"
-           style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">ID</tspan></text>
-    </g>
     <g
        id="g3097-8-6"
-       transform="translate(-87.248299,131.62706)">
-      <ellipse
-         style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path930-2-6-8-0-1-9-2"
-         cx="108.34354"
-         cy="32.044174"
-         rx="8.1668339"
-         ry="2.7589047" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="101.84534"
-         y="32.653519"
-         id="text17-9-7-1-9-3-5-1-6"
-         transform="scale(0.99985872,1.0001413)"><tspan
-           sodipodi:role="line"
-           id="tspan15-1-0-8-7-6-5-54-1"
-           x="101.84534"
-           y="32.653519"
-           style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Megnevezés</tspan></text>
-    </g>
-    <g
-       id="g3102-9-8"
-       transform="translate(-87.248299,129.87333)">
-      <ellipse
-         style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path930-2-6-8-0-1-4-2-7"
-         cx="108.34354"
-         cy="41.370132"
-         rx="8.1668339"
-         ry="2.7589047" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="104.86861"
-         y="41.904724"
-         id="text17-9-7-1-9-3-5-7-5-9"
-         transform="scale(0.99985872,1.0001413)"><tspan
-           sodipodi:role="line"
-           id="tspan15-1-0-8-7-6-5-6-7-2"
-           x="104.86861"
-           y="41.904724"
-           style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Megye</tspan></text>
-    </g>
-    <g
-       id="g3107-4-0"
-       transform="translate(-87.248299,128.1196)">
-      <ellipse
-         style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path930-2-6-8-0-1-5-9-2"
-         cx="108.34354"
-         cy="50.696106"
-         rx="8.1668339"
-         ry="2.7589047" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="106.36581"
-         y="51.503876"
-         id="text17-9-7-1-9-3-5-6-9-3"
-         transform="scale(0.99985872,1.0001413)"><tspan
-           sodipodi:role="line"
-           id="tspan15-1-0-8-7-6-5-9-45-7"
-           x="106.36581"
-           y="51.503876"
-           style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Cím</tspan></text>
-    </g>
-    <g
-       id="g3112-9-5"
-       transform="translate(-87.248299,126.36587)">
-      <ellipse
-         style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path930-2-6-8-0-1-3-3-9"
-         cx="108.34354"
-         cy="60.022064"
-         rx="8.1668339"
-         ry="2.7589047" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:1.69343px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="102.31525"
-         y="60.514664"
-         id="text17-9-7-1-9-3-5-74-5-2"
-         transform="scale(0.99985872,1.0001413)"><tspan
-           sodipodi:role="line"
-           id="tspan15-1-0-8-7-6-5-5-7-2"
-           x="102.31525"
-           y="60.514664"
-           style="font-size:1.69343px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Igazgató neve</tspan></text>
-    </g>
-    <g
-       id="g3117-0-8"
-       transform="translate(-87.248299,124.61213)">
-      <ellipse
-         style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path930-2-6-8-0-1-2-8-9"
-         cx="108.34354"
-         cy="69.348038"
-         rx="8.1668339"
-         ry="2.7589047" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="105.10209"
-         y="70.111656"
-         id="text17-9-7-1-9-3-5-5-1-7"
-         transform="scale(0.99985872,1.0001413)"><tspan
-           sodipodi:role="line"
-           id="tspan15-1-0-8-7-6-5-4-9-3"
-           x="105.10209"
-           y="70.111656"
-           style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">E-mail</tspan></text>
-    </g>
-    <g
-       id="g3122-9-6"
-       transform="translate(-87.248299,122.8584)">
-      <ellipse
-         style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path930-2-6-8-0-1-7-7-1"
-         cx="108.34354"
-         cy="78.673996"
-         rx="8.1668339"
-         ry="2.7589047" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="102.03983"
-         y="79.477821"
-         id="text17-9-7-1-9-3-5-4-8-2"
-         transform="scale(0.99985872,1.0001413)"><tspan
-           sodipodi:role="line"
-           x="102.03983"
-           y="79.477821"
-           style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
-           id="tspan1501-2-9">Telefonszám</tspan></text>
-    </g>
-    <g
-       id="g3127-5-3"
-       transform="translate(-87.248299,121.10466)">
-      <ellipse
-         style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path930-2-6-8-0-1-0-3-1"
-         cx="108.34354"
-         cy="87.999969"
-         rx="8.1668339"
-         ry="2.7589047" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="103.65504"
-         y="88.760933"
-         id="text17-9-7-1-9-3-5-78-4-9"
-         transform="scale(0.99985872,1.0001413)"><tspan
-           sodipodi:role="line"
-           id="tspan15-1-0-8-7-6-5-68-9-4"
-           x="103.65504"
-           y="88.760933"
-           style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Weboldal</tspan></text>
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="41.611744"
-       y="171.7787"
-       id="text17-9-7-1-9-3-5-7-5-9-8"
-       transform="scale(0.99985872,1.0001413)"><tspan
-         sodipodi:role="line"
-         id="tspan15-1-0-8-7-6-5-6-7-2-4"
-         x="41.611744"
-         y="171.7787"
-         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">A megyék állandóak, a weboldal szempontjából egy legördülő listára lenne szükség.</tspan><tspan
-         sodipodi:role="line"
-         x="41.611744"
-         y="174.37195"
-         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
-         id="tspan588">Az adatbázist kiegészíthetnénk egy plusz táblával, amiben benne vannak a megyék.</tspan><tspan
-         sodipodi:role="line"
-         x="41.611744"
-         y="176.96519"
-         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
-         id="tspan592">Ez esetben ez egy idegen kulcs lenne ebben a táblában.</tspan><tspan
-         sodipodi:role="line"
-         x="41.611744"
-         y="179.55846"
-         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
-         id="tspan594">1 megyében - N iskola, 1 iskola 1 megyében lehet.</tspan><tspan
-         sodipodi:role="line"
-         x="41.611744"
-         y="182.1517"
-         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
-         id="tspan596">ID, megnevezés</tspan><tspan
-         sodipodi:role="line"
-         x="41.611744"
-         y="184.74495"
-         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
-         id="tspan598">1, Heves ...</tspan><tspan
-         sodipodi:role="line"
-         x="41.611744"
-         y="187.3382"
-         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
-         id="tspan590" /></text>
+       transform="translate(-87.248299,131.62706)" />
     <rect
        style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect19-4-5"
        width="24.396646"
        height="5.5512018"
-       x="6.9610138"
-       y="38.001328"
+       x="6.7282462"
+       y="37.596573"
+       ry="0.38157356" />
+    <rect
+       style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect19-4-5-1"
+       width="24.396646"
+       height="5.5512018"
+       x="6.7282457"
+       y="45.840096"
        ry="0.38157356" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="15.259001"
-       y="41.303493"
+       x="15.0262"
+       y="40.898796"
        id="text17-3-5-1-0"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
-         x="15.259001"
-         y="41.303493"
+         x="15.0262"
+         y="40.898796"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583"
          id="tspan896-28-3">Megye</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="14.50603"
+       y="49.423779"
+       id="text17-3-5-1-0-9"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         x="14.50603"
+         y="49.423779"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583"
+         id="tspan896-28-3-4">Státusz</tspan></text>
+    <rect
+       style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect19-4-5-1-6"
+       width="24.396646"
+       height="5.5512018"
+       x="147.12883"
+       y="107.39857"
+       ry="0.38157356" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="154.92644"
+       y="110.97357"
+       id="text17-3-5-1-0-9-1"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         x="154.92644"
+         y="110.97357"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583"
+         id="tspan896-28-3-4-5">Státusz</tspan></text>
     <rect
        style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect19-4-5-6"
        width="24.396646"
        height="5.5512018"
-       x="119.42619"
-       y="12.811902"
+       x="116.41978"
+       y="12.407147"
        ry="0.38157356" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 120.80835,18.335143 v 4.97863 h 2.6652"
+       d="m 117.80194,17.930388 v 4.97863 h 2.6652"
        id="path3311-9-8-0-3"
        sodipodi:nodetypes="ccc" />
     <g
        id="g3092-3-2"
-       transform="translate(23.266812,0.54234293)">
+       transform="translate(20.260401,0.13758878)">
       <ellipse
          style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path930-2-6-8-0-2-0-0"
@@ -2270,7 +2085,7 @@
     </g>
     <g
        id="g3097-8-5"
-       transform="translate(23.266812,-1.211407)">
+       transform="translate(20.260401,-1.6161611)">
       <ellipse
          style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path930-2-6-8-0-1-9-4"
@@ -2281,31 +2096,127 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="101.84534"
-         y="32.653519"
+         x="106.25993"
+         y="32.854595"
          id="text17-9-7-1-9-3-5-1-7"
          transform="scale(0.99985872,1.0001413)"><tspan
            sodipodi:role="line"
            id="tspan15-1-0-8-7-6-5-54-6"
-           x="101.84534"
-           y="32.653519"
-           style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Megnevezés</tspan></text>
+           x="106.25993"
+           y="32.854595"
+           style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Név</tspan></text>
     </g>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="127.74005"
-       y="16.117626"
+       x="124.7332"
+       y="15.71293"
        id="text17-3-5-1-0-1"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
-         x="127.74005"
-         y="16.117626"
+         x="124.7332"
+         y="15.71293"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583"
          id="tspan896-28-3-0">Megye</tspan></text>
+    <path
+       style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 144.60606,22.909017 v 7.5434 h 2.6652"
+       id="path3311-6-5-5-1-6-7"
+       sodipodi:nodetypes="ccc" />
+    <rect
+       style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect19-4-5-6-8"
+       width="24.396646"
+       height="5.5512018"
+       x="143.22392"
+       y="12.407147"
+       ry="0.38157356" />
+    <path
+       style="fill:none;stroke:#2c7a8a;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 144.60606,17.930387 v 4.97863 h 2.6652"
+       id="path3311-9-8-0-3-4"
+       sodipodi:nodetypes="ccc" />
+    <g
+       id="g3092-3-2-5"
+       transform="translate(47.064524,0.13758848)">
+      <ellipse
+         style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path930-2-6-8-0-2-0-0-0"
+         cx="108.34354"
+         cy="22.718193"
+         rx="8.1668339"
+         ry="2.7589047" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="107.21368"
+         y="23.47118"
+         id="text17-9-7-1-9-3-0-1-61-3"
+         transform="scale(0.99985872,1.0001413)"><tspan
+           sodipodi:role="line"
+           id="tspan15-1-0-8-7-6-6-7-5-6"
+           x="107.21368"
+           y="23.47118"
+           style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">ID</tspan></text>
+    </g>
+    <g
+       id="g3097-8-5-1"
+       transform="translate(47.064524,-1.6161611)">
+      <ellipse
+         style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path930-2-6-8-0-1-9-4-0"
+         cx="108.34354"
+         cy="32.044174"
+         rx="8.1668339"
+         ry="2.7589047" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="106.25993"
+         y="32.854595"
+         id="text17-9-7-1-9-3-5-1-7-6"
+         transform="scale(0.99985872,1.0001413)"><tspan
+           sodipodi:role="line"
+           id="tspan15-1-0-8-7-6-5-54-6-3"
+           x="106.25993"
+           y="32.854595"
+           style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Név</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="151.02098"
+       y="15.995553"
+       id="text17-3-5-1-0-1-2"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         x="151.02098"
+         y="15.995553"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583"
+         id="tspan896-28-3-0-0">Státusz</tspan></text>
+    <rect
+       style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect19-4-5-6-8-6"
+       width="24.396646"
+       height="5.5512018"
+       x="296.84036"
+       y="62.000851"
+       ry="0.38157356" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="304.65915"
+       y="65.582253"
+       id="text17-3-5-1-0-1-2-9"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         x="304.65915"
+         y="65.582253"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583"
+         id="tspan896-28-3-0-0-3">Státusz</tspan></text>
     <g
        id="g759"
-       transform="translate(-5.773791,-7.1299438)">
+       transform="translate(19.132403,-7.5346979)">
       <rect
          style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect19-4-5-6-5"
@@ -2329,61 +2240,61 @@
     </g>
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 310.29746,97.754653 H 296.50107"
+       d="M 335.20365,97.349898 H 321.40726"
        id="path2065-83-6-5-4" />
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-6-8-0-2-8-7-7"
-       cx="313.24686"
-       cy="81.945274"
+       cx="338.15305"
+       cy="112.53934"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="312.14594"
-       y="82.689903"
+       x="337.05563"
+       y="113.27965"
        id="text17-9-7-1-9-3-0-5-2-4"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-0-8-7-6-6-6-6-4"
-         x="312.14594"
-         y="82.689903"
+         x="337.05563"
+         y="113.27965"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">ID</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-6-8-0-1-1-4-3"
-       cx="313.24686"
-       cy="97.754662"
+       cx="338.15305"
+       cy="97.349907"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="306.77759"
-       y="98.354729"
+       x="336.10193"
+       y="98.151108"
        id="text17-9-7-1-9-3-5-59-5-0"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-0-8-7-6-5-8-2-7"
-         x="306.77759"
-         y="98.354729"
-         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Megnevezés</tspan></text>
+         x="336.10193"
+         y="98.151108"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Név</tspan></text>
     <path
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 232.02269,97.947424 8.28732,-4.49246 8.28733,4.49246 -8.28733,4.492446 z"
+       d="m 256.92888,97.542669 8.28732,-4.49246 8.28733,4.49246 -8.28733,4.492441 z"
        id="path1569-0-6"
        sodipodi:nodetypes="ccccc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.77295px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.132;stroke-miterlimit:4;stroke-dasharray:none"
-       x="234.91649"
-       y="98.422699"
+       x="259.8262"
+       y="98.018005"
        id="text17-3-5-9-2-1-8"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
-         x="234.91649"
-         y="98.422699"
+         x="259.8262"
+         y="98.018005"
          style="font-size:1.77295px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.132;stroke-miterlimit:4;stroke-dasharray:none"
          id="tspan896-2-0-96-8">Helyezkedik</tspan></text>
     <rect
@@ -2391,63 +2302,113 @@
        id="rect4524-7-3"
        width="24.602554"
        height="11.57101"
-       x="276.20172"
-       y="145.59163"
+       x="152.18465"
+       y="141.46622"
        ry="0.5509823" />
     <rect
        style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.165;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4528-4-1"
        width="24.602552"
        height="4.4310889"
-       x="276.20172"
-       y="145.59163"
+       x="152.18465"
+       y="141.46622"
        ry="0.55098152" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="284.64075"
-       y="148.31862"
+       x="160.60616"
+       y="144.19379"
        id="text17-3-0-3-2-1-4"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-6-21-3-0-7-9"
-         x="284.64075"
-         y="148.31862"
+         x="160.60616"
+         y="144.19379"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583">Megye</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="277.03131"
-       y="152.89992"
+       x="152.99673"
+       y="148.77509"
        id="text17-3-0-5-4-2-1-2"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
-         x="277.03131"
-         y="152.89992"
+         x="152.99673"
+         y="148.77509"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan4722-6">ID</tspan><tspan
          sodipodi:role="line"
-         x="277.03131"
-         y="155.49316"
+         x="152.99673"
+         y="151.36833"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
-         id="tspan947">Megnevezés</tspan><tspan
+         id="tspan947">Név</tspan><tspan
          sodipodi:role="line"
-         x="277.03131"
-         y="158.08641"
+         x="152.99673"
+         y="153.96158"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan4603-0-8" /></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.165;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4524-7-3-8"
+       width="24.602554"
+       height="11.57101"
+       x="6.2134552"
+       y="141.46576"
+       ry="0.5509823" />
+    <rect
+       style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.165;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4528-4-1-4"
+       width="24.602552"
+       height="4.4310889"
+       x="6.2134552"
+       y="141.46576"
+       ry="0.55098152" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="14.09413"
+       y="144.47597"
+       id="text17-3-0-3-2-1-4-3"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         id="tspan15-6-21-3-0-7-9-1"
+         x="14.09413"
+         y="144.47597"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583">Státusz</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="7.0048494"
+       y="148.70415"
+       id="text17-3-0-5-4-2-1-2-4"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         x="7.0048494"
+         y="148.70415"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan4722-6-9">ID</tspan><tspan
+         sodipodi:role="line"
+         x="7.0048494"
+         y="151.29739"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan947-2">Név</tspan><tspan
+         sodipodi:role="line"
+         x="7.0048494"
+         y="153.89064"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan4603-0-8-0" /></text>
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 277.02597,153.20225 h 2.35179"
+       d="m 153.00891,149.07683 h 2.35179"
        id="path4995-4-9" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 276.16393,152.16925 h -2.2761 v 5.47208 h -2.34728"
+       d="m 152.14687,148.04383 h -2.2761 v 5.47208 h -2.34728"
        id="path4965-2"
        sodipodi:nodetypes="cccc" />
     <g
        id="g1030"
-       transform="translate(0.26831355,-0.07605867)">
+       transform="translate(0.03554568,-2.4479647)">
       <rect
          style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect19-4-5-66"
@@ -2472,26 +2433,53 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="119.13924"
-       y="119.46585"
+       x="118.90643"
+       y="117.09428"
        id="text17-3-0-5-6-2-9-5"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
-         x="119.13924"
-         y="119.46585"
+         x="118.90643"
+         y="117.09428"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan2819-5-8-3-0">Listázás ?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="147.26111"
+       y="117.44985"
+       id="text17-3-0-5-6-2-9-5-5"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         x="147.26111"
+         y="117.44985"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan2819-5-8-3-0-4">Listázás</tspan><tspan
+         sodipodi:role="line"
+         x="147.26111"
+         y="120.0431"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan95845">Módosítás</tspan><tspan
+         sodipodi:role="line"
+         x="147.26111"
+         y="122.63635"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan95847">Hozzáadás</tspan><tspan
+         sodipodi:role="line"
+         x="147.26111"
+         y="125.2296"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan95849">Törlés</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.165;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2997-2-3"
        width="147.67099"
-       height="45.496891"
-       x="329.3967"
-       y="6.194623"
+       height="77.505775"
+       x="355.67929"
+       y="5.8025708"
        ry="1.5551158" />
     <g
        id="g2881-78-6"
-       transform="translate(220.17306,-173.62169)">
+       transform="translate(246.45566,-174.01375)">
       <rect
          style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect19-8-5-7"
@@ -2515,7 +2503,7 @@
     </g>
     <g
        id="g2886-8-5"
-       transform="translate(246.79461,-173.86653)">
+       transform="translate(273.07721,-174.25859)">
       <rect
          style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect19-7-0-3-6"
@@ -2539,7 +2527,7 @@
     </g>
     <g
        id="g2891-3-1"
-       transform="translate(246.24835,-173.65366)">
+       transform="translate(272.53095,-174.04572)">
       <rect
          style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect19-5-1-7-2"
@@ -2564,137 +2552,137 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="332.77719"
-       y="22.432426"
+       x="359.06354"
+       y="22.04043"
        id="text17-3-0-5-4-9"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-6-21-0-1-3"
-         x="332.77719"
-         y="22.432426"
+         x="359.06354"
+         y="22.04043"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Listázás</tspan><tspan
          sodipodi:role="line"
-         x="332.77719"
-         y="25.025677"
+         x="359.06354"
+         y="24.63368"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
-         id="tspan2514">   - Megnevezés</tspan><tspan
+         id="tspan2514">   - Név</tspan><tspan
          sodipodi:role="line"
-         x="332.77719"
-         y="27.618927"
+         x="359.06354"
+         y="27.226931"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan7653">   - Iskola</tspan><tspan
          sodipodi:role="line"
-         x="332.77719"
-         y="30.212177"
+         x="359.06354"
+         y="29.820181"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan7655">   - Időpont</tspan><tspan
          sodipodi:role="line"
-         x="332.77719"
-         y="32.805428"
+         x="359.06354"
+         y="32.413429"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan7661" /><tspan
          sodipodi:role="line"
-         x="332.77719"
-         y="35.398678"
+         x="359.06354"
+         y="35.00668"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan2819-9-6">Részletes</tspan><tspan
          sodipodi:role="line"
-         x="332.77719"
-         y="37.991928"
+         x="359.06354"
+         y="37.59993"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan7663">   - Taglista</tspan><tspan
          sodipodi:role="line"
-         x="332.77719"
-         y="40.585175"
+         x="359.06354"
+         y="40.193176"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan7665" /><tspan
          sodipodi:role="line"
-         x="332.77719"
-         y="43.178425"
+         x="359.06354"
+         y="42.786427"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan7669">Hozzáadás</tspan><tspan
          sodipodi:role="line"
-         x="332.77719"
-         y="45.771675"
+         x="359.06354"
+         y="45.379677"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan21735">    - Iskola ID referencia</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="388.21765"
-       y="22.432426"
+       x="414.504"
+       y="22.04043"
        id="text17-3-0-5-6-8-2"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-6-21-0-4-8-6"
-         x="388.21765"
-         y="22.432426"
+         x="414.504"
+         y="22.04043"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Listázás</tspan><tspan
          sodipodi:role="line"
-         x="388.21765"
-         y="25.025677"
+         x="414.504"
+         y="24.63368"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan2819-5-4-7">    - Név</tspan><tspan
          sodipodi:role="line"
-         x="388.21765"
-         y="27.618927"
+         x="414.504"
+         y="27.226931"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan36793">    - Státusz</tspan><tspan
          sodipodi:role="line"
-         x="388.21765"
-         y="30.212177"
+         x="414.504"
+         y="29.820181"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan36795">    - Ösztöndíj</tspan><tspan
          sodipodi:role="line"
-         x="388.21765"
-         y="32.805428"
+         x="414.504"
+         y="32.413429"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan36797">Részletes</tspan><tspan
          sodipodi:role="line"
-         x="388.21765"
-         y="35.398678"
+         x="414.504"
+         y="35.00668"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan37997">    - Regisztrált előadás </tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="415.93784"
-       y="22.432426"
+       x="442.22418"
+       y="22.04043"
        id="text17-3-0-5-8-3-9"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-6-21-0-6-7-2"
-         x="415.93784"
-         y="22.432426"
+         x="442.22418"
+         y="22.04043"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Listázás</tspan><tspan
          sodipodi:role="line"
-         x="415.93784"
-         y="25.025677"
+         x="442.22418"
+         y="24.63368"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
-         id="tspan2819-4-8-3">    - Megnevezés</tspan><tspan
+         id="tspan2819-4-8-3">    - Név</tspan><tspan
          sodipodi:role="line"
-         x="415.93784"
-         y="27.618927"
+         x="442.22418"
+         y="27.226931"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan56221">    - Megye</tspan><tspan
          sodipodi:role="line"
-         x="415.93784"
-         y="30.212177"
+         x="442.22418"
+         y="29.820181"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan56223" /><tspan
          sodipodi:role="line"
-         x="415.93784"
-         y="32.805428"
+         x="442.22418"
+         y="32.413429"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan56225">Részletes</tspan><tspan
          sodipodi:role="line"
-         x="415.93784"
-         y="35.398678"
+         x="442.22418"
+         y="35.00668"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan56227">    - Regisztrált előadás</tspan></text>
     <g
        id="g2881-7-0-7"
-       transform="translate(247.88938,-173.62169)">
+       transform="translate(274.17198,-174.01375)">
       <rect
          style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect19-8-2-9-5"
@@ -2731,18 +2719,18 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="332.68805"
-       y="10.600182"
+       x="358.9744"
+       y="10.208185"
        id="text17-7-4-1-2-9"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-9-9-3-4-7"
-         x="332.68805"
-         y="10.600182"
+         x="358.9744"
+         y="10.208185"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">ELVÁRT ADATOK</tspan></text>
     <g
        id="g1030-3"
-       transform="translate(324.58699,-96.974484)">
+       transform="translate(350.86959,-97.366537)">
       <rect
          style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect19-4-5-66-6"
@@ -2767,58 +2755,99 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="443.50375"
-       y="22.581116"
+       x="469.99371"
+       y="22.189119"
        id="text17-3-0-5-6-2-9-5-9"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
-         x="443.50375"
-         y="22.581116"
+         x="469.99371"
+         y="22.189119"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
          id="tspan2819-5-8-3-0-3">Listázás</tspan><tspan
          sodipodi:role="line"
-         x="443.50375"
-         y="25.174366"
+         x="469.99371"
+         y="24.78237"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
-         id="tspan57387">    - Megnevezés</tspan></text>
+         id="tspan57387">    - Név</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="358.73914"
+       y="63.156132"
+       id="text17-3-0-5-6-2-9-5-9-8"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         x="358.73914"
+         y="63.156132"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan2819-5-8-3-0-3-6">Listázás</tspan><tspan
+         sodipodi:role="line"
+         x="358.73914"
+         y="65.749382"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan57387-8">    - Név</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-6-8-3-7-6-7"
-       cx="-257.23959"
-       cy="17.748528"
+       cx="-282.14578"
+       cy="17.343773"
        rx="8.1668339"
        ry="2.7589047"
        transform="scale(-1,1)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="254.67966"
-       y="18.575657"
+       x="279.58936"
+       y="18.170959"
        id="text17-9-7-1-9-6-7-0-2"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-0-8-7-1-6-6-7"
-         x="254.67966"
-         y="18.575657"
+         x="279.58936"
+         y="18.170959"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Aktív</tspan></text>
     <ellipse
        style="fill:#b2f2ff;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path930-2-6-8-0-2-8-7-2"
-       cx="167.03484"
-       cy="70.787857"
+       cx="191.94106"
+       cy="70.383102"
        rx="8.1668339"
        ry="2.7589047" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="164.46214"
-       y="71.607491"
+       x="189.37186"
+       y="71.202797"
        id="text17-9-7-1-9-3-0-5-2-2"
        transform="scale(0.99985872,1.0001413)"><tspan
          sodipodi:role="line"
          id="tspan15-1-0-8-7-6-6-6-6-6"
-         x="164.46214"
-         y="71.607491"
+         x="189.37186"
+         y="71.202797"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">Aktív</tspan></text>
+    <rect
+       style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect19-4-5-6-8-3"
+       width="24.396646"
+       height="5.5512018"
+       x="358.75439"
+       y="53.14291"
+       ry="0.38157356" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="366.58197"
+       y="56.725563"
+       id="text17-3-5-1-0-1-2-0"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         x="366.58197"
+         y="56.725563"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583"
+         id="tspan896-28-3-0-0-7">Státusz</tspan></text>
+    <path
+       style="fill:none;stroke:#2c7a8a;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 7.0536938,149.08536 h 2.35179"
+       id="path4995-2" />
   </g>
 </svg>
