@@ -7,7 +7,7 @@
 <body class="bg-light">
 
 
-<div class="container border shadow-smt bg-white">
+<div class="container border shadow-smt bg-white p-3">
 <?php if($records == null || empty($records)): ?>
     <p class="m-3"> Nincs rögzítve eggyetlen intézmény sem. </p>
 <?php else: ?>

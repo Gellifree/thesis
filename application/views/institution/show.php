@@ -10,16 +10,16 @@
 <p><?=$record->id?></p>
 
 <h2>Megnevezés</h2>
-<p><?=$record->megnevezes?></p>
+<p><?=$record->nev?></p>
 
 <h2>Megye</h2>
 <p><?=$record->megye?></p>
 
 <h2>Cím</h2>
-<p><?=$record->cím?></p>
+<p><?=$record->cim?></p>
 
 <h2>Igazgató neve</h2>
-<p><?=$record->igazgató_neve?></p>
+<p><?=$record->igazgato_neve?></p>
 
 <h2>Email</h2>
 <p><?=$record->e_mail?></p>

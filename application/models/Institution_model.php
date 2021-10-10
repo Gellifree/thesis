@@ -21,7 +21,7 @@ class Institution_model extends CI_Model {
     }
 
     public function get_one($id) {
-        $this->db->select('i.id, i.nev, i.megye, i.cím, i.igazgató_neve, i.e_mail, i.telefon, i.weboldal, i.aktiv');
+        $this->db->select('i.id, i.nev, i.megye, i.cim, i.igazgato_neve, i.e_mail, i.telefon, i.weboldal, i.aktiv');
         $this->db->from('intezmeny i');
         $this->db->where('id', $id);
         $this->db->where('aktiv', 1);
