@@ -28,19 +28,43 @@ class Status extends CI_Controller {
   }
 
   public function insert() {
-      if ($this->input->post()) {
-        echo 'feldolgozás';
+      $this->load->library('form_validation');
+
+      $this->form_validation->set_rules('status_name', 'Státusz neve', 'required|min_length[2]');
+
+
+
+      if ($this->form_validation->run() == TRUE) {
+        $nev = $this->input->post('status_name');
+        $this->status_model->insert($nev);
+        // eredmény ellenőrzése
+        redirect(base_url('status/list'));
       }
       else {
         $this->load->helper('form');
         $this->load->view('status/add');
       }
-
-
   }
 
-  public function update() {
-      echo 'update';
+  public function update($status_id = NULL) {
+      if($status_id == NULL) {
+        redirect(base_url('status/list'));
+      }
+
+      if(!is_numeric($status_id)) {
+        redirect(base_url('status/list'));
+      }
+
+      $record = $this->status_model->get_one($status_id);
+      if($record == NULL || empty($record)) {
+        redirect(base_url('status/list'));
+      }
+
+      $view_params = [
+        'record' => $record
+      ];
+      $this->load->helper('form');
+      $this->load->view('status/edit', $view_params);
   }
 
   public function delete($status_id = NULL) {

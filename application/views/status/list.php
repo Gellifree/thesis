@@ -25,6 +25,7 @@
                     <td> <?=$record->nev?> </td>
                     <td class="text-right">
                         <?php echo anchor(base_url('status/delete/'.$record->id), '<h4 class="fas fa-trash"></h4>'); ?>
+                        <?php echo anchor(base_url('status/update/'.$record->id), '<h4 class="fas fa-edit"></h4>'); ?>
                     </td>
                 </tr>
             <?php endforeach; ?>

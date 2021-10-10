@@ -32,5 +32,13 @@ class Status_model extends CI_Model {
       return $this->db->delete('statusz');
   }
 
+  public function insert($status_name) {
+    $record = [
+      'nev' => $status_name
+    ];
+
+    $this->db->insert('statusz', $record);
+  }
+
 
 }

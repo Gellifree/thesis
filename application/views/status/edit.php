@@ -21,7 +21,7 @@ echo form_input(
 
 echo form_input(
         ['type' => 'submit', 'name' => 'submit_button'],
-        'Elküld',
+        'Módosítás',
         ['class' => 'btn btn-info my-3']
 );
 
