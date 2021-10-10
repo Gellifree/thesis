@@ -11,7 +11,6 @@ class Member extends CI_Controller {
     parent::__construct();
 
     $this->load->model('member_model');
-    $this->load->helper('url');
   }
 
   public function index() {

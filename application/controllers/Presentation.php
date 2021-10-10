@@ -11,7 +11,6 @@ class Presentation extends CI_Controller {
     parent::__construct();
 
     $this->load->model('Presentation_model');
-    $this->load->helper('url');
   }
 
   public function index() {

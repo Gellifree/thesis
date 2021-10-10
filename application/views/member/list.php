@@ -31,8 +31,8 @@
                     <td> <?=$record->statusz_nev?> </td>
                     <td> <?=$record->osztondij?> </td>
                     <td>
-                        <?php echo anchor(base_url('member/list/'.$record->id), '<h4 class="fas fa-info-circle"></h4>'); ?>
-                        <?php echo anchor(base_url('member/delete/'.$record->id), '<h4 class="fas fa-trash"></h4>'); ?>
+                        <?php echo anchor(base_url('member/list/'.$record->id), '<h5 class="fas fa-info-circle text-info"></h5>'); ?>
+                        <?php echo anchor(base_url('member/delete/'.$record->id), '<h5 class="fas fa-trash text-info"></h5>'); ?>
                     </td>
                 </tr>
             <?php endforeach; ?>

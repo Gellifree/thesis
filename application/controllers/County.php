@@ -10,7 +10,6 @@ class County extends CI_Controller {
     public function __construct() {
         parent::__construct();
         $this->load->model('county_model');
-        $this->load->helper('url');
     }
 
     public function index() {
@@ -24,8 +23,6 @@ class County extends CI_Controller {
                 'title'      => 'Megyék listája',
                 'records'    => $this->county_model->get_list()
             ];
-
-
 
             $this->load->view('county/list', $view_params);
        }
@@ -45,7 +42,6 @@ class County extends CI_Controller {
                'title'  => 'Részletes rekordadatok',
                'record' => $record
            ];
-
 
            $this->load->view('county/show', $view_params);
        }
