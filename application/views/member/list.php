@@ -50,7 +50,7 @@
       });
     });
     </script>
-
+    <?php echo anchor(base_url('member/insert'), 'Hozzáadás', ['class' => 'btn btn-info']); ?>
 
 <?php endif; ?>
 
