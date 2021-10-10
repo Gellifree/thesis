@@ -28,7 +28,7 @@
                 <tr>
                     <!-- <td> <?=$record->id?> </td> -->
                     <td> <?=$record->nev?> </td>
-                    <td> <?=$record->statusz?> </td>
+                    <td> <?=$record->statusz_nev?> </td>
                     <td> <?=$record->osztondij?> </td>
                     <td>
                         <?php echo anchor(base_url('member/list/'.$record->id), '<h4 class="fas fa-info-circle"></h4>'); ?>

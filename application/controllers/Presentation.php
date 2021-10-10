@@ -1,7 +1,7 @@
 <?php
 
 /*
-* Description of county: A megyéket kezelő kontroller
+* Description of presentation: Az előadásokat kezelő kontroller
 *
 * @author Kovács Norbert
 */

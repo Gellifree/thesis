@@ -12,8 +12,9 @@ class Member_model extends CI_Model {
   }
 
   public function get_list() {
-    $this->db->select('t.id, t.nev, t.statusz, t.osztondij');
+    $this->db->select('t.id, t.nev, t.statusz, s.nev statusz_nev, t.osztondij');
     $this->db->from('tag t');
+    $this->db->join('statusz s', 's.id = t.statusz', 'inner');
     $this->db->order_by('t.nev', 'asc');
 
     return $this->db->get()->result();

@@ -24,14 +24,15 @@
                     <!-- <td> <?=$record->id?> </td> -->
                     <td> <?=$record->nev?> </td>
                     <td class="text-right">
-                        <?php echo anchor(base_url('status/delete/'.$record->id), '<h4 class="fas fa-trash"></h4>'); ?>
-                        <?php echo anchor(base_url('status/update/'.$record->id), '<h4 class="fas fa-edit"></h4>'); ?>
+                        <?php echo anchor(base_url('status/delete/'.$record->id), '<h5 class="fas fa-trash text-info"></h5>'); ?>
+                        <?php echo anchor(base_url('status/update/'.$record->id), '<h5 class="fas fa-edit text-info"></h5>'); ?>
                     </td>
                 </tr>
             <?php endforeach; ?>
         </tbody>
     </table>
     <p class="text-right">Lekérdezett rekordok: <?=count($records)?>  db.</p>
+    <?php echo anchor(base_url('status/insert'), 'Hozzáadás', ['class' => 'btn btn-info']); ?>
 <?php endif; ?>
 
 </div>

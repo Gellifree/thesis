@@ -40,5 +40,14 @@ class Status_model extends CI_Model {
     $this->db->insert('statusz', $record);
   }
 
+  public function update($id, $nev) {
+    $record = [
+      'nev' => $nev
+    ];
+
+    $this->db->where('id', $id);
+    return $this->db->update('statusz', $record);
+  }
+
 
 }

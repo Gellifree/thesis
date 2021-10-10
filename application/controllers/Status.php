@@ -1,7 +1,7 @@
 <?php
 
 /*
-* Description of county: A megyéket kezelő kontroller
+* Description of Status: A státuszokat kezelő kontroller
 *
 * @author Kovács Norbert
 */
@@ -60,11 +60,28 @@ class Status extends CI_Controller {
         redirect(base_url('status/list'));
       }
 
-      $view_params = [
-        'record' => $record
-      ];
-      $this->load->helper('form');
-      $this->load->view('status/edit', $view_params);
+      $this->load->library('form_validation');
+      $this->form_validation->set_rules('status_name', 'Státusz neve', 'required|min_length[2]');
+
+      if($this->form_validation->run() == TRUE) {
+        $nev = $this->input->post('status_name');
+
+        if($this->status_model->update($status_id, $nev)) {
+          redirect(base_url('status/list'));
+        }
+        else {
+          show_error('Sikertelen módosítás');
+        }
+      }
+      else {
+        $view_params = [
+          'record' => $record
+        ];
+        $this->load->helper('form');
+        $this->load->view('status/edit', $view_params);
+      }
+
+
   }
 
   public function delete($status_id = NULL) {

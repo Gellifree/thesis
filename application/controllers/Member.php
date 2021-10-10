@@ -1,7 +1,7 @@
 <?php
 
 /*
-* Description of county: A megyéket kezelő kontroller
+* Description of members: A tagokat kezelő kontroller
 *
 * @author Kovács Norbert
 */
