@@ -11,6 +11,7 @@ class Institution extends CI_Controller {
     public function __construct() {
         parent::__construct();
         $this->load->model('institution_model');
+        $this->load->model('county_model');
     }
 
     public function index() {
@@ -52,8 +53,43 @@ class Institution extends CI_Controller {
     }
 
     public function insert() {
+
+      $this->load->library('form_validation');
+      $this->form_validation->set_rules('nev', 'Intézmény neve', 'required');
+      $this->form_validation->set_rules('cim', 'Cím', 'required');
+      $this->form_validation->set_rules('igazgato_neve', 'Igazgató neve', 'required');
+
+      if($this->form_validation->run() == TRUE) {
+        $nev = $this->input->post('nev');
+        $megye = $this->input->post('megye');
+        $cim = $this->input->post('cim');
+        $igazgato_neve = $this->input->post('igazgato_neve');
+        $email = $this->input->post('e_mail');
+        $telefon = $this->input->post('telefon');
+        $weboldal = $this->input->post('weboldal');
+
+        if($this->institution_model->insert($nev, $megye, $cim, $igazgato_neve, $email, $telefon, $weboldal)) {
+          redirect(base_url('institution/list'));
+        }
+      } else {
+        $counties = [];
+        $list = $this->county_model->get_list();
+        foreach($list as &$item) {
+          $counties[$item->id] = $item->nev;
+        }
+
+        $view_params = [
+          'title'     => 'Intézmény hozzáadása',
+          'counties'  => $counties
+        ];
+
+
+
         $this->load->helper('form');
-        $this->load->view('institution/add');
+        $this->load->view('institution/add', $view_params);
+      }
+
+
     }
 
     public function update() {

@@ -28,11 +28,11 @@
                 <tr>
                     <!-- <td> <?=$record->id?> </td> -->
                     <td> <?=$record->nev?> </td>
-                    <td> <?=$record->megye?> </td>
+                    <td> <?=$record->megye_nev?> </td>
                     <td> <?=$record->telefon?> </td>
-                    <td>
-                        <?php echo anchor(base_url('institution/list/'.$record->id), '<h4 class="fas fa-info-circle"></h4>'); ?>
-                        <?php echo anchor(base_url('institution/delete/'.$record->id), '<h4 class="fas fa-trash"></h4>'); ?>
+                    <td class="text-right">
+                        <?php echo anchor(base_url('institution/list/'.$record->id), '<h4 class="fas fa-info-circle text-info "></h4>'); ?>
+                        <?php echo anchor(base_url('institution/delete/'.$record->id), '<h4 class="fas fa-trash text-info "></h4>'); ?>
                     </td>
                 </tr>
             <?php endforeach; ?>
@@ -53,5 +53,7 @@
 
 
 <?php endif; ?>
+
+<?php echo anchor(base_url('institution/insert'), lang('add'), ['class' => 'btn btn-info']); ?>
 
 </div>

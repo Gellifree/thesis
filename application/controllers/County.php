@@ -10,6 +10,7 @@ class County extends CI_Controller {
     public function __construct() {
         parent::__construct();
         $this->load->model('county_model');
+        $this->lang->load('county');
     }
 
     public function index() {
@@ -20,7 +21,7 @@ class County extends CI_Controller {
 
         if($county_id == null) {
             $view_params = [
-                'title'      => 'Megyék listája',
+                'title'      => lang('county_list_title'),
                 'records'    => $this->county_model->get_list()
             ];
 

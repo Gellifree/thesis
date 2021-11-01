@@ -7,7 +7,7 @@
 <body class="bg-light">
 
 
-<div class="container border shadow-smt bg-white">
+<div class="container border shadow-smt bg-white p-3">
 <?php if($records == null || empty($records)): ?>
     <p class="m-3"> Nincs rögzítve eggyetlen megye sem. </p>
 <?php else: ?>
@@ -15,12 +15,12 @@
         <?php foreach ($records as $record): ?>
             <li class="list-group-item">
                 <?=$record->nev?>
-                <?php echo anchor(base_url('county/delete/'.$record->id), '<h5 class="fas fa-trash"></h5>'); ?>
+                <?php echo anchor(base_url('county/delete/'.$record->id), '<h5 class="fas fa-trash text-info"></h5>'); ?>
             </li>
             <?php endforeach; ?>
     </ul>
 
-    <p class="text-right">Lekérdezett rekordok: <?=count($records)?>  db.</p>
+    <p class="text-right"> <?php echo lang('quantity') ?> <?=count($records)?>  <?php echo lang('quantity_measure') ?></p>
 <?php endif; ?>
 
 </div>

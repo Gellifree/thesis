@@ -34,6 +34,6 @@
     <p class="text-right"> <?php echo lang('quantity'); ?> <?=count($records)?>  <?php echo lang('quantity_measure'); ?></p>
 
 <?php endif; ?>
-<?php echo anchor(base_url('status/insert'), lang('add'), ['class' => 'btn btn-info']); ?>
+    <?php echo anchor(base_url('presentation/insert'), lang('add'), ['class' => 'btn btn-info']); ?>
 
 </div>

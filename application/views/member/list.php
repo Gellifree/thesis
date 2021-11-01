@@ -11,16 +11,24 @@
 <?php if($records == null || empty($records)): ?>
     <p> Nincs rögzítve eggyetlen tag sem. </p>
 <?php else: ?>
-    <input class="form-control" id="searchInput" type="text" placeholder="Szűrés a táblázatban..">
+
+    <?php
+    echo form_input(
+      ['type' => 'text', 'name' => 'nev', 'id' => "searchInput"],
+      '',
+      ['placeholder' => lang('filter_in_table'), 'class' => 'form-control']
+    );
+    ?>
+
     <br>
     <table class="table table-bordered">
         <thead>
             <tr>
                 <!-- <th>Azonosító</th> -->
-                <th>Név</th>
-                <th>Státusz</th>
-                <th>Ösztöndíj</th>
-                <th>Műveletek</th>
+                <th> <?php echo lang('member_name') ?> </th>
+                <th> <?php echo lang('member_status') ?> </th>
+                <th> <?php echo lang('member_scholarship') ?> </th>
+                <th> <?php echo lang('operations') ?> </th>
             </tr>
         </thead>
         <tbody id="db_result">
@@ -30,15 +38,16 @@
                     <td> <?=$record->nev?> </td>
                     <td> <?=$record->statusz_nev?> </td>
                     <td> <?=$record->osztondij?> </td>
-                    <td>
+                    <td class="text-right">
                         <?php echo anchor(base_url('member/list/'.$record->id), '<h5 class="fas fa-info-circle text-info"></h5>'); ?>
+                        <?php echo anchor(base_url('member/update/'.$record->id), '<h5 class="fas fa-edit text-info"></h5>'); ?>
                         <?php echo anchor(base_url('member/delete/'.$record->id), '<h5 class="fas fa-trash text-info"></h5>'); ?>
                     </td>
                 </tr>
             <?php endforeach; ?>
         </tbody>
     </table>
-    <p class="text-right">Lekérdezett rekordok: <?=count($records)?>  db.</p>
+    <p class="text-right"> <?php echo lang('quantity') ?> <?=count($records)?>  <?php echo lang('quantity_measure') ?></p>
 
     <script>
     $(document).ready(function(){
@@ -50,7 +59,7 @@
       });
     });
     </script>
-    <?php echo anchor(base_url('member/insert'), 'Hozzáadás', ['class' => 'btn btn-info']); ?>
+    <?php echo anchor(base_url('member/insert'), lang('add'), ['class' => 'btn btn-info']); ?>
 
 <?php endif; ?>
 

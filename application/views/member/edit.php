@@ -8,15 +8,15 @@
 
 <div class="container border my-3 p-3 bg-white">
 
-<?php echo form_open(); ?>
-
 <?php
+
+echo form_open();
 
 echo form_error('nev');
 
 echo form_input(
   ['type' => 'text', 'name' => 'nev'],
-  set_value('nev', ''),
+  set_value('nev', $record->nev),
   ['placeholder' => lang('member_name'), 'class' => 'form-control m-1']
 );
 
@@ -24,7 +24,7 @@ echo form_input(
 echo form_error('osztondij');
 echo form_input(
   ['type' => 'number', 'name' => 'osztondij'],
-  set_value('osztondij', ''),
+  set_value('osztondij', $record->osztondij),
   ['placeholder' => lang('member_scholarship'), 'class' => 'form-control m-1']
 );
 
@@ -32,7 +32,7 @@ echo form_input(
 echo form_error('email');
 echo form_input(
   ['type' => 'email', 'name' => 'email'],
-  set_value('email', ''),
+  set_value('email', $record->e_mail),
   ['placeholder' => 'E-mail', 'class' => 'form-control m-1']
 );
 
@@ -40,21 +40,24 @@ echo form_input(
 echo form_error('tagsag_kezdete');
 echo form_input(
   ['type' => 'date', 'name' => 'tagsag_kezdete'],
-  set_value('tagsag_kezdete', ''),
+  set_value('tagsag_kezdete', $record->tagsag_kezdete),
   ['class' => 'form-control m-1']
 );
+
 
 echo form_error('status_id');
 echo form_dropdown(
   ['name' => 'status_id', 'class' => 'btn btn-info m-1'],
-  $statuses
+  $statuses,
+  [ $record->statusz ]
 );
 
 
 echo form_error('aktiv');
 echo form_dropdown(
   ['name' => 'aktiv', 'class' => 'btn btn-info m-1'],
-  $aktiv
+  $aktiv,
+  [ $record->aktiv ]
 );
 echo '<br>';
 echo form_button(
@@ -63,9 +66,7 @@ echo form_button(
   ['class' => 'btn btn-warning m-1']
 );
 
-?>
-
-<?php echo form_close(); ?>
+echo form_close(); ?>
 
 <?php echo anchor(base_url('member/list'), lang('go_back_to_list'), ['class' => 'btn btn-outline-info m-1']); ?>
 
