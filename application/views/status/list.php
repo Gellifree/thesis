@@ -14,8 +14,8 @@
         <thead>
             <tr>
                 <!-- <th>Azonosító</th> -->
-                <th>Megnevezés</th>
-                <th class="text-right">Műveletek</th>
+                <th><?php echo lang('status_name'); ?></th>
+                <th class="text-right"> <?php echo lang('operations'); ?> </th>
             </tr>
         </thead>
         <tbody>
@@ -31,8 +31,8 @@
             <?php endforeach; ?>
         </tbody>
     </table>
-    <p class="text-right">Lekérdezett rekordok: <?=count($records)?>  db.</p>
-    <?php echo anchor(base_url('status/insert'), 'Hozzáadás', ['class' => 'btn btn-info']); ?>
+    <p class="text-right"> <?php echo lang('quantity'); ?> <?=count($records)?>  <?php echo lang('quantity_measure'); ?></p>
+    <?php echo anchor(base_url('status/insert'), lang('add'), ['class' => 'btn btn-info']); ?>
 <?php endif; ?>
 
 </div>

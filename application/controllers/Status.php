@@ -11,6 +11,7 @@ class Status extends CI_Controller {
     parent::__construct();
 
     $this->load->model('status_model');
+    $this->lang->load('status');
   }
 
   public function index() {
@@ -20,7 +21,7 @@ class Status extends CI_Controller {
 
   public function list() {
     $view_params = [
-      'title'      => 'Státuszok listája',
+      'title'      => lang('status_list_title'),
       'records'    => $this->status_model->get_list()
     ];
     $this->load->view('status/list', $view_params);
@@ -29,7 +30,7 @@ class Status extends CI_Controller {
   public function insert() {
       $this->load->library('form_validation');
 
-      $this->form_validation->set_rules('status_name', 'Státusz neve', 'required|min_length[2]');
+      $this->form_validation->set_rules('status_name', lang('status_name'), 'required|min_length[2]');
 
 
 
@@ -60,7 +61,7 @@ class Status extends CI_Controller {
       }
 
       $this->load->library('form_validation');
-      $this->form_validation->set_rules('status_name', 'Státusz neve', 'required|min_length[2]');
+      $this->form_validation->set_rules('status_name', lang('status_name'), 'required|min_length[2]');
 
       if($this->form_validation->run() == TRUE) {
         $nev = $this->input->post('status_name');
@@ -69,7 +70,7 @@ class Status extends CI_Controller {
           redirect(base_url('status/list'));
         }
         else {
-          show_error('Sikertelen módosítás');
+          show_error(lang('unsuccesfull_edit'));
         }
       }
       else {
