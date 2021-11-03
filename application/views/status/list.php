@@ -1,4 +1,5 @@
 <?php $this->load->view('common/bootstrap'); ?>
+<?php $this->load->view('common/navbar'); ?>
 <body class="bg-light">
 
 <div class="container my-2 border shadow-sm text-white bg-dark rounded">
