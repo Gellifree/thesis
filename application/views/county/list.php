@@ -5,22 +5,35 @@
 </div>
 
 <body class="bg-light">
-
-
-<div class="container border shadow-smt bg-white p-3">
-<?php if($records == null || empty($records)): ?>
-    <p class="m-3"> Nincs rögzítve eggyetlen megye sem. </p>
-<?php else: ?>
-    <ul class="list-group" id="db_result">
+  <div class="container border shadow-smt bg-white p-3">
+    <?php if($records == null || empty($records)): ?>
+      <p class="m-3"> Nincs rögzítve eggyetlen megye sem. </p>
+    <?php else: ?>
+  <table class="table table-bordered">
+    <thead>
+        <tr>
+            <th> Megye </th>
+            <th class="text-right"> <?php echo lang('operations'); ?> </th>
+        </tr>
+    </thead>
+    <tbody>
         <?php foreach ($records as $record): ?>
-            <li class="list-group-item">
-                <?=$record->nev?>
-                <?php echo anchor(base_url('county/delete/'.$record->id), '<h5 class="fas fa-trash text-info"></h5>'); ?>
-            </li>
-            <?php endforeach; ?>
-    </ul>
+            <tr>
+                <td> <?=$record->nev?> </td>
+                <td class="text-right">
+                  <?php echo anchor(base_url('county/delete/'.$record->id), '<h5 class="fas fa-trash text-info"></h5>'); ?>
+              </td>
+
+            </tr>
+        <?php endforeach; ?>
+    </tbody>
+  </table>
+
 
     <p class="text-right"> <?php echo lang('quantity') ?> <?=count($records)?>  <?php echo lang('quantity_measure') ?></p>
 <?php endif; ?>
+
+<?php echo anchor(base_url('county/insert'), lang('add'), ['class' => 'btn btn-info']); ?>
+
 
 </div>

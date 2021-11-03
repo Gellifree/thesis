@@ -13,7 +13,7 @@
 <p><?=$record->nev?></p>
 
 <h2>Megye</h2>
-<p><?=$record->megye?></p>
+<p><?=$record->megye_nev?></p>
 
 <h2>Cím</h2>
 <p><?=$record->cim?></p>
@@ -22,10 +22,11 @@
 <p><?=$record->igazgato_neve?></p>
 
 <h2>Email</h2>
-<p><?=$record->e_mail?></p>
+<p><?=($record->e_mail == NULL ? 'Nincs elérhető email az adatbázisban.' : $record->e_mail)?></p>
+
 
 <h2>Telefonszám</h2>
-<p><?=$record->telefon?></p>
+<p><?=($record->telefon == NULL ? 'Nincs elérhető telefonszám az adatbázisban.' : $record->telefon)?></p>
 
 <h2>Weboldal</h2>
 <p><?=($record->weboldal == NULL ? 'Nincs elérhető weboldal az adatbázisban.' : $record->weboldal)?></p>

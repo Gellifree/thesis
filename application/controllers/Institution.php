@@ -92,8 +92,59 @@ class Institution extends CI_Controller {
 
     }
 
-    public function update() {
-        echo 'update';
+    public function update($institution_id = NULL) {
+      if($institution_id == NULL) {
+        redirect(base_url('institution/list'));
+      }
+
+      if(!is_numeric($institution_id)) {
+        redirect(base_url('institution/list'));
+      }
+
+      $record = $this->institution_model->get_one($institution_id);
+
+      if($record == NULL || empty($record)) {
+        redirect(base_url('institution/list'));
+      }
+
+      $this->load->library('form_validation');
+      $this->form_validation->set_rules('nev', 'Intézmény neve', 'required');
+      $this->form_validation->set_rules('cim', 'Cím', 'required');
+      $this->form_validation->set_rules('igazgato_neve', 'Igazgató neve', 'required');
+
+      if($this->form_validation->run() == TRUE) {
+        $nev = $this->input->post('nev');
+        $megye = $this->input->post('megye');
+        $cim = $this->input->post('cim');
+        $igazgato_neve = $this->input->post('igazgato_neve');
+        $email = $this->input->post('e_mail');
+        $telefon = $this->input->post('telefon');
+        $weboldal = $this->input->post('weboldal');
+
+        if($this->institution_model->update($institution_id, $nev, $megye, $cim, $igazgato_neve, $email, $telefon, $weboldal))  {
+          redirect(base_url('institution/list'));
+        } else {
+          show_error(lang('unsuccesfull_edit'));
+        }
+      }
+      else {
+
+        $counties = [];
+        $list = $this->county_model->get_list();
+        foreach($list as &$item) {
+          $counties[$item->id] = $item->nev;
+        }
+
+        $view_params = [
+          'title'     => 'Intézmény szerkesztése',
+          'record'    => $record,
+          'counties'  => $counties
+        ];
+
+        $this->load->helper('form');
+          $this->load->view('institution/edit', $view_params);
+      }
+
     }
 
     public function delete($institution_id = NULL) {

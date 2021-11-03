@@ -8,13 +8,13 @@
 
 <div class="container border shadow-smt bg-white p-3">
 <?php if($records == null || empty($records)): ?>
-    <p class="m-3"> Nincs rögzítve eggyetlen státusz sem. </p>
+    <p class="m-3"> Nincs rögzítve eggyetlen előadás sem. </p>
 <?php else: ?>
     <table class="table table-bordered">
         <thead>
             <tr>
                 <!-- <th>Azonosító</th> -->
-                <th><?php echo lang('status_name'); ?></th>
+                <th> Előadás neve </th>
                 <th class="text-right"> <?php echo lang('operations'); ?> </th>
             </tr>
         </thead>
@@ -24,8 +24,9 @@
                     <!-- <td> <?=$record->id?> </td> -->
                     <td> <?=$record->nev?> </td>
                     <td class="text-right">
-                        <?php echo anchor(base_url('status/delete/'.$record->id), '<h5 class="fas fa-trash text-info"></h5>'); ?>
-                        <?php echo anchor(base_url('status/update/'.$record->id), '<h5 class="fas fa-edit text-info"></h5>'); ?>
+                      <?php echo anchor(base_url('presentation/list/'.$record->id), '<h5 class="fas fa-info-circle text-info"></h5>'); ?>
+                      <?php echo anchor(base_url('presentation/delete/'.$record->id), '<h5 class="fas fa-trash text-info"></h5>'); ?>
+                      <?php echo anchor(base_url('presentation/update/'.$record->id), '<h5 class="fas fa-edit text-info"></h5>'); ?>
                     </td>
                 </tr>
             <?php endforeach; ?>

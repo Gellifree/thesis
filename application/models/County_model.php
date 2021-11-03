@@ -31,4 +31,12 @@ class County_model extends CI_Model {
         $this->db->where('id', $id);
         return $this->db->delete('megye');
     }
+
+    public function insert($county_name) {
+      $record = [
+        'nev' => $county_name
+      ];
+
+      $this->db->insert('megye', $record);
+    }
 }

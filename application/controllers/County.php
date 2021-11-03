@@ -49,8 +49,23 @@ class County extends CI_Controller {
     }
 
     public function insert() {
+      $this->load->library('form_validation');
+      $this->form_validation->set_rules('nev', 'Megye nev', 'required|min_length[2]');
+
+      if ($this->form_validation->run() == TRUE) {
+        $nev = $this->input->post('nev');
+        $this->county_model->insert($nev);
+        redirect(base_url('county/list'));
+      } else {
+        $view_params = [
+          'title'   => 'Megye hozzáadása'
+        ];
+
         $this->load->helper('form');
-        $this->load->view('county/add');
+        $this->load->view('county/add', $view_params);
+      }
+
+
     }
 
     public function update() {

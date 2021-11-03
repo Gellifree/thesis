@@ -18,4 +18,42 @@ class Presentation_model extends CI_Model {
 
     return $this->db->get()->result();
   }
+
+  public function get_one($id) {
+    $this->db->select('e.id, e.nev, e.idopont, e.egyeztetett, e.iskola');
+    $this->db->from('eloadas e');
+    $this->db->where('id', $id);
+
+    return $this->db->get()->row();
+  }
+
+  public function insert($nev, $idopont, $egyeztetett, $iskola) {
+    $record = [
+      'nev'           => $nev,
+      'idopont'       => $idopont,
+      'egyeztetett'   => $egyeztetett,
+      'iskola'        => $iskola
+    ];
+
+    $this->db->insert('eloadas', $record);
+    return $this->db->insert_id();
+  }
+
+  public function update($id, $nev, $idopont, $egyeztetett, $iskola) {
+    $record = [
+      'nev'           => $nev,
+      'idopont'       => $idopont,
+      'egyeztetett'   => $egyeztetett,
+      'iskola'        => $iskola
+    ];
+
+    $this->db->where('id', $id);
+    return $this->db->update('eloadas', $record);
+  }
+
+  public function delete($id) {
+      $this->db->where('id', $id);
+      return $this->db->delete('eloadas');
+  }
+
 }
