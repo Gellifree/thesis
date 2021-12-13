@@ -20,7 +20,7 @@
 <p><?=($record->egyeztetett == 1 ? 'Eggyeztetett' : 'Még nem eggyeztetett' )?></p>
 
 <h2>Iskola</h2>
-<p><?=$record->iskola?></p>
+<p><?=$record->intezmeny_nev?></p>
 
 
 

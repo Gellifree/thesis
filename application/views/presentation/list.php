@@ -15,7 +15,7 @@
         <thead>
             <tr>
                 <!-- <th>Azonosító</th> -->
-                <th> Előadás neve </th>
+                <th> <?php echo lang('presentation_name') ?> </th>
                 <th class="text-right"> <?php echo lang('operations'); ?> </th>
             </tr>
         </thead>

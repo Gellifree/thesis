@@ -12,6 +12,7 @@ class Member extends CI_Controller {
 
     $this->load->model('member_model');
     $this->load->model('status_model');
+    $this->load->model('holds_model');
     $this->lang->load('member');
   }
 
@@ -43,7 +44,8 @@ class Member extends CI_Controller {
 
       $view_params = [
           'title'  => 'Részletes rekordadatok',
-          'record' => $record
+          'record' => $record,
+          'presentations' => $this->holds_model->get_presentation_list($member_id),
       ];
 
 

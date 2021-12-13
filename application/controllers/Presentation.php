@@ -12,6 +12,7 @@ class Presentation extends CI_Controller {
 
     $this->load->model('presentation_model');
     $this->load->model('institution_model');
+    $this->lang->load('presentation');
   }
 
   public function index() {
@@ -21,7 +22,7 @@ class Presentation extends CI_Controller {
   public function list($presentation_id = NULL) {
     if($presentation_id == null) {
       $view_params = [
-        'title'     => 'Előadások listája',
+        'title'     => lang('presentation_title'),
         'records'   => $this->presentation_model->get_list()
       ];
 

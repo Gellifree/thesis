@@ -20,9 +20,10 @@ class Presentation_model extends CI_Model {
   }
 
   public function get_one($id) {
-    $this->db->select('e.id, e.nev, e.idopont, e.egyeztetett, e.iskola');
+    $this->db->select('e.id, e.nev, e.idopont, e.egyeztetett, e.iskola, i.nev intezmeny_nev');
     $this->db->from('eloadas e');
-    $this->db->where('id', $id);
+    $this->db->join('intezmeny i', 'i.id = e.iskola', 'inner');
+    $this->db->where('e.id', $id);
 
     return $this->db->get()->row();
   }
