@@ -10,6 +10,10 @@ class Member extends CI_Controller {
   public function __construct() {
     parent::__construct();
 
+    if (!$this->ion_auth->logged_in()) {
+      redirect(base_url());
+    }
+
     $this->load->model('member_model');
     $this->load->model('status_model');
     $this->load->model('holds_model');
@@ -150,6 +154,11 @@ class Member extends CI_Controller {
 
     public function delete($member_id = NULL) {
       //TODO: hibaüzenetek
+
+        if (!$this->ion_auth->is_admin()) {
+          redirect(base_url());
+        }
+        // TODO: Jogosultsági csoportok megtervezése
         if($member_id == NULL) {
             redirect(base_url('member/list'));
         }

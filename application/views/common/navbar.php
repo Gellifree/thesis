@@ -1,6 +1,8 @@
 <nav class="navbar navbar-expand-md bg-dark navbar-dark shadow py-1 sticky-top">
  <!-- Brand -->
- <a class="navbar-brand" href="#">Roma Szakkollégium</a>
+ <a class="navbar-brand" href="/thesis">Roma Szakkollégium</a>
+
+ <?php if($this->ion_auth->logged_in()): ?>
 
  <!-- Toggler/collapsibe Button -->
  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -28,7 +30,13 @@
    </ul>
 
    <form class="form-inline ml-auto my-2" >
-     <button class="btn btn-info" type="submit">Login</button>
+      <?php echo '<a href="/thesis/auth/logout" class="btn btn-info form-control">'. 'Kijelentkezés' .'</a>'; ?>
    </form>
+ <?php else : ?>
+   <form class="form-inline ml-auto my-2" >
+     <?php echo '<a href="/thesis/auth/login" class="btn btn-info form-control">'. 'Bejelentkezés' .'</a>'; ?>
+   </form>
+    <?php endif; ?>
  </div>
+
 </nav>
