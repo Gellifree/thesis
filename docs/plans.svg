@@ -5,7 +5,7 @@
    viewBox="0 0 508 285.75"
    version="1.1"
    id="svg8"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
    sodipodi:docname="plans.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -32,20 +32,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="1626.6071"
-     inkscape:cy="137.67857"
+     inkscape:zoom="1.979899"
+     inkscape:cx="306.83384"
+     inkscape:cy="762.91771"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
-     inkscape:window-height="1016"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-height="1015"
+     inkscape:window-x="1920"
+     inkscape:window-y="32"
      inkscape:window-maximized="1"
-     inkscape:pagecheckerboard="0" />
+     inkscape:pagecheckerboard="0"
+     showguides="false" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -368,6 +369,30 @@
          x="14.346486"
          y="14.940431"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583">Előadás</tspan></text>
+    <g
+       id="g4466"
+       transform="translate(-0.02039181)">
+      <rect
+         style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.157792;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect19-4-3"
+         width="35.025032"
+         height="5.5254087"
+         x="3.5856345"
+         y="182.35951"
+         ry="0.37980065" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="8.492466"
+         y="185.70183"
+         id="text17-3-22-6"
+         transform="scale(0.99985872,1.0001413)"><tspan
+           sodipodi:role="line"
+           id="tspan15-6-6-7"
+           x="8.492466"
+           y="185.70183"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.0746px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff;stroke-width:0.264583">Jogosultsági rendszer</tspan></text>
+    </g>
     <rect
        style="fill:#0dcaf0;fill-opacity:1;stroke:#2c7a8a;stroke-width:0.132;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect19-7-4"
@@ -1652,6 +1677,18 @@
          x="8.0907488"
          y="105.11334"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583">MŰVELETEK</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="3.2832286"
+       y="191.86156"
+       id="text17-7-4-1-2-3"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         x="3.2832286"
+         y="191.86156"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan805">FELHASZNÁLÓI CSOPORTOK</tspan></text>
     <g
        id="g4948"
        transform="translate(31.287144,-8.2478689)">
@@ -2854,5 +2891,105 @@
        style="fill:none;stroke:#2c7a8a;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 7.0536938,149.08536 h 2.35179"
        id="path4995-2" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="3.4929173"
+       y="195.46777"
+       id="text17-3-0-5-4-2-16-7"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         x="3.4929173"
+         y="195.46777"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan2765">Admin</tspan><tspan
+         sodipodi:role="line"
+         x="3.4929173"
+         y="198.06102"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan165293">Elnök</tspan><tspan
+         sodipodi:role="line"
+         x="3.4929173"
+         y="200.65427"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan2767">Tag</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="3.4706314"
+       y="207.33896"
+       id="text17-3-0-5-4-2-16-7-2"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         x="3.4706314"
+         y="207.33896"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan2767-9">Az Admin, mindent lát (Megye, Státuszok stb.), mindenhonna tud törölni, vagy hozzáadni..</tspan><tspan
+         sodipodi:role="line"
+         x="3.4706314"
+         y="209.93221"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan123495">Minden mezőt láthat, a menü felül teljes. Látja a felhasználókat, és ösztöndíjakat</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="3.4706314"
+       y="214.02365"
+       id="text17-3-0-5-4-2-16-7-2-3"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         x="3.4706314"
+         y="214.02365"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan12389-0">Van szükségünk Mentor csoportra?</tspan><tspan
+         sodipodi:role="line"
+         x="3.4706314"
+         y="216.6169"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan173431">egy mentor, igazából megyei felhasználó? </tspan><tspan
+         sodipodi:role="line"
+         x="3.4706314"
+         y="219.21014"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan29730">Nem biztos?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="3.5603316"
+       y="222.89944"
+       id="text17-3-0-5-4-2-16-7-2-3-6"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         x="3.5603316"
+         y="222.89944"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan29730-6">Tag: Nem látja a Státuszokat, sem a Megyéket. Intézményt bárki hozzáadhat, tagot bárki adhassson hozzá </tspan><tspan
+         sodipodi:role="line"
+         x="3.5603316"
+         y="225.49269"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan157519">Elnök pozíció? Elnökök is látják az ösztöndíjat.  </tspan><tspan
+         sodipodi:role="line"
+         x="3.5603316"
+         y="228.08594"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan69571" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.0746px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2c7a8a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="47.500057"
+       y="184.3315"
+       id="text17-3-0-5-4-2-16-7-2-3-6-1"
+       transform="scale(0.99985872,1.0001413)"><tspan
+         sodipodi:role="line"
+         x="47.500057"
+         y="184.3315"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan69571-9">Interjú egy Mentorral az igénykről?</tspan><tspan
+         sodipodi:role="line"
+         x="47.500057"
+         y="186.92474"
+         style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
+         id="tspan180462">Interjú Lettivel az igényekről?</tspan></text>
   </g>
 </svg>

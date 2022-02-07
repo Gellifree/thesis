@@ -10,7 +10,7 @@
 
 <div class="container border p-3 shadow-smt bg-white">
 <?php if($records == null || empty($records)): ?>
-    <p> Nincs rögzítve eggyetlen tag sem. </p>
+    <p class="m-2 text-secondary"> Nincs rögzítve eggyetlen tag sem. </p>
 <?php else: ?>
 
     <?php
@@ -38,7 +38,7 @@
                     <!-- <td> <?=$record->id?> </td> -->
                     <td> <?=$record->nev?> </td>
                     <td> <?=$record->statusz_nev?> </td>
-                    <td> <?=$record->osztondij?> </td>
+                    <td> <?=$record->osztondij?> HUF </td>
                     <td class="text-right">
                         <?php echo anchor(base_url('member/list/'.$record->id), '<h5 class="fas fa-info-circle text-info"></h5>'); ?>
                         <?php echo anchor(base_url('member/update/'.$record->id), '<h5 class="fas fa-edit text-info"></h5>'); ?>
@@ -60,8 +60,9 @@
       });
     });
     </script>
-    <?php echo anchor(base_url('member/insert'), lang('add'), ['class' => 'btn btn-info']); ?>
+
 
 <?php endif; ?>
+    <?php echo anchor(base_url('member/insert'), lang('add'), ['class' => 'btn btn-info']); ?>
 
 </div>
