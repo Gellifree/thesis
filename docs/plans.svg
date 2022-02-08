@@ -32,9 +32,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="1593.2631"
-     inkscape:cy="173.4937"
+     inkscape:zoom="3.959798"
+     inkscape:cx="792.08586"
+     inkscape:cy="121.59711"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -113,8 +113,8 @@
        id="rect2995-1"
        width="173.44699"
        height="128.5676"
-       x="180.83891"
-       y="5.8025708"
+       x="179.45657"
+       y="5.8844566"
        ry="1.1186203" />
     <path
        style="fill:none;stroke:#2c7a8a;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1094,6 +1094,21 @@
          style="fill:none;stroke:#2c7a8a;stroke-width:0.107501;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 162.12212,32.907008 v 1.14293"
          id="path2705-9-4"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       id="g2709-97-7-2"
+       transform="matrix(0,1.5348619,-1.5348738,0,272.93768,-212.45857)"
+       style="stroke-width:0.651523">
+      <path
+         style="fill:none;stroke:#2c7a8a;stroke-width:0.1075;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 161.0528,32.98532 1.0417,0.49508 -1.03769,0.495079"
+         id="path2703-5-4-6"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#2c7a8a;stroke-width:0.107501;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 162.12212,32.907008 v 1.14293"
+         id="path2705-9-4-7"
          sodipodi:nodetypes="cc" />
     </g>
     <rect
@@ -2931,7 +2946,7 @@
          x="442.22418"
          y="40.19318"
          style="font-size:2.0746px;fill:#2c7a8a;fill-opacity:1;stroke-width:0.264583"
-         id="tspan87485">      előadások listája</tspan></text>
+         id="tspan87485">      előadás</tspan></text>
     <g
        id="g2881-7-0-7"
        transform="translate(274.17198,-174.01375)">
