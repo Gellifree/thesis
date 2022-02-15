@@ -25,12 +25,14 @@
      <li class="nav-item">
        <a class="nav-link" href="/institution/list">Intézmény</a>
      </li>
-     <li class="nav-item">
-       <a class="nav-link" href="/county/list">Megye</a>
-     </li>
-     <li class="nav-item">
-       <a class="nav-link" href="/status/list">Státuszok</a>
-     </li>
+     <?php if($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
+       <li class="nav-item">
+         <a class="nav-link" href="/county/list">Megye</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="/status/list">Státuszok</a>
+       </li>
+     <?php endif; ?>
    </ul>
 
 

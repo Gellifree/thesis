@@ -18,10 +18,14 @@ class County extends CI_Controller {
     }
 
     public function list($county_id = NULL) {
+      if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
+        redirect(base_url());
+      }
+
         if(!$this->ion_auth->logged_in()) {
           redirect(base_url());
         }
-        
+
         if($county_id == null) {
             $view_params = [
                 'title'      => lang('county_list_title'),
@@ -52,6 +56,10 @@ class County extends CI_Controller {
     }
 
     public function insert() {
+      if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
+        redirect(base_url());
+      }
+
       $this->load->library('form_validation');
       $this->form_validation->set_rules('nev', 'Megye nev', 'required|min_length[2]');
 
@@ -76,6 +84,10 @@ class County extends CI_Controller {
     }
 
     public function delete($county_id = NULL) {
+      if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
+        redirect(base_url());
+      }
+
         if($county_id == NULL) {
             redirect(base_url('county/list'));
         }

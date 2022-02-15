@@ -20,6 +20,10 @@ class Status extends CI_Controller {
 
 
   public function list() {
+    if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
+      redirect(base_url());
+    }
+
 
     if(!$this->ion_auth->logged_in()) {
       redirect(base_url());
@@ -33,6 +37,10 @@ class Status extends CI_Controller {
   }
 
   public function insert() {
+    if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
+      redirect(base_url());
+    }
+
       $this->load->library('form_validation');
 
       $this->form_validation->set_rules('status_name', lang('status_name'), 'required|min_length[2]');
@@ -52,6 +60,10 @@ class Status extends CI_Controller {
   }
 
   public function update($status_id = NULL) {
+    if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
+      redirect(base_url());
+    }
+
       if($status_id == NULL) {
         redirect(base_url('status/list'));
       }
@@ -90,6 +102,10 @@ class Status extends CI_Controller {
   }
 
   public function delete($status_id = NULL) {
+    if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
+      redirect(base_url());
+    }
+
       if($status_id == NULL) {
           redirect(base_url('status/list'));
       }
