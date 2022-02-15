@@ -9,32 +9,36 @@
    <span class="navbar-toggler-icon"></span>
  </button>
 
+
+ <?php
+ // remove /tehsis in links TODO -> fix later to generate proper anchors
+ ?>
  <!-- Navbar links -->
  <div class="collapse navbar-collapse" id="collapsibleNavbar">
    <ul class="navbar-nav">
      <li class="nav-item">
-       <a class="nav-link" href="/thesis/presentation/list">Előadás</a>
+       <a class="nav-link" href="/presentation/list">Előadás</a>
      </li>
      <li class="nav-item">
-       <a class="nav-link" href="/thesis/member/list"> Tagok </a>
+       <a class="nav-link" href="/member/list"> Tagok </a>
      </li>
      <li class="nav-item">
-       <a class="nav-link" href="/thesis/institution/list">Intézmény</a>
+       <a class="nav-link" href="/institution/list">Intézmény</a>
      </li>
      <li class="nav-item">
-       <a class="nav-link" href="/thesis/county/list">Megye</a>
+       <a class="nav-link" href="/county/list">Megye</a>
      </li>
      <li class="nav-item">
-       <a class="nav-link" href="/thesis/status/list">Státuszok</a>
+       <a class="nav-link" href="/status/list">Státuszok</a>
      </li>
    </ul>
 
    <form class="form-inline ml-auto my-2" >
-      <?php echo '<a href="/thesis/auth/logout" class="btn btn-info form-control">'. 'Kijelentkezés' .'</a>'; ?>
+      <?php echo '<a href="/auth/logout" class="btn btn-info form-control">'. 'Kijelentkezés' .'</a>'; ?>
    </form>
  <?php else : ?>
    <form class="form-inline ml-auto my-2" >
-     <?php echo '<a href="/thesis/auth/login" class="btn btn-info form-control">'. 'Bejelentkezés' .'</a>'; ?>
+     <?php echo '<a href="/auth/login" class="btn btn-info form-control">'. 'Bejelentkezés' .'</a>'; ?>
    </form>
     <?php endif; ?>
  </div>
