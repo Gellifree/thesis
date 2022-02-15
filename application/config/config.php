@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //$config['base_url'] = 'https://192.168.1.101/thesis/';
-$config['base_url'] = 'https://192.168.1.101/';
+$config['base_url'] = 'https://ekke-rszk.herokuapp.com';
 
 /*
 |--------------------------------------------------------------------------
