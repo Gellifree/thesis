@@ -64,6 +64,11 @@ class Member extends CI_Controller {
   }
 
   public function insert() {
+    if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
+      redirect(base_url());
+    }
+
+
     $this->load->library('form_validation');
 
     $this->form_validation->set_rules('nev', lang('member_name'), 'required');
@@ -106,6 +111,11 @@ class Member extends CI_Controller {
   }
 
   public function update($member_id = NULL) {
+    if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
+      redirect(base_url());
+    }
+
+
       if($member_id == NULL) {
         redirect(base_url('member/list'));
       }
@@ -159,6 +169,11 @@ class Member extends CI_Controller {
 
     public function delete($member_id = NULL) {
       //TODO: hibaüzenetek
+
+      if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
+        redirect(base_url());
+      }
+
 
         if (!$this->ion_auth->is_admin()) {
           redirect(base_url());
