@@ -56,6 +56,7 @@ class Auth extends CI_Controller
 			}
 
 			$this->_render_page('auth' . DIRECTORY_SEPARATOR . 'index', $this->data);
+			redirect(base_url());
 		}
 	}
 
