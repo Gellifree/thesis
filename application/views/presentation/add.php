@@ -25,9 +25,9 @@ echo form_input(
         ['class' => 'form-control my-2']
 );
 
-echo form_error('egyeztetett');
+echo form_error('allapot');
 echo form_dropdown(
-  ['name' => 'egyeztetett', 'class' => 'btn btn-info m-1'],
+  ['name' => 'allapot', 'class' => 'btn btn-info m-1'],
   $reconciled
 );
 

@@ -52,14 +52,14 @@ class Presentation extends CI_Controller {
     $this->load->library('form_validation');
     $this->form_validation->set_rules('nev', 'Előadás neve', 'required');
     $this->form_validation->set_rules('idopont', 'Időpont', 'required');
-    $this->form_validation->set_rules('egyeztetett', 'Állapot (Egyeztetett)', 'required');
+    $this->form_validation->set_rules('allapot', 'Állapot (allapot)', 'required');
     $this->form_validation->set_rules('iskola', 'Intézmény', 'required');
     if($this->form_validation->run() == TRUE) {
       $nev = $this->input->post('nev');
       $idopont = $this->input->post('idopont');
-      $egyeztetett = $this->input->post('egyeztetett');
+      $allapot = $this->input->post('allapot');
       $iskola = $this->input->post('iskola');
-      if($this->presentation_model->insert($nev, $idopont, $egyeztetett, $iskola)) {
+      if($this->presentation_model->insert($nev, $idopont, $allapot, $iskola)) {
         redirect(base_url('presentation/list'));
       }
     }
@@ -100,15 +100,15 @@ class Presentation extends CI_Controller {
 
     $this->form_validation->set_rules('nev', 'Előadás neve', 'required');
     $this->form_validation->set_rules('idopont', 'Időpont', 'required');
-    $this->form_validation->set_rules('egyeztetett', 'Állapot (Egyeztetett)', 'required');
+    $this->form_validation->set_rules('allapot', 'Állapot (allapot)', 'required');
     $this->form_validation->set_rules('iskola', 'Intézmény', 'required');
 
     if($this->form_validation->run() == TRUE) {
       $nev = $this->input->post('nev');
       $idopont = $this->input->post('idopont');
-      $egyeztetett = $this->input->post('egyeztetett');
+      $allapot = $this->input->post('allapot');
       $iskola = $this->input->post('iskola');
-      if($this->presentation_model->update($presentation_id, $nev, $idopont, $egyeztetett, $iskola)) {
+      if($this->presentation_model->update($presentation_id, $nev, $idopont, $allapot, $iskola)) {
         redirect(base_url('presentation/list'));
       }
       else {

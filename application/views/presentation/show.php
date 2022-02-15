@@ -14,7 +14,7 @@
       <ul class="list-group">
         <li class="list-group-item"> Megnevezés : <?=$record->nev?></li>
         <li class="list-group-item"> Időpont : <?=$record->idopont?>  </li>
-        <li class="list-group-item"> Állapot : <?=($record->egyeztetett == 1 ? 'Eggyeztetett' : 'Még nem eggyeztetett' )?> </li>
+        <li class="list-group-item"> Állapot : <?=($record->allapot == 1 ? 'Eggyeztetett' : 'Még nem eggyeztetett' )?> </li>
         <li class="list-group-item"> Iskola : <?=$record->intezmeny_nev?> </li>
       </ul>
     </div>
