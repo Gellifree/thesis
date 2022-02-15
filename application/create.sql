@@ -56,7 +56,7 @@ create table eloadas(
 	id int not null auto_increment,
 	nev varchar(200) not null,
 	idopont date,
-	egyeztetett tinyint default 0,
+	allapot tinyint default 0,
 	iskola int not null,
 
 	constraint pk_eloadas primary key(id),

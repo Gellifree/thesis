@@ -9,7 +9,7 @@
 
 <div class="row">
   <div class="col- ">
-    <div class="card" style="width:380px">
+    <div class="card" style="width:300px">
       <img class="card-img-top" src="/public/images/member_rect.png" alt="Member placeholder image">
       <div class="card-body">
         <h4 class="card-title text-center">

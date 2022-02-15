@@ -12,7 +12,7 @@ class Presentation_model extends CI_Model {
   }
 
   public function get_list() {
-    $this->db->select('e.id, e.nev, e.idopont, e.egyeztetett, e.iskola');
+    $this->db->select('e.id, e.nev, e.idopont, e.allapot, e.iskola');
     $this->db->from('eloadas e');
     $this->db->order_by('e.nev', 'asc');
 
@@ -20,7 +20,7 @@ class Presentation_model extends CI_Model {
   }
 
   public function get_one($id) {
-    $this->db->select('e.id, e.nev, e.idopont, e.egyeztetett, e.iskola, i.nev intezmeny_nev');
+    $this->db->select('e.id, e.nev, e.idopont, e.allapot, e.iskola, i.nev intezmeny_nev');
     $this->db->from('eloadas e');
     $this->db->join('intezmeny i', 'i.id = e.iskola', 'inner');
     $this->db->where('e.id', $id);
@@ -28,11 +28,11 @@ class Presentation_model extends CI_Model {
     return $this->db->get()->row();
   }
 
-  public function insert($nev, $idopont, $egyeztetett, $iskola) {
+  public function insert($nev, $idopont, $allapot, $iskola) {
     $record = [
       'nev'           => $nev,
       'idopont'       => $idopont,
-      'egyeztetett'   => $egyeztetett,
+      'allapot'       => $allapot,
       'iskola'        => $iskola
     ];
 
@@ -40,11 +40,11 @@ class Presentation_model extends CI_Model {
     return $this->db->insert_id();
   }
 
-  public function update($id, $nev, $idopont, $egyeztetett, $iskola) {
+  public function update($id, $nev, $idopont, $allapot, $iskola) {
     $record = [
       'nev'           => $nev,
       'idopont'       => $idopont,
-      'egyeztetett'   => $egyeztetett,
+      'allapot'       => $allapot,
       'iskola'        => $iskola
     ];
 
