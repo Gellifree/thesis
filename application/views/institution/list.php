@@ -14,7 +14,7 @@
 <?php else: ?>
     <input class="form-control" id="searchInput" type="text" placeholder="Szűrés a táblázatban..">
     <br>
-    <table class="table table-bordered">
+    <table class="table table-bordered table-responsive-sm">
         <thead>
             <tr>
                 <!-- <th>Azonosító</th> -->
@@ -32,8 +32,8 @@
                     <td> <?=$record->megye_nev?> </td>
                     <td> <?=$record->telefon?> </td>
                     <td class="text-right">
-                        <?php echo anchor(base_url('institution/list/'.$record->id), '<h4 class="fas fa-info-circle text-info "></h4>'); ?>
-                        <?php echo anchor(base_url('institution/delete/'.$record->id), '<h4 class="fas fa-trash text-info "></h4>'); ?>
+                        <?php echo anchor(base_url('institution/list/'.$record->id), '<h5 class="fas fa-info-circle text-info "></h5>'); ?>
+                        <?php echo anchor(base_url('institution/delete/'.$record->id), '<h5 class="fas fa-trash text-info "></h5>'); ?>
                         <?php echo anchor(base_url('institution/update/'.$record->id), '<h5 class="fas fa-edit text-info"></h5>'); ?>
                     </td>
                 </tr>
