@@ -83,7 +83,8 @@ $db['default'] = array(
 
 	//'password' => 'a7RHt[2vj4HQZ6em',
 	'password' => '35755fba',
-	'database' => 'thesis',
+	//'database' => 'thesis',
+	'database' => 'heroku_0388390a7faecb1',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
