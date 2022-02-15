@@ -19,7 +19,7 @@ class County extends CI_Controller {
 
     public function list($county_id = NULL) {
         if(!$this->ion_auth->logged_in()) {
-          redirect(base_url())
+          redirect(base_url());
         }
         if($county_id == null) {
             $view_params = [
