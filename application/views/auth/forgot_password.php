@@ -16,7 +16,7 @@
         <?php echo form_input(
                 $identity,
                 '',
-                ['placeholder' => lang('forgot_password_email_label'), 'class' => 'form-control my-2']
+                ['placeholder' => 'Email', 'class' => 'form-control my-2']
         ); ?>
       </p>
 
