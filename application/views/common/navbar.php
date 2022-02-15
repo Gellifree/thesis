@@ -37,10 +37,10 @@
 
 
    <form class="form-inline ml-auto my-2" >
-      <?php echo '<a href="/auth/logout" class="btn btn-info form-control">'. 'Kijelentkezés' .'</a>'; ?>
       <?php if($this->ion_auth->is_admin()): ?>
-        <?php echo '<a href="/auth" class="btn btn-info form-control">'. 'ADMIN' .'</a>'; ?>
+        <?php echo '<a href="/auth" class="btn btn-danger form-control my-2">'. 'ADMIN' .'</a>'; ?>
       <?php endif; ?>
+      <?php echo '<a href="/auth/logout" class="btn btn-info form-control">'. 'Kijelentkezés' .'</a>'; ?>
    </form>
  <?php else : ?>
    <form class="form-inline ml-auto my-2" >
