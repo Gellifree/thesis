@@ -56,7 +56,6 @@ class Auth extends CI_Controller
 			}
 
 			$this->_render_page('auth' . DIRECTORY_SEPARATOR . 'index', $this->data);
-			redirect(base_url());
 		}
 	}
 
@@ -65,6 +64,10 @@ class Auth extends CI_Controller
 	 */
 	public function login()
 	{
+		if ($this->ion_auth->logged_in())
+		{
+			redirect(base_url());
+		}
 		$this->data['title'] = $this->lang->line('login_heading');
 
 		// validate form input
