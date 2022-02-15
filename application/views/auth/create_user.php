@@ -1,6 +1,6 @@
 <?php $this->load->view('common/bootstrap'); ?>
 <?php $this->load->view('common/navbar'); ?>
-
+<body class="bg-light">
 <div class="container border shadow-sm rounded bg-white mt-2">
 
 <h1><?php echo lang('create_user_heading');?></h1>
