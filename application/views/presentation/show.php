@@ -14,7 +14,21 @@
       <ul class="list-group">
         <li class="list-group-item"> Megnevezés : <?=$record->nev?></li>
         <li class="list-group-item"> Időpont : <?=$record->idopont?>  </li>
-        <li class="list-group-item"> Állapot : <?=($record->allapot == 1 ? 'Eggyeztetett' : 'Még nem eggyeztetett' )?> </li>
+        <li class="list-group-item"> Állapot :
+          <?=//($record->allapot == 1 ? 'Eggyeztetett' : 'Még nem eggyeztetett' )?>
+
+          <?php if($record->allapot == 0) : ?>
+            Még nem eggyeztetett
+          <?php elseif($record->allapot == 1) : ?>
+            Eggyeztetett
+          <?php elseif($record->allapot == 2) : ?>
+            Sikeresen teljesített
+          <?php else : ?>
+            Sikertelen
+          <?php endif; ?>
+
+
+        </li>
         <li class="list-group-item"> Iskola : <?=$record->intezmeny_nev?> </li>
       </ul>
     </div>

@@ -75,7 +75,7 @@ class Presentation extends CI_Controller {
       $view_params = [
         'title'         => 'Előadás hozzáadása',
         'institutions'  => $institutions,
-        'reconciled'    => [0 => 'Eggyeztetett', 1 => 'Még nem eggyeztetett']
+        'reconciled'    => [0 => 'Eggyeztetett', 1 => 'Még nem eggyeztetett', 2 => 'Sikeresen teljesített', 3 => 'Sikertelen']
       ];
 
       $this->load->view('presentation/add', $view_params);
@@ -127,7 +127,7 @@ class Presentation extends CI_Controller {
         'title'         => 'Előadás módosítása',
         'record'        => $record,
         'institutions'  => $institutions,
-        'reconciled'    => [0 => 'Eggyeztetett', 1 => 'Még nem eggyeztetett']
+        'reconciled'    => [0 => 'Eggyeztetett', 1 => 'Még nem eggyeztetett', 2 => 'Sikeresen teljesített', 3 => 'Sikertelen']
       ];
 
       $this->load->helper('form');
