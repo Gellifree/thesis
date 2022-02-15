@@ -47,8 +47,11 @@
 
                     <td class="text-right">
                         <?php echo anchor(base_url('member/list/'.$record->id), '<h5 class="fas fa-info-circle text-info"></h5>'); ?>
-                        <?php echo anchor(base_url('member/update/'.$record->id), '<h5 class="fas fa-edit text-info"></h5>'); ?>
-                        <?php echo anchor(base_url('member/delete/'.$record->id), '<h5 class="fas fa-trash text-info"></h5>'); ?>
+                        <?php if($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
+                          <?php echo anchor(base_url('member/update/'.$record->id), '<h5 class="fas fa-edit text-info"></h5>'); ?>
+                          <?php echo anchor(base_url('member/delete/'.$record->id), '<h5 class="fas fa-trash text-info"></h5>'); ?>
+                        <?php endif; ?>
+
                     </td>
                 </tr>
             <?php endforeach; ?>
@@ -69,6 +72,9 @@
 
 
 <?php endif; ?>
-    <?php echo anchor(base_url('member/insert'), lang('add'), ['class' => 'btn btn-info']); ?>
+<?php if($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
+  <?php echo anchor(base_url('member/insert'), lang('add'), ['class' => 'btn btn-info']); ?>
+<?php endif; ?>
+
 
 </div>
