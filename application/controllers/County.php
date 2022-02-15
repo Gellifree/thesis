@@ -18,7 +18,7 @@ class County extends CI_Controller {
     }
 
     public function list($county_id = NULL) {
-      if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
+      if(!$this->ion_auth->in_group(['admin'], false, false)) {
         redirect(base_url());
       }
 
@@ -56,7 +56,7 @@ class County extends CI_Controller {
     }
 
     public function insert() {
-      if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
+      if(!$this->ion_auth->in_group(['admin'], false, false)) {
         redirect(base_url());
       }
 
@@ -84,7 +84,7 @@ class County extends CI_Controller {
     }
 
     public function delete($county_id = NULL) {
-      if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
+      if(!$this->ion_auth->in_group(['admin'], false, false)) {
         redirect(base_url());
       }
 

@@ -27,12 +27,17 @@
      </li>
      <?php if($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
        <li class="nav-item">
-         <a class="nav-link" href="/county/list">Megye</a>
-       </li>
-       <li class="nav-item">
          <a class="nav-link" href="/status/list">Státuszok</a>
        </li>
      <?php endif; ?>
+     <?php if($this->ion_auth->in_group(['admin'], false, false)) : ?>
+       <li class="nav-item">
+         <a class="nav-link" href="/county/list">Megye</a>
+       </li>
+     <?php endif; ?>
+
+
+
    </ul>
 
 

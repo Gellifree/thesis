@@ -33,7 +33,11 @@
                     <td> <?=$record->telefon?> </td>
                     <td class="text-right">
                         <?php echo anchor(base_url('institution/list/'.$record->id), '<h5 class="fas fa-info-circle text-info "></h5>'); ?>
-                        <?php echo anchor(base_url('institution/delete/'.$record->id), '<h5 class="fas fa-trash text-info "></h5>'); ?>
+
+                        <?php if($this->ion_auth->in_group(['admin'], false, false)) : ?>
+                          <?php echo anchor(base_url('institution/delete/'.$record->id), '<h5 class="fas fa-trash text-info "></h5>'); ?>
+                        <?php endif; ?>
+
                         <?php echo anchor(base_url('institution/update/'.$record->id), '<h5 class="fas fa-edit text-info"></h5>'); ?>
                     </td>
                 </tr>

@@ -22,7 +22,7 @@ class Institution extends CI_Controller {
       if(!$this->ion_auth->logged_in()) {
         redirect(base_url());
       }
-      
+
         if($institution_id == null) {
             $view_params = [
                 'title'      => 'Intézmények listája',
@@ -151,6 +151,10 @@ class Institution extends CI_Controller {
     }
 
     public function delete($institution_id = NULL) {
+      if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
+        redirect(base_url());
+      }
+      
         if($institution_id == NULL) {
             redirect(base_url('institution/list'));
         }
