@@ -16,9 +16,9 @@
         <li class="list-group-item"> Időpont : <?=$record->idopont?>  </li>
         <li class="list-group-item"> Állapot :
           <?php if($record->allapot == 0) : ?>
-            Még nem eggyeztetett
-          <?php elseif($record->allapot == 1) : ?>
             Eggyeztetett
+          <?php elseif($record->allapot == 1) : ?>
+            Még nem eggyeztetett
           <?php elseif($record->allapot == 2) : ?>
             Sikeresen teljesített
           <?php else : ?>
