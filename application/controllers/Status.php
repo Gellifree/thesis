@@ -37,7 +37,7 @@ class Status extends CI_Controller {
   }
 
   public function insert() {
-    if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
+    if(!$this->ion_auth->in_group(['admin'], false, false)) {
       redirect(base_url());
     }
 
@@ -60,7 +60,7 @@ class Status extends CI_Controller {
   }
 
   public function update($status_id = NULL) {
-    if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
+    if(!$this->ion_auth->in_group(['admin'], false, false)) {
       redirect(base_url());
     }
 
@@ -102,7 +102,7 @@ class Status extends CI_Controller {
   }
 
   public function delete($status_id = NULL) {
-    if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
+    if(!$this->ion_auth->in_group(['admin'], false, false)) {
       redirect(base_url());
     }
 
