@@ -13,11 +13,10 @@
 
       <p>
       	<label for="identity"><?php echo (($type=='email') ? sprintf(lang('forgot_password_email_label'), $identity_label) : sprintf(lang('forgot_password_identity_label'), $identity_label));?></label> <br />
-      	<?php echo form_input($identity);?>
         <?php echo form_input(
                 $identity,
                 '',
-                ['placeholder' => lang('forgot_password_identity_label'), 'class' => 'form-control my-2']
+                ['placeholder' => lang('forgot_password_email_label'), 'class' => 'form-control my-2']
         ); ?>
       </p>
 
