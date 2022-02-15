@@ -19,7 +19,11 @@
         <ul class="list-group">
           <li class="list-group-item"> <?=lang('start_of_membership')?>: <?=$record->tagsag_kezdete == NULL ? 'Nincs rögzítve dátum' : $record->tagsag_kezdete?></li>
           <li class="list-group-item"> E-mail: <?=$record->e_mail?> </li>
-          <li class="list-group-item"> <?=lang('member_scholarship')?>: <?=$record->osztondij?> Ft. </li>
+
+          <?php if($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
+            <li class="list-group-item"> <?=lang('member_scholarship')?>: <?=$record->osztondij?> Ft. </li>
+          <?php endif; ?>
+
           <li class="list-group-item"> <?=lang('member_active')?>: <?= $record->aktiv == 1 ? lang('yes') : lang('no') ?> </li>
         </ul>
       </div>
