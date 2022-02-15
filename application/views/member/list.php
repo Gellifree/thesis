@@ -28,7 +28,9 @@
                 <!-- <th>Azonosító</th> -->
                 <th> <?php echo lang('member_name') ?> </th>
                 <th> <?php echo lang('member_status') ?> </th>
-                <th> <?php echo lang('member_scholarship') ?> </th>
+                <?php if($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
+                  <th> <?php echo lang('member_scholarship') ?> </th>
+                <?php endif; ?>
                 <th> <?php echo lang('operations') ?> </th>
             </tr>
         </thead>
@@ -38,7 +40,11 @@
                     <!-- <td> <?=$record->id?> </td> -->
                     <td> <?=$record->nev?> </td>
                     <td> <?=$record->statusz_nev?> </td>
-                    <td> <?=$record->osztondij?> HUF </td>
+
+                    <?php if($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
+                      <td> <?=$record->osztondij?> HUF </td>
+                    <?php endif; ?>
+
                     <td class="text-right">
                         <?php echo anchor(base_url('member/list/'.$record->id), '<h5 class="fas fa-info-circle text-info"></h5>'); ?>
                         <?php echo anchor(base_url('member/update/'.$record->id), '<h5 class="fas fa-edit text-info"></h5>'); ?>
