@@ -21,6 +21,7 @@ class County extends CI_Controller {
         if(!$this->ion_auth->logged_in()) {
           redirect(base_url());
         }
+        
         if($county_id == null) {
             $view_params = [
                 'title'      => lang('county_list_title'),

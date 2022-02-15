@@ -20,6 +20,11 @@ class Presentation extends CI_Controller {
   }
 
   public function list($presentation_id = NULL) {
+    if(!$this->ion_auth->logged_in()) {
+      redirect(base_url());
+    }
+
+
     if($presentation_id == null) {
       $view_params = [
         'title'     => lang('presentation_title'),

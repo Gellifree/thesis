@@ -20,6 +20,11 @@ class Status extends CI_Controller {
 
 
   public function list() {
+
+    if(!$this->ion_auth->logged_in()) {
+      redirect(base_url());
+    }
+
     $view_params = [
       'title'      => lang('status_list_title'),
       'records'    => $this->status_model->get_list()
