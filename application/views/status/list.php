@@ -16,7 +16,10 @@
             <tr>
                 <!-- <th>Azonosító</th> -->
                 <th><?php echo lang('status_name'); ?></th>
-                <th class="text-right"> <?php echo lang('operations'); ?> </th>
+                <?php if($this->ion_auth->in_group(['admin'], false, false)) : ?>
+                  <th class="text-right"> <?php echo lang('operations'); ?> </th>
+                <?php endif; ?>
+
             </tr>
         </thead>
         <tbody>
@@ -24,10 +27,14 @@
                 <tr>
                     <!-- <td> <?=$record->id?> </td> -->
                     <td> <?=$record->nev?> </td>
-                    <td class="text-right">
-                        <?php echo anchor(base_url('status/delete/'.$record->id), '<h5 class="fas fa-trash text-info"></h5>'); ?>
-                        <?php echo anchor(base_url('status/update/'.$record->id), '<h5 class="fas fa-edit text-info"></h5>'); ?>
-                    </td>
+
+                    <?php if($this->ion_auth->in_group(['admin'], false, false)) : ?>
+                      <td class="text-right">
+                          <?php echo anchor(base_url('status/delete/'.$record->id), '<h5 class="fas fa-trash text-info"></h5>'); ?>
+                          <?php echo anchor(base_url('status/update/'.$record->id), '<h5 class="fas fa-edit text-info"></h5>'); ?>
+                      </td>
+                    <?php endif; ?>
+
                 </tr>
             <?php endforeach; ?>
         </tbody>
@@ -35,6 +42,10 @@
     <p class="text-right"> <?php echo lang('quantity'); ?> <?=count($records)?>  <?php echo lang('quantity_measure'); ?></p>
 
 <?php endif; ?>
-<?php echo anchor(base_url('status/insert'), lang('add'), ['class' => 'btn btn-info']); ?>
+
+<?php if($this->ion_auth->in_group(['admin'], false, false)) : ?>
+  <?php echo anchor(base_url('status/insert'), lang('add'), ['class' => 'btn btn-info']); ?>
+<?php endif; ?>
+
 
 </div>

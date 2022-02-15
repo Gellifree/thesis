@@ -38,7 +38,7 @@ class Status extends CI_Controller {
 
   public function insert() {
     if(!$this->ion_auth->in_group(['admin'], false, false)) {
-      redirect(base_url());
+      redirect(base_url('status/list'));
     }
 
       $this->load->library('form_validation');
@@ -61,7 +61,7 @@ class Status extends CI_Controller {
 
   public function update($status_id = NULL) {
     if(!$this->ion_auth->in_group(['admin'], false, false)) {
-      redirect(base_url());
+      redirect(base_url('status/list'));
     }
 
       if($status_id == NULL) {
@@ -103,7 +103,7 @@ class Status extends CI_Controller {
 
   public function delete($status_id = NULL) {
     if(!$this->ion_auth->in_group(['admin'], false, false)) {
-      redirect(base_url());
+      redirect(base_url('status/list'));
     }
 
       if($status_id == NULL) {
