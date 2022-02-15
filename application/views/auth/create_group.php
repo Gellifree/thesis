@@ -1,7 +1,7 @@
 <?php $this->load->view('common/bootstrap'); ?>
 <?php $this->load->view('common/navbar'); ?>
 
-<div class="container border shadow-sm rounded bg-white">
+<div class="container border shadow-sm rounded bg-white mt-2">
   <h1><?php echo lang('create_group_heading');?></h1>
   <p><?php echo lang('create_group_subheading');?></p>
 

@@ -1,3 +1,8 @@
+<?php $this->load->view('common/bootstrap'); ?>
+<?php $this->load->view('common/navbar'); ?>
+
+<div class="container border shadow-sm rounded bg-white mt-2">
+
 <h1><?php echo lang('change_password_heading');?></h1>
 
 <div id="infoMessage"><?php echo $message;?></div>
@@ -23,3 +28,4 @@
       <p><?php echo form_submit('submit', lang('change_password_submit_btn'));?></p>
 
 <?php echo form_close();?>
+</div>
