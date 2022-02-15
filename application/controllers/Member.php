@@ -65,7 +65,7 @@ class Member extends CI_Controller {
 
   public function insert() {
     if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
-      redirect(base_url());
+      redirect(base_url('member/list'));
     }
 
 
@@ -112,7 +112,7 @@ class Member extends CI_Controller {
 
   public function update($member_id = NULL) {
     if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
-      redirect(base_url());
+      redirect(base_url('member/list'));
     }
 
 
@@ -171,7 +171,7 @@ class Member extends CI_Controller {
       //TODO: hibaüzenetek
 
       if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
-        redirect(base_url());
+        redirect(base_url('member/list'));
       }
 
 
