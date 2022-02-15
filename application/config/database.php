@@ -76,9 +76,13 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	//'hostname' => 'localhost:3306',
-	'hostname' => '192.168.1.113:3306',
-	'username' => 'thesis',
-	'password' => 'a7RHt[2vj4HQZ6em',
+	//'hostname' => '192.168.1.113:3306',
+	'hostname' => 'eu-cdbr-west-02.cleardb.net',
+	//'username' => 'thesis',
+	'username' => 'b4b31c7ff85463',
+
+	//'password' => 'a7RHt[2vj4HQZ6em',
+	'password' => '35755fba',
 	'database' => 'thesis',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
