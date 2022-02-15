@@ -24,8 +24,6 @@
           <?php else : ?>
             Sikertelen
           <?php endif; ?>
-
-
         </li>
         <li class="list-group-item"> Iskola : <?=$record->intezmeny_nev?> </li>
       </ul>
