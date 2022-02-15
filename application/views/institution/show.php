@@ -10,7 +10,7 @@
 
 <div class="container border p-3 shadow-smt bg-white">
 
-  <div class="card" style="width:400px">
+  <div class="card" style="width:300px">
     <img class="card-img-top" src="/public/images/institution.png" alt="Card image">
     <div class="card-body">
       <h4 class="card-title text-center"><?=$record->nev?></h4>
