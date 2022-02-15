@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md bg-dark navbar-dark shadow py-1 sticky-top">
  <!-- Brand -->
- <a class="navbar-brand" href="/thesis">Roma Szakkollégium</a>
+ <a class="navbar-brand" href="/">Roma Szakkollégium</a>
 
  <?php if($this->ion_auth->logged_in()): ?>
 
