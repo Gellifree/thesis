@@ -11,7 +11,7 @@
 
 
  <?php
- // remove /tehsis in links TODO -> fix later to generate proper anchors
+ // remove /thesis in links TODO -> fix later to generate proper anchors
  ?>
  <!-- Navbar links -->
  <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -33,8 +33,14 @@
      </li>
    </ul>
 
+
+
+
    <form class="form-inline ml-auto my-2" >
       <?php echo '<a href="/auth/logout" class="btn btn-info form-control">'. 'Kijelentkezés' .'</a>'; ?>
+      <?php if($this->ion_auth->is_admin()): ?>
+        <?php echo '<a href="/auth" class="btn btn-info form-control">'. 'ADMIN' .'</a>'; ?>
+      <?php endif; ?>
    </form>
  <?php else : ?>
    <form class="form-inline ml-auto my-2" >
