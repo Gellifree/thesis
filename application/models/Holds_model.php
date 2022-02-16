@@ -10,6 +10,15 @@ class Holds_model extends CI_Model {
       $this->load->database();
   }
 
+  public function get_one($presentation_id, $member_id) {
+    $this->db->select('t.eloadas, t.tag');
+    $this->db->from('tartja t');
+    $this->db->where('t.eloadas', $presentation_id);
+    $this->db->where('t.tag', $member_id);
+
+    return $this->db->get()->row();
+  }
+
   public function get_presentation_list($member_id) {
     $this->db->select('t.eloadas, t.tag, e.nev eloadas_nev');
     $this->db->from('tartja t');
@@ -37,6 +46,12 @@ class Holds_model extends CI_Model {
 
     $this->db->insert('tartja', $record);
     return $this->db->insert_id();
+  }
+
+  public function delete($presentation_id, $member_id) {
+      $this->db->where('eloadas',$presentation_id);
+      $this->db->where('tag',$member_id);
+      return $this->db->delete('tartja');
   }
 
 }

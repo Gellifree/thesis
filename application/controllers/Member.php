@@ -209,7 +209,7 @@ class Member extends CI_Controller {
       if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
         redirect(base_url('member/list'));
       }
-
+      //TODO ellenőrzés
 
         if (!$this->ion_auth->is_admin()) {
           redirect(base_url());
@@ -236,5 +236,47 @@ class Member extends CI_Controller {
             show_error('A törlés sikertelen!');
         }
     }
+
+    public function delete_presentation($presentation_id = NULL, $member_id = NULL) {
+      //TODO: hibaüzenetek
+
+      if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
+        redirect(base_url('member/list'));
+      }
+
+        if (!$this->ion_auth->is_admin()) {
+          redirect(base_url());
+        }
+
+        if($member_id == NULL) {
+            redirect(base_url('member/list'));
+        }
+
+        if(!is_numeric($member_id)) {
+            redirect(base_url('member/list'));
+        }
+
+        if($presentation_id == NULL) {
+            redirect(base_url('member/list'));
+        }
+
+        if(!is_numeric($presentation_id)) {
+            redirect(base_url('member/list'));
+        }
+
+        $record = $this->holds_model->get_one($presentaiton_id, $member_id);
+
+        if($record == NULL || empty($record)) {
+            redirect(base_url('member/list'));
+        }
+
+        if($this->holds_model->delete($presentaiton_id, $member_id)) {
+            redirect(base_url('member/list'));
+        }
+        else {
+            show_error('A törlés sikertelen!');
+        }
+    }
+
 
 }

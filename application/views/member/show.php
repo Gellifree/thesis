@@ -34,6 +34,7 @@
     <ul class="list-group mt-3">
     <?php foreach ($has_presentations as $presentation): ?>
       <li class="list-group-item"> <?php echo $presentation->eloadas_nev ?> </li>
+      <?php echo anchor(base_url('member/delete_presentation/'.$presentation->id.'/'.$record->id), '<h5 class="fas fa-trash text-info"></h5>'); ?>
     <?php endforeach ?>
     </ul>
     <?php

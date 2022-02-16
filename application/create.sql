@@ -68,9 +68,12 @@ create table tartja(
 	eloadas int not null,
 	tag int not null,
 
-	constraint fk_tartja_eloadas foreign key (eloadas) references eloadas(id),
-	constraint fk_tartja_tag foreign key (tag) references tag(id)
+	constraint fk_tartja_eloadas foreign key (eloadas) references eloadas(id) on delete cascade,
+	constraint fk_tartja_tag foreign key (tag) references tag(id) on delete cascade
 );
+
+-- Egyediség megőrzése
+ALTER TABLE `tartja` ADD UNIQUE(`eloadas`, `tag`);
 
 -- ------------------- --
 --  ADATOK FELTÖLTÉSE  --
