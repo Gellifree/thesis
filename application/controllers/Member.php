@@ -59,15 +59,20 @@ class Member extends CI_Controller {
       }
 
 
-      $view_params = [
-          'title'               => 'Részletes rekordadatok',
-          'record'              => $record,
-          'has_presentations'   => $this->holds_model->get_presentation_list($member_id),
-          'presentations'       => $presentations,
-      ];
+      $this->load->library('form_validation');
+      $this->form_validation->set_rules('eloadasok', 'Előadás', 'required');
+      if($this->form_validation->run() == TRUE) {
+        //..
+      } else {
+        $view_params = [
+            'title'               => 'Részletes rekordadatok',
+            'record'              => $record,
+            'has_presentations'   => $this->holds_model->get_presentation_list($member_id),
+            'presentations'       => $presentations,
+        ];
 
-
-      $this->load->view('member/show', $view_params);
+        $this->load->view('member/show', $view_params);
+      }
 
     }
   }
