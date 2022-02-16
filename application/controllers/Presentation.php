@@ -44,8 +44,9 @@ class Presentation extends CI_Controller {
       }
 
       $view_params = [
-          'title'  => 'Részletes rekordadatok',
-          'record' => $record
+          'title'   => 'Részletes rekordadatok',
+          'record'  => $record,
+          'members' => $this->holds_model->get_user_list($presentation_id),
       ];
 
       $this->load->view('presentation/show', $view_params);

@@ -37,6 +37,7 @@
     <?php endforeach ?>
     </ul>
 
+    <!-- TODO: implement addition -->
     <?php echo anchor(base_url('member/list'), 'Előadás hozzákapcsolása', ['class' => 'btn btn-info my-3']) ?>
 
   </div>

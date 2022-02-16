@@ -18,4 +18,14 @@ class Holds_model extends CI_Model {
     //orderby
     return $this->db->get()->result();
   }
+
+
+  public function get_user_list($presentation_id) {
+    $this->db->select('t.eloadas, t.tag, ta.nev tag_nev');
+    $this->db->from('tartja t');
+    $this->db->join('tag ta', 'ta.id = t.tag', 'inner');
+    $this->db->where('t.eloadas', $presentation_id);
+    //orderby
+    return $this->db->get()->result();
+  }
 }

@@ -7,29 +7,48 @@
 
 <div class="container border p-3 shadow-smt bg-white">
 
-  <div class="card" style="width:300px">
-    <img class="card-img-top" src="/public/images/presentation.png" alt="Card image">
-    <div class="card-body">
-      <h4 class="card-title text-center"><?=$record->nev?></h4>
-      <ul class="list-group">
-        <li class="list-group-item"> Megnevezés : <?=$record->nev?></li>
-        <li class="list-group-item"> Időpont : <?=$record->idopont?>  </li>
-        <li class="list-group-item"> Állapot :
-          <?php if($record->allapot == 0) : ?>
-            Eggyeztetett
-          <?php elseif($record->allapot == 1) : ?>
-            Még nem eggyeztetett
-          <?php elseif($record->allapot == 2) : ?>
-            Sikeresen teljesített
-          <?php else : ?>
-            Sikertelen
-          <?php endif; ?>
-        </li>
-        <li class="list-group-item"> Iskola : <?=$record->intezmeny_nev?> </li>
-      </ul>
+<div class="row">
+  <div class="col-">
+    <div class="card" style="width:300px">
+      <img class="card-img-top" src="/public/images/presentation.png" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title text-center"><?=$record->nev?></h4>
+        <ul class="list-group">
+          <li class="list-group-item"> Megnevezés : <?=$record->nev?></li>
+          <li class="list-group-item"> Időpont : <?=$record->idopont?>  </li>
+          <li class="list-group-item"> Állapot :
+            <?php if($record->allapot == 0) : ?>
+              Eggyeztetett
+            <?php elseif($record->allapot == 1) : ?>
+              Még nem eggyeztetett
+            <?php elseif($record->allapot == 2) : ?>
+              Sikeresen teljesített
+            <?php else : ?>
+              Sikertelen
+            <?php endif; ?>
+          </li>
+          <li class="list-group-item"> Iskola : <?=$record->intezmeny_nev?> </li>
+        </ul>
+      </div>
     </div>
-  </div>
 
-<?php echo anchor(base_url('presentation/list'), 'Vissza a listázó nézetre') ?>
+  <?php echo anchor(base_url('presentation/list'), 'Vissza a listázó nézetre') ?>
+  </div>
+  <!-- TODO hozzáadás implementálása -->
+  <div class="col  p-3">
+    <h5>Kapcsolodó tagok</h5>
+    <ul class="list-group mt-3">
+    <?php foreach ($members as $member): ?>
+      <li class="list-group-item"> <?php echo $member->tag_nev ?> </li>
+    <?php endforeach ?>
+    </ul>
+
+    <!-- TODO: implement addition -->
+    <?php echo anchor(base_url('presentation/list'), 'Tag hozzákapcsolása', ['class' => 'btn btn-info my-3']) ?>
+
+  </div>
+</div>
+
+
 
 </div>
