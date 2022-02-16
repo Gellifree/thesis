@@ -52,18 +52,9 @@ class Member extends CI_Controller {
           show_error('Az ID-vel nem létezik aktív rekort');
       }
 
-      $presentations = [];
-      $list = $this->presentation_model->get_list();
-      foreach($list as &$item) {
-        $presentations[$item->id] = $item->nev;
-      }
 
-      $view_params = [
-          'title'               => 'Részletes rekordadatok',
-          'record'              => $record,
-          'has_presentations'   => $this->holds_model->get_presentation_list($member_id),
-          'presentations'       => $presentations,
-      ];
+
+
 
       $this->load->library('form_validation');
       $this->form_validation->set_rules('eloadasok', 'Előadás', 'required');
@@ -71,9 +62,36 @@ class Member extends CI_Controller {
         if($this->holds_model->add_presentation_to_user($this->input->post('eloadasok'), $member_id)) {
           redirect(base_url('member/list'));
         } else {
+          // TODO: redundancia eltávolítása
+          $presentations = [];
+          $list = $this->presentation_model->get_list();
+          foreach($list as &$item) {
+            $presentations[$item->id] = $item->nev;
+          }
+
+          $view_params = [
+              'title'               => 'Részletes rekordadatok',
+              'record'              => $record,
+              'has_presentations'   => $this->holds_model->get_presentation_list($member_id),
+              'presentations'       => $presentations,
+          ];
+
           $this->load->view('member/show', $view_params);
         }
       } else {
+
+        $presentations = [];
+        $list = $this->presentation_model->get_list();
+        foreach($list as &$item) {
+          $presentations[$item->id] = $item->nev;
+        }
+
+        $view_params = [
+            'title'               => 'Részletes rekordadatok',
+            'record'              => $record,
+            'has_presentations'   => $this->holds_model->get_presentation_list($member_id),
+            'presentations'       => $presentations,
+        ];
 
         $this->load->view('member/show', $view_params);
       }
