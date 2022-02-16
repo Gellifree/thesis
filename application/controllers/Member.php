@@ -16,6 +16,7 @@ class Member extends CI_Controller {
 
     $this->load->model('member_model');
     $this->load->model('status_model');
+    $this->load->model('presentation_model');
     $this->load->model('holds_model');
     $this->lang->load('member');
   }
@@ -51,10 +52,18 @@ class Member extends CI_Controller {
           show_error('Az ID-vel nem létezik aktív rekort');
       }
 
+      $presentations = [];
+      $list = $this->presentation_model->get_list();
+      foreach($list as &$item) {
+        $presentations[$item->id] = $item->nev;
+      }
+
+
       $view_params = [
-          'title'  => 'Részletes rekordadatok',
-          'record' => $record,
-          'presentations' => $this->holds_model->get_presentation_list($member_id),
+          'title'               => 'Részletes rekordadatok',
+          'record'              => $record,
+          'has_presentations'   => $this->holds_model->get_presentation_list($member_id),
+          'presentations'       => $presentations,
       ];
 
 

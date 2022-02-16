@@ -32,13 +32,32 @@
   <div class="col  p-3">
     <h5>Kapcsolodó előadások</h5>
     <ul class="list-group mt-3">
-    <?php foreach ($presentations as $presentation): ?>
+    <?php foreach ($has_presentations as $presentation): ?>
       <li class="list-group-item"> <?php echo $presentation->eloadas_nev ?> </li>
     <?php endforeach ?>
     </ul>
 
     <!-- TODO: implement addition -->
     <?php echo anchor(base_url('member/list'), 'Előadás hozzákapcsolása', ['class' => 'btn btn-info my-3']) ?>
+
+    <?php
+
+    echo form_open();
+    echo form_dropdown(
+      ['name' => 'eloadasok', 'class' => 'btn btn-info m-1'],
+      $presentations
+    );
+
+    echo form_button(
+      ['type' => 'submit'],
+      lang('send'),
+      ['class' => 'btn btn-warning m-1 float-right']
+    );
+
+    echo form_close();
+
+    ?>
+
 
   </div>
 </div>
