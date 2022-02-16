@@ -36,10 +36,6 @@
       <li class="list-group-item"> <?php echo $presentation->eloadas_nev ?> </li>
     <?php endforeach ?>
     </ul>
-
-    <!-- TODO: implement addition -->
-    <?php echo anchor(base_url('member/list'), 'Előadás hozzákapcsolása', ['class' => 'btn btn-info my-3']) ?>
-
     <?php
 
     echo form_open();
