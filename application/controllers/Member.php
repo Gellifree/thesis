@@ -62,9 +62,9 @@ class Member extends CI_Controller {
       $this->load->library('form_validation');
       $this->form_validation->set_rules('eloadasok', 'Előadás', 'required');
       if($this->form_validation->run() == TRUE) {
-        // model
-        //
         if($this->holds_model->add_presentation_to_user($this->input->post('eloadasok'), $member_id)) {
+          redirect(base_url('member/list'));
+        } else {
           redirect(base_url('member/list'));
         }
       } else {
