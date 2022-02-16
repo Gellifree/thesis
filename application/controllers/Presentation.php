@@ -12,6 +12,7 @@ class Presentation extends CI_Controller {
 
     $this->load->model('presentation_model');
     $this->load->model('institution_model');
+    $this->load->model('holds_model');
     $this->lang->load('presentation');
   }
 
