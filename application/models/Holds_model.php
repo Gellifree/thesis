@@ -49,9 +49,10 @@ class Holds_model extends CI_Model {
   }
 
   public function delete($presentation_id, $member_id) {
-      $this->db->where('eloadas',$presentation_id);
-      $this->db->where('tag',$member_id);
-      return $this->db->delete('tartja');
+    $array = array('eloadas' => $presentation_id, 'tag' => $member_id);
+
+    $this->db->where($array);
+    return $this->db->delete('tartja');
   }
 
 }

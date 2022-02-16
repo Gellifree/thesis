@@ -262,13 +262,11 @@ class Member extends CI_Controller {
 
         $record = $this->holds_model->get_one($presentation_id, $member_id);
 
-        var_dump($record);
-
         if($record == NULL || empty($record)) {
             redirect(base_url('member/list'));
         }
 
-        if($this->holds_model->delete($presentaiton_id, $member_id)) {
+        if($this->holds_model->delete($presentation_id, $member_id)) {
             redirect(base_url('member/list/'.$member_id));
         }
         else {
