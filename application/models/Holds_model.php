@@ -28,4 +28,15 @@ class Holds_model extends CI_Model {
     //orderby
     return $this->db->get()->result();
   }
+
+  public function add_presentation_to_user($presentation_id, $member_id) {
+    $record = [
+      'eloadas' => $presentation_id,
+      'tag'     => $member_id
+    ];
+
+    $this->db->insert('tartja', $record);
+    return $this->db->insert_id();
+  }
+
 }
