@@ -244,10 +244,6 @@ class Member extends CI_Controller {
         redirect(base_url('member/list'));
       }
 
-        if (!$this->ion_auth->is_admin()) {
-          redirect(base_url());
-        }
-
         if($member_id == NULL) {
             redirect(base_url('member/list'));
         }
@@ -264,7 +260,7 @@ class Member extends CI_Controller {
             redirect(base_url('member/list'));
         }
 
-        $record = $this->holds_model->get_one($presentaiton_id, $member_id);
+        $record = $this->holds_model->get_one($presentation_id, $member_id);
 
         if($record == NULL || empty($record)) {
             redirect(base_url('member/list'));
