@@ -37,6 +37,12 @@
   <!-- TODO hozzáadás implementálása -->
   <div class="col-lg-9  p-3 border bg-white shadow-sm rounded mb-3">
     <h5>Kapcsolodó tagok</h5>
+
+    <?php if ($has_members == null || empty($has_members)): ?>
+        <p class="text-secondary"> Nincs eggyetlen Tag sem hozzárendelve ehhez az előadáshoz. </p>
+    <?php else: ?>
+
+
     <ul class="list-group mt-3 mb-4">
     <?php foreach ($has_members as $member): ?>
       <li class="list-group-item p-2"> <?php echo $member->tag_nev ?>
@@ -44,7 +50,7 @@
       </li>
     <?php endforeach ?>
     </ul>
-
+    <?php endif; ?>
     <?php
 
     echo form_open();
@@ -61,6 +67,7 @@
 
     echo form_close();
     ?>
+
   </div>
 
   <?php echo anchor(base_url('presentation/list'), 'Vissza a listázó nézetre', ['class' => 'btn btn-outline-info mt-3 shadow-sm']) ?>

@@ -39,6 +39,7 @@ echo form_input(
 
 
 echo form_error('tagsag_kezdete');
+echo '<label class="form-text mx-2"> Csatlakozás dátuma: </label>';
 echo form_input(
     ['type' => 'date', 'name' => 'tagsag_kezdete'],
     set_value('tagsag_kezdete', ''),

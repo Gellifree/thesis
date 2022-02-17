@@ -31,6 +31,11 @@
   </div>
   <div class="col-lg-9  p-3 border bg-white shadow-sm rounded mb-3">
     <h5>Kapcsolodó előadások</h5>
+
+    <?php if ($has_presentations == null || empty($has_presentations)): ?>
+        <p class="text-secondary"> Nincs eggyetlen Előadás sem hozzárendelve ehhez az Taghoz. </p>
+    <?php else: ?>
+
     <ul class="list-group mt-3 mb-4">
     <?php foreach ($has_presentations as $presentation): ?>
       <li class="list-group-item"> <?php echo $presentation->eloadas_nev ?>
@@ -39,6 +44,7 @@
 
     <?php endforeach ?>
     </ul>
+        <?php endif; ?>
     <?php
 
     echo form_open();

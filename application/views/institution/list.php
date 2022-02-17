@@ -10,7 +10,7 @@
 
 <div class="container border shadow-smt bg-white p-3">
 <?php if ($records == null || empty($records)): ?>
-    <p class="m-3"> Nincs rögzítve eggyetlen intézmény sem. </p>
+    <p class="text-secondary"> Nincs rögzítve eggyetlen intézmény sem. </p>
 <?php else: ?>
     <!-- <input class="form-control" id="searchInput" type="text" placeholder="Szűrés a táblázatban.."> -->
     <br>
@@ -30,7 +30,7 @@
                     <!-- <td> <?=$record->id?> </td> -->
                     <td> <?=$record->nev?> </td>
                     <td> <?=$record->megye_nev?> </td>
-                    <td> <?=$record->telefon?> </td>
+                    <td>  <?=($record->telefon == null ? 'Nincs rögzítve.' : $record->telefon)?> </td>
                     <td class="text-center" style="width: 85px">
                         <?php echo anchor(base_url('institution/list/'.$record->id), '<h5 class="fas fa-info-circle text-info "></h5>'); ?>
 

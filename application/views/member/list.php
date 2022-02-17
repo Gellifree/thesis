@@ -10,7 +10,7 @@
 
 <div class="container border p-3 shadow-smt bg-white">
 <?php if ($records == null || empty($records)): ?>
-    <p class="m-2 text-secondary"> Nincs rögzítve eggyetlen tag sem. </p>
+    <p class="text-secondary"> Nincs rögzítve eggyetlen tag sem. </p>
 <?php else: ?>
 
     <?php /*
