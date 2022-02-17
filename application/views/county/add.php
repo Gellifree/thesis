@@ -24,10 +24,12 @@ echo form_input(
 echo form_button(
     ['type' => 'submit'],
     lang('send'),
-    ['class' => 'btn btn-warning m-1 float-right']
+    ['class' => 'btn btn-warning m-1 float-end']
 );
 ?>
+<div class="d-grid">
+  <?php echo anchor(base_url('county/list'), lang('go_back_to_list'), ['class' => 'btn btn-outline-info my-1']); ?>
+</div>
 
-<?php echo anchor(base_url('county/list'), lang('go_back_to_list'), ['class' => 'btn btn-outline-info m-1']); ?>
 
 </div>

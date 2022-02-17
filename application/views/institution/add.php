@@ -63,14 +63,16 @@ echo form_dropdown(
 echo form_button(
     ['type' => 'submit'],
     lang('send'),
-    ['class' => 'btn btn-warning m-1 float-right']
+    ['class' => 'btn btn-warning m-1 float-end']
 );
 
 
 echo form_close();
 ?>
+<div class="d-grid">
+  <?php echo anchor(base_url('institution/list'), lang('go_back_to_list'), ['class' => 'btn btn-outline-info m-1']); ?>
+</div>
 
-<?php echo anchor(base_url('institution/list'), lang('go_back_to_list'), ['class' => 'btn btn-outline-info m-1']); ?>
 
 
 </div>

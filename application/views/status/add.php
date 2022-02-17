@@ -23,12 +23,15 @@ echo form_input(
 echo form_input(
     ['type' => 'submit', 'name' => 'submit_button'],
     lang('send'),
-    ['class' => 'btn btn-info my-3']
+    ['class' => 'btn btn-warning my-3 float-end']
 );
 
 echo form_close();
 ?>
 
-<?php echo anchor(base_url('status/list'), lang('go_back_to_list'), ['class' => 'btn btn-info']); ?>
+
+<div class="d-grid">
+<?php echo anchor(base_url('status/list'), lang('go_back_to_list'), ['class' => 'btn btn-outline-info me-2']); ?>
+</div>
 
 </div>

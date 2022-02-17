@@ -57,18 +57,21 @@ echo form_dropdown(
     ['name' => 'aktiv', 'class' => 'btn btn-info m-1'],
     $aktiv
 );
-echo '<br>';
 echo form_button(
     ['type' => 'submit'],
     lang('send'),
-    ['class' => 'btn btn-warning m-1']
+    ['class' => 'btn btn-warning m-1 float-end']
 );
 
 ?>
-
 <?php echo form_close(); ?>
 
+<div class="d-grid">
 <?php echo anchor(base_url('member/list'), lang('go_back_to_list'), ['class' => 'btn btn-outline-info m-1']); ?>
+</div>
+
+
+
 
 
 </div>
