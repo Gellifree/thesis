@@ -231,7 +231,7 @@ class Presentation extends CI_Controller {
       }
 
       if($this->holds_model->delete($presentation_id, $member_id)) {
-          redirect(base_url('presentation/list/'.$member_id));
+          redirect(base_url('presentation/list/'.$presentation_id));
       }
       else {
           show_error('A törlés sikertelen!');
