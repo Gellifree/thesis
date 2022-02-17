@@ -6,10 +6,12 @@
 * @author Kovács Norbert
 */
 
-class Member extends CI_Controller {
-  public function __construct() {
-    parent::__construct();
+class Member extends CI_Controller
+{
+    public function __construct()
+    {
+        parent::__construct();
 
-    $this->load->model('holds_model');
-  }
+        $this->load->model('holds_model');
+    }
 }

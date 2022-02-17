@@ -21,10 +21,10 @@
 
   <p>
     <?php echo form_submit(
-      'submit',
-      lang('deactivate_submit_btn'),
-      ['class' => 'btn btn-info']
-    );
+    'submit',
+    lang('deactivate_submit_btn'),
+    ['class' => 'btn btn-info']
+);
       ?>
   </p>
 

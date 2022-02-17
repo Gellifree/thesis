@@ -9,7 +9,7 @@
 
 
 <div class="container border p-3 shadow-smt bg-white">
-<?php if($records == null || empty($records)): ?>
+<?php if ($records == null || empty($records)): ?>
     <p class="m-2 text-secondary"> Nincs rögzítve eggyetlen tag sem. </p>
 <?php else: ?>
 
@@ -28,7 +28,7 @@
                 <!-- <th>Azonosító</th> -->
                 <th> <?php echo lang('member_name') ?> </th>
                 <th> <?php echo lang('member_status') ?> </th>
-                <?php if($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
+                <?php if ($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
                   <th> <?php echo lang('member_scholarship') ?> </th>
                 <?php endif; ?>
                 <th> <?php echo lang('operations') ?> </th>
@@ -41,13 +41,13 @@
                     <td> <?=$record->nev?> </td>
                     <td> <?=$record->statusz_nev?> </td>
 
-                    <?php if($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
+                    <?php if ($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
                       <td> <?=$record->osztondij?> HUF </td>
                     <?php endif; ?>
 
                     <td class="text-center" style="width: 85px">
                         <?php echo anchor(base_url('member/list/'.$record->id), '<h5 class="fas fa-info-circle text-info"></h5>'); ?>
-                        <?php if($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
+                        <?php if ($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
                           <?php echo anchor(base_url('member/update/'.$record->id), '<h5 class="fas fa-edit text-info"></h5>'); ?>
                           <?php echo anchor(base_url('member/delete/'.$record->id), '<h5 class="fas fa-trash text-info"></h5>'); ?>
                         <?php endif; ?>
@@ -75,7 +75,7 @@
 
 
 <?php endif; ?>
-<?php if($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
+<?php if ($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
   <?php echo anchor(base_url('member/insert'), lang('add'), ['class' => 'btn btn-info']); ?>
 <?php endif; ?>
 

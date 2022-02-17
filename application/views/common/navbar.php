@@ -7,7 +7,7 @@
    <div class="collapse navbar-collapse" id="mynavbar">
 
      <ul class="navbar-nav me-auto">
-       <?php if($this->ion_auth->logged_in()): ?>
+       <?php if ($this->ion_auth->logged_in()): ?>
        <li class="nav-item">
          <a class="nav-link" href="/presentation/list">Előadás</a>
        </li>
@@ -17,12 +17,12 @@
        <li class="nav-item">
          <a class="nav-link" href="/institution/list">Intézmény</a>
        </li>
-       <?php if($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
+       <?php if ($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
          <li class="nav-item">
            <a class="nav-link" href="/status/list">Státuszok</a>
          </li>
        <?php endif; ?>
-       <?php if($this->ion_auth->in_group(['admin'], false, false)) : ?>
+       <?php if ($this->ion_auth->in_group(['admin'], false, false)) : ?>
          <li class="nav-item">
            <a class="nav-link" href="/county/list">Megye</a>
          </li>
@@ -31,10 +31,10 @@
      </ul>
 
      <form class="d-flex" style="margin-bottom: 0">
-       <?php if($this->ion_auth->is_admin()) : ?>
+       <?php if ($this->ion_auth->is_admin()) : ?>
          <?php echo '<a href="/auth" class="btn btn-sm btn-danger  my-2 mx-1">'. 'ADMIN' .'</a>'; ?>
        <?php endif; ?>
-       <?php if($this->ion_auth->logged_in()) : ?>
+       <?php if ($this->ion_auth->logged_in()) : ?>
          <?php echo '<a href="/auth/logout" class="btn btn-sm btn-info my-2 mx-1">'. 'Kijelentkezés' .'</a>'; ?>
        <?php else : ?>
          <?php echo '<a href="/auth/login" class="btn btn-sm btn-info my-2 mx-1">'. 'Bejelentkezés' .'</a>'; ?>

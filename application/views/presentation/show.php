@@ -17,11 +17,11 @@
           <li class="list-group-item"> Megnevezés : <?=$record->nev?></li>
           <li class="list-group-item"> Időpont : <?=$record->idopont?>  </li>
           <li class="list-group-item"> Állapot :
-            <?php if($record->allapot == 0) : ?>
+            <?php if ($record->allapot == 0) : ?>
               Eggyeztetett
-            <?php elseif($record->allapot == 1) : ?>
+            <?php elseif ($record->allapot == 1) : ?>
               Még nem eggyeztetett
-            <?php elseif($record->allapot == 2) : ?>
+            <?php elseif ($record->allapot == 2) : ?>
               Sikeresen teljesített
             <?php else : ?>
               Sikertelen
@@ -49,14 +49,14 @@
 
     echo form_open();
     echo form_dropdown(
-      ['name' => 'tagok', 'class' => 'btn btn-info m-1'],
-      $members
+        ['name' => 'tagok', 'class' => 'btn btn-info m-1'],
+        $members
     );
 
     echo form_button(
-      ['type' => 'submit'],
-      lang('send'),
-      ['class' => 'btn btn-warning m-1 float-end']
+        ['type' => 'submit'],
+        lang('send'),
+        ['class' => 'btn btn-warning m-1 float-end']
     );
 
     echo form_close();

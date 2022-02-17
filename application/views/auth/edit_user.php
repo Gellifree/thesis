@@ -13,49 +13,49 @@
 
       <p>
             <?php echo form_input(
-                    $first_name,
-                    '',
-                    ['placeholder' => lang('edit_user_fname_label'), 'class' => 'form-control my-2']
+    $first_name,
+    '',
+    ['placeholder' => lang('edit_user_fname_label'), 'class' => 'form-control my-2']
+); ?>
+      </p>
+
+      <p>
+            <?php echo form_input(
+                $last_name,
+                '',
+                ['placeholder' => lang('edit_user_lname_label'), 'class' => 'form-control my-2']
             ); ?>
       </p>
 
       <p>
             <?php echo form_input(
-                    $last_name,
-                    '',
-                    ['placeholder' => lang('edit_user_lname_label'), 'class' => 'form-control my-2']
+                $company,
+                '',
+                ['placeholder' => lang('edit_user_company_label'), 'class' => 'form-control my-2']
             ); ?>
       </p>
 
       <p>
             <?php echo form_input(
-                    $company,
-                    '',
-                    ['placeholder' => lang('edit_user_company_label'), 'class' => 'form-control my-2']
+                $phone,
+                '',
+                ['placeholder' => lang('edit_user_phone_label'), 'class' => 'form-control my-2']
             ); ?>
       </p>
 
       <p>
             <?php echo form_input(
-                    $phone,
-                    '',
-                    ['placeholder' => lang('edit_user_phone_label'), 'class' => 'form-control my-2']
+                $password,
+                '',
+                ['placeholder' => lang('edit_user_password_label'), 'class' => 'form-control my-2']
             ); ?>
       </p>
 
       <p>
             <?php echo form_input(
-                    $password,
-                    '',
-                    ['placeholder' => lang('edit_user_password_label'), 'class' => 'form-control my-2']
-            ); ?>
-      </p>
-
-      <p>
-            <?php echo form_input(
-                    $password_confirm,
-                    '',
-                    ['placeholder' => lang('edit_user_password_confirm_label'), 'class' => 'form-control my-2']
+                $password_confirm,
+                '',
+                ['placeholder' => lang('edit_user_password_confirm_label'), 'class' => 'form-control my-2']
             ); ?>
       </p>
 
@@ -65,7 +65,7 @@
           <?php foreach ($groups as $group):?>
               <label class="checkbox">
               <input type="checkbox" name="groups[]" value="<?php echo $group['id'];?>" <?php echo (in_array($group, $currentGroups)) ? 'checked="checked"' : null; ?>>
-              <?php echo htmlspecialchars($group['name'],ENT_QUOTES,'UTF-8');?>
+              <?php echo htmlspecialchars($group['name'], ENT_QUOTES, 'UTF-8');?>
               </label>
           <?php endforeach?>
 
@@ -76,10 +76,10 @@
 
       <p>
         <?php echo form_submit(
-          'submit',
-          lang('edit_user_submit_btn'),
-          ['class' => 'btn btn-info']
-        );
+                'submit',
+                lang('edit_user_submit_btn'),
+                ['class' => 'btn btn-info']
+            );
           ?>
       </p>
 

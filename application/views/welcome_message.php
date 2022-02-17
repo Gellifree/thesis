@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +16,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 
 <div class="container border shadow-sm rounded mt-3 bg-white p-2">
-	 <?php if($this->ion_auth->logged_in()): ?>
+	 <?php if ($this->ion_auth->logged_in()): ?>
 	<p class="text-secondary m-2">
 		Ön sikeresen bejelentkezett.
 	</p>

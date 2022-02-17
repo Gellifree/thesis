@@ -9,7 +9,7 @@
 
 
 <div class="container border shadow-smt bg-white p-3">
-<?php if($records == null || empty($records)): ?>
+<?php if ($records == null || empty($records)): ?>
     <p class="m-3"> Nincs rögzítve eggyetlen intézmény sem. </p>
 <?php else: ?>
     <!-- <input class="form-control" id="searchInput" type="text" placeholder="Szűrés a táblázatban.."> -->
@@ -34,7 +34,7 @@
                     <td class="text-center" style="width: 85px">
                         <?php echo anchor(base_url('institution/list/'.$record->id), '<h5 class="fas fa-info-circle text-info "></h5>'); ?>
 
-                        <?php if($this->ion_auth->in_group(['admin'], false, false)) : ?>
+                        <?php if ($this->ion_auth->in_group(['admin'], false, false)) : ?>
                           <?php echo anchor(base_url('institution/delete/'.$record->id), '<h5 class="fas fa-trash text-info "></h5>'); ?>
                         <?php endif; ?>
 

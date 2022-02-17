@@ -15,15 +15,15 @@ echo form_open();
 
 echo form_error('status_name');
 echo form_input(
-        ['type' => 'text', 'name' => 'status_name', 'required' => 'required', 'minlength' => 2],
-        set_value('status_name', ''),
-        ['placeholder' => lang('status_name'), 'class' => 'form-control']
+    ['type' => 'text', 'name' => 'status_name', 'required' => 'required', 'minlength' => 2],
+    set_value('status_name', ''),
+    ['placeholder' => lang('status_name'), 'class' => 'form-control']
 );
 
 echo form_input(
-        ['type' => 'submit', 'name' => 'submit_button'],
-        lang('send'),
-        ['class' => 'btn btn-info my-3']
+    ['type' => 'submit', 'name' => 'submit_button'],
+    lang('send'),
+    ['class' => 'btn btn-info my-3']
 );
 
 echo form_close();

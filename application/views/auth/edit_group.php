@@ -13,26 +13,26 @@
 
       <p>
             <?php echo form_input(
-                    $group_name,
-                    '',
-                    ['placeholder' => lang('edit_group_name_label'), 'class' => 'form-control my-2']
-            ); ?>
+    $group_name,
+    '',
+    ['placeholder' => lang('edit_group_name_label'), 'class' => 'form-control my-2']
+); ?>
 
       </p>
 
       <p>
             <?php echo form_input(
-                    $group_description,
-                    '',
-                    ['placeholder' => lang('edit_group_desc_label'), 'class' => 'form-control my-2']
+                $group_description,
+                '',
+                ['placeholder' => lang('edit_group_desc_label'), 'class' => 'form-control my-2']
             ); ?>
       </p>
 
       <?php echo form_submit(
-        'submit',
-        lang('edit_group_submit_btn'),
-        ['class' => 'btn btn-info']
-      );
+                'submit',
+                lang('edit_group_submit_btn'),
+                ['class' => 'btn btn-info']
+            );
         ?>
 
 <?php echo form_close();?>

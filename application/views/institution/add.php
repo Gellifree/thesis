@@ -13,57 +13,57 @@ echo form_open();
 
 echo form_error('nev');
 echo form_input(
-        ['type' => 'text', 'name' => 'nev'],
-        '',
-        ['placeholder' => 'Megnevezés', 'class' => 'form-control my-2']
+    ['type' => 'text', 'name' => 'nev'],
+    '',
+    ['placeholder' => 'Megnevezés', 'class' => 'form-control my-2']
 );
 
 echo form_error('cim');
 echo form_input(
-        ['type' => 'text', 'name' => 'cim'],
-        '',
-        ['placeholder' => 'Intézmény címe', 'class' => 'form-control my-2']
+    ['type' => 'text', 'name' => 'cim'],
+    '',
+    ['placeholder' => 'Intézmény címe', 'class' => 'form-control my-2']
 );
 
 echo form_error('igazgato_neve');
 echo form_input(
-        ['type' => 'text', 'name' => 'igazgato_neve'],
-        '',
-        ['placeholder' => 'Igazgató neve', 'class' => 'form-control my-2']
+    ['type' => 'text', 'name' => 'igazgato_neve'],
+    '',
+    ['placeholder' => 'Igazgató neve', 'class' => 'form-control my-2']
 );
 
 echo form_error('e_mail');
 echo form_input(
-        ['type' => 'email', 'name' => 'e_mail'],
-        '',
-        ['placeholder' => 'E-mail', 'class' => 'form-control my-2']
+    ['type' => 'email', 'name' => 'e_mail'],
+    '',
+    ['placeholder' => 'E-mail', 'class' => 'form-control my-2']
 );
 
 
 echo form_error('telefon');
 echo form_input(
-        ['type' => 'text', 'name' => 'telefon'],
-        '',
-        ['placeholder' => 'Telefonszám', 'class' => 'form-control my-2']
+    ['type' => 'text', 'name' => 'telefon'],
+    '',
+    ['placeholder' => 'Telefonszám', 'class' => 'form-control my-2']
 );
 
 echo form_error('weboldal');
 echo form_input(
-        ['type' => 'text', 'name' => 'weboldal'],
-        '',
-        ['placeholder' => 'Weboldal', 'class' => 'form-control my-2']
+    ['type' => 'text', 'name' => 'weboldal'],
+    '',
+    ['placeholder' => 'Weboldal', 'class' => 'form-control my-2']
 );
 
 echo form_error('megye');
 echo form_dropdown(
-  ['name' => 'megye', 'class' => 'btn btn-info m-1'],
-  $counties
+    ['name' => 'megye', 'class' => 'btn btn-info m-1'],
+    $counties
 );
 
 echo form_button(
-  ['type' => 'submit'],
-  lang('send'),
-  ['class' => 'btn btn-warning m-1 float-right']
+    ['type' => 'submit'],
+    lang('send'),
+    ['class' => 'btn btn-warning m-1 float-right']
 );
 
 

@@ -16,52 +16,52 @@
 echo form_error('nev');
 
 echo form_input(
-  ['type' => 'text', 'name' => 'nev'],
-  set_value('nev', ''),
-  ['placeholder' => lang('member_name'), 'class' => 'form-control m-1']
+    ['type' => 'text', 'name' => 'nev'],
+    set_value('nev', ''),
+    ['placeholder' => lang('member_name'), 'class' => 'form-control m-1']
 );
 
 
 echo form_error('osztondij');
 echo form_input(
-  ['type' => 'number', 'name' => 'osztondij'],
-  set_value('osztondij', ''),
-  ['placeholder' => lang('member_scholarship'), 'class' => 'form-control m-1']
+    ['type' => 'number', 'name' => 'osztondij'],
+    set_value('osztondij', ''),
+    ['placeholder' => lang('member_scholarship'), 'class' => 'form-control m-1']
 );
 
 
 echo form_error('email');
 echo form_input(
-  ['type' => 'email', 'name' => 'email'],
-  set_value('email', ''),
-  ['placeholder' => 'E-mail', 'class' => 'form-control m-1']
+    ['type' => 'email', 'name' => 'email'],
+    set_value('email', ''),
+    ['placeholder' => 'E-mail', 'class' => 'form-control m-1']
 );
 
 
 echo form_error('tagsag_kezdete');
 echo form_input(
-  ['type' => 'date', 'name' => 'tagsag_kezdete'],
-  set_value('tagsag_kezdete', ''),
-  ['class' => 'form-control m-1']
+    ['type' => 'date', 'name' => 'tagsag_kezdete'],
+    set_value('tagsag_kezdete', ''),
+    ['class' => 'form-control m-1']
 );
 
 echo form_error('status_id');
 echo form_dropdown(
-  ['name' => 'status_id', 'class' => 'btn btn-info m-1'],
-  $statuses
+    ['name' => 'status_id', 'class' => 'btn btn-info m-1'],
+    $statuses
 );
 
 
 echo form_error('aktiv');
 echo form_dropdown(
-  ['name' => 'aktiv', 'class' => 'btn btn-info m-1'],
-  $aktiv
+    ['name' => 'aktiv', 'class' => 'btn btn-info m-1'],
+    $aktiv
 );
 echo '<br>';
 echo form_button(
-  ['type' => 'submit'],
-  lang('send'),
-  ['class' => 'btn btn-warning m-1']
+    ['type' => 'submit'],
+    lang('send'),
+    ['class' => 'btn btn-warning m-1']
 );
 
 ?>

@@ -15,16 +15,16 @@ echo form_open();
 
 echo form_error('nev');
 echo form_input(
-        ['type' => 'text', 'name' => 'nev'],
-        '',
-        ['placeholder' => 'Megye neve', 'class' => 'form-control my-2']
+    ['type' => 'text', 'name' => 'nev'],
+    '',
+    ['placeholder' => 'Megye neve', 'class' => 'form-control my-2']
 );
 
 
 echo form_button(
-  ['type' => 'submit'],
-  lang('send'),
-  ['class' => 'btn btn-warning m-1 float-right']
+    ['type' => 'submit'],
+    lang('send'),
+    ['class' => 'btn btn-warning m-1 float-right']
 );
 ?>
 

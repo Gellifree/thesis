@@ -13,37 +13,37 @@ echo form_open();
 
 echo form_error('nev');
 echo form_input(
-        ['type' => 'text', 'name' => 'nev'],
-        $record->nev,
-        ['placeholder' => 'Megnevezés', 'class' => 'form-control my-2']
+    ['type' => 'text', 'name' => 'nev'],
+    $record->nev,
+    ['placeholder' => 'Megnevezés', 'class' => 'form-control my-2']
 );
 
 echo form_error('idopont');
 echo form_input(
-        ['type' => 'date', 'name' => 'idopont'],
-        $record->idopont,
-        ['class' => 'form-control my-2']
+    ['type' => 'date', 'name' => 'idopont'],
+    $record->idopont,
+    ['class' => 'form-control my-2']
 );
 
 echo form_error('allapot');
 echo form_dropdown(
-  ['name' => 'allapot', 'class' => 'btn btn-info m-1'],
-  $reconciled,
-  [ $record->allapot ]
+    ['name' => 'allapot', 'class' => 'btn btn-info m-1'],
+    $reconciled,
+    [ $record->allapot ]
 );
 
 
 echo form_error('iskola');
 echo form_dropdown(
-  ['name' => 'iskola', 'class' => 'btn btn-info m-1'],
-  $institutions,
-  [ $record->iskola ]
+    ['name' => 'iskola', 'class' => 'btn btn-info m-1'],
+    $institutions,
+    [ $record->iskola ]
 );
 
 echo form_button(
-  ['type' => 'submit'],
-  lang('send'),
-  ['class' => 'btn btn-warning m-1 float-right']
+    ['type' => 'submit'],
+    lang('send'),
+    ['class' => 'btn btn-warning m-1 float-right']
 );
 
 

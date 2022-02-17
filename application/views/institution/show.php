@@ -22,10 +22,10 @@
             <li class="list-group-item"> Megye : <?=$record->megye_nev?></li>
             <li class="list-group-item"> Cím : <?=$record->cim?>  </li>
             <li class="list-group-item"> Igazgató neve : <?=$record->igazgato_neve?> </li>
-            <li class="list-group-item"> Email : <?=($record->e_mail == NULL ? 'Nincs elérhető email az adatbázisban.' : $record->e_mail)?>  </li>
-            <li class="list-group-item"> Telefonszám : <?=($record->telefon == NULL ? 'Nincs elérhető telefonszám az adatbázisban.' : $record->telefon)?></li>
-            <li class="list-group-item"> Weboldal : <?=($record->weboldal == NULL ? 'Nincs elérhető weboldal az adatbázisban.' : $record->weboldal)?></li>
-            <li class="list-group-item"> Aktív : <?=($record->aktiv == 1 ? 'Aktív intézmény' : 'Inaktív intézmény' )?></li>
+            <li class="list-group-item"> Email : <?=($record->e_mail == null ? 'Nincs elérhető email az adatbázisban.' : $record->e_mail)?>  </li>
+            <li class="list-group-item"> Telefonszám : <?=($record->telefon == null ? 'Nincs elérhető telefonszám az adatbázisban.' : $record->telefon)?></li>
+            <li class="list-group-item"> Weboldal : <?=($record->weboldal == null ? 'Nincs elérhető weboldal az adatbázisban.' : $record->weboldal)?></li>
+            <li class="list-group-item"> Aktív : <?=($record->aktiv == 1 ? 'Aktív intézmény' : 'Inaktív intézmény')?></li>
           </ul>
         </div>
       </div>

@@ -8,7 +8,7 @@
 
 
 <div class="container border shadow-smt bg-white p-3">
-<?php if($records == null || empty($records)): ?>
+<?php if ($records == null || empty($records)): ?>
     <p class="m-3"> Nincs rögzítve eggyetlen előadás sem. </p>
 <?php else: ?>
     <table class="table table-bordered table-responsive">

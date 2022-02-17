@@ -12,33 +12,33 @@
 
     <p>
       <?php echo form_input(
-              $identity,
-              '',
-              ['placeholder' => lang('login_identity_label'), 'class' => 'form-control my-2']
-      ); ?>
+    $identity,
+    '',
+    ['placeholder' => lang('login_identity_label'), 'class' => 'form-control my-2']
+); ?>
     </p>
 
     <p>
       <?php echo form_input(
-              $password,
-              '',
-              ['placeholder' => lang('login_password_label'), 'class' => 'form-control my-2']
+          $password,
+          '',
+          ['placeholder' => lang('login_password_label'), 'class' => 'form-control my-2']
       ); ?>
     </p>
 
     <!--
     <p>
       <?php echo lang('login_remember_label', 'remember');?>
-      <?php echo form_checkbox('remember', '1', FALSE, 'id="remember"');?>
+      <?php echo form_checkbox('remember', '1', false, 'id="remember"');?>
     </p>
   -->
 
     <p>
     <?php echo form_submit(
-      'submit',
-      lang('login_submit_btn'),
-      ['class' => 'btn btn-info']
-    );
+          'submit',
+          lang('login_submit_btn'),
+          ['class' => 'btn btn-info']
+      );
       ?>
     </p>
 
