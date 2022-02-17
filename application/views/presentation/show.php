@@ -37,14 +37,39 @@
   <!-- TODO hozzáadás implementálása -->
   <div class="col  p-3">
     <h5>Kapcsolodó tagok</h5>
-    <ul class="list-group mt-3">
-    <?php foreach ($members as $member): ?>
-      <li class="list-group-item"> <?php echo $member->tag_nev ?> </li>
+    <ul class="list-group mt-3 mb-4">
+    <?php foreach ($has_members as $member): ?>
+      <li class="list-group-item"> <?php echo $member->tag_nev ?>
+        <?php echo anchor(base_url('presentation/delete_member/'.$member->tag.'/'.$record->id), '<h5 class="fas fa-trash text-info float-right"></h5>'); ?>
+      </li>
     <?php endforeach ?>
     </ul>
 
-    <!-- TODO: implement addition -->
-    <?php echo anchor(base_url('presentation/list'), 'Tag hozzákapcsolása', ['class' => 'btn btn-info my-3']) ?>
+    <?php
+
+    echo form_open();
+    echo form_dropdown(
+      ['name' => 'tagok', 'class' => 'btn btn-info m-1'],
+      $members
+    );
+
+    echo form_button(
+      ['type' => 'submit'],
+      lang('send'),
+      ['class' => 'btn btn-warning m-1 float-right']
+    );
+
+    echo form_close();
+
+    ?>
+
+
+
+
+
+
+
+
 
   </div>
 </div>

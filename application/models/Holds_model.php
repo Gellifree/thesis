@@ -48,6 +48,16 @@ class Holds_model extends CI_Model {
     return $this->db->insert_id();
   }
 
+  public function add_user_to_presentation($member_id, $presentation_id) {
+    $record = [
+      'eloadas' => $presentation_id,
+      'tag'     => $member_id
+    ];
+
+    $this->db->insert('tartja', $record);
+    return $this->db->insert_id();
+  }
+
   public function delete($presentation_id, $member_id) {
     $array = array('eloadas' => $presentation_id, 'tag' => $member_id);
 

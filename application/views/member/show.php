@@ -31,9 +31,11 @@
   </div>
   <div class="col  p-3">
     <h5>Kapcsolodó előadások</h5>
-    <ul class="list-group mt-3">
+    <ul class="list-group mt-3 mb-4">
     <?php foreach ($has_presentations as $presentation): ?>
-      <li class="list-group-item"> <?php echo $presentation->eloadas_nev ?> <?php echo anchor(base_url('member/delete_presentation/'.$presentation->eloadas.'/'.$record->id), '<h5 class="fas fa-trash text-info float-right"></h5>'); ?> </li>
+      <li class="list-group-item"> <?php echo $presentation->eloadas_nev ?>
+        <?php echo anchor(base_url('member/delete_presentation/'.$presentation->eloadas.'/'.$record->id), '<h5 class="fas fa-trash text-info float-right"></h5>'); ?>
+      </li>
 
     <?php endforeach ?>
     </ul>

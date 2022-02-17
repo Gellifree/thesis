@@ -12,6 +12,7 @@ class Presentation extends CI_Controller {
 
     $this->load->model('presentation_model');
     $this->load->model('institution_model');
+    $this->load->model('member_model');
     $this->load->model('holds_model');
     $this->lang->load('presentation');
   }
@@ -44,13 +45,46 @@ class Presentation extends CI_Controller {
         show_error('Az ID-vel nem létezik aktív rekort');
       }
 
-      $view_params = [
-          'title'   => 'Részletes rekordadatok',
-          'record'  => $record,
-          'members' => $this->holds_model->get_user_list($presentation_id),
-      ];
+      $this->load->helper('form');
+      $this->load->library('form_validation');
+      $this->form_validation->set_rules('tagok', 'Tagok', 'required');
 
-      $this->load->view('presentation/show', $view_params);
+      if($this->form_validation->run() == TRUE) {
+          if($this->holds_model->add_user_to_presentation($this->input->post('tagok'), $presentation_id)) {
+            redirect(base_url('presentation/list'));
+          } else {
+            // TODO: redundancia eltávolítása
+            $members = [];
+            $list = $this->member_model->get_list();
+            foreach($list as &$item) {
+              $members[$item->id] = $item->nev;
+            }
+
+            $view_params = [
+                'title'               => 'Részletes rekordadatok',
+                'record'              => $record,
+                'has_members'         => $this->holds_model->get_user_list($presentation_id),
+                'members'             => $members,
+            ];
+
+            $this->load->view('presentation/show', $view_params);
+          }
+      } else {
+        $members = [];
+        $list = $this->member_model->get_list();
+        foreach($list as &$item) {
+          $members[$item->id] = $item->nev;
+        }
+
+        $view_params = [
+            'title'               => 'Részletes rekordadatok',
+            'record'              => $record,
+            'has_members'         => $this->holds_model->get_user_list($presentation_id),
+            'members'             => $members,
+        ];
+
+        $this->load->view('presentation/show', $view_params);
+      }
 
     }
   }
@@ -164,6 +198,44 @@ class Presentation extends CI_Controller {
     else {
         show_error('A törlés sikertelen!');
     }
+  }
+
+
+  public function delete_member($member_id = NULL, $presentation_id = NULL) {
+    //TODO: hibaüzenetek
+
+    if(!$this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) {
+      redirect(base_url('member/list'));
+    }
+
+      if($member_id == NULL) {
+          redirect(base_url('member/list'));
+      }
+
+      if(!is_numeric($member_id)) {
+          redirect(base_url('member/list'));
+      }
+
+      if($presentation_id == NULL) {
+          redirect(base_url('member/list'));
+      }
+
+      if(!is_numeric($presentation_id)) {
+          redirect(base_url('member/list'));
+      }
+
+      $record = $this->holds_model->get_one($presentation_id, $member_id);
+
+      if($record == NULL || empty($record)) {
+          redirect(base_url('member/list'));
+      }
+
+      if($this->holds_model->delete($presentation_id, $member_id)) {
+          redirect(base_url('presentation/list/'.$member_id));
+      }
+      else {
+          show_error('A törlés sikertelen!');
+      }
   }
 
 
