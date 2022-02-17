@@ -13,12 +13,12 @@
     <p class="m-2 text-secondary"> Nincs rögzítve eggyetlen tag sem. </p>
 <?php else: ?>
 
-    <?php
+    <?php /*
     echo form_input(
       ['type' => 'text', 'name' => 'nev', 'id' => "searchInput"],
       '',
       ['placeholder' => lang('filter_in_table'), 'class' => 'form-control']
-    );
+    ); */
     ?>
 
     <br>
@@ -45,7 +45,7 @@
                       <td> <?=$record->osztondij?> HUF </td>
                     <?php endif; ?>
 
-                    <td class="text-right">
+                    <td class="text-center" style="width: 85px">
                         <?php echo anchor(base_url('member/list/'.$record->id), '<h5 class="fas fa-info-circle text-info"></h5>'); ?>
                         <?php if($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
                           <?php echo anchor(base_url('member/update/'.$record->id), '<h5 class="fas fa-edit text-info"></h5>'); ?>
@@ -57,8 +57,9 @@
             <?php endforeach; ?>
         </tbody>
     </table>
-    <p class="text-right"> <?php echo lang('quantity') ?> <?=count($records)?>  <?php echo lang('quantity_measure') ?></p>
+    <p class="text-end text-secondary"> <?php echo lang('quantity') ?> <?=count($records)?>  <?php echo lang('quantity_measure') ?></p>
 
+    <!--
     <script>
     $(document).ready(function(){
       $("#searchInput").on("keyup", function() {
@@ -69,6 +70,8 @@
       });
     });
     </script>
+    // TODO: Fix filtering
+    -->
 
 
 <?php endif; ?>

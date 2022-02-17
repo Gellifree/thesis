@@ -1,59 +1,45 @@
-<nav class="navbar navbar-expand-md bg-dark navbar-dark shadow py-1 sticky-top">
- <!-- Brand -->
- <a class="navbar-brand" href="/">Roma Szakkollégium</a>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark p-2">
+ <div class="container-fluid">
+   <a class="navbar-brand" href="/">Roma Szakkollégium</a>
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="mynavbar">
 
- <?php if($this->ion_auth->logged_in()): ?>
-
- <!-- Toggler/collapsibe Button -->
- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-   <span class="navbar-toggler-icon"></span>
- </button>
-
-
- <?php
- // remove /thesis in links TODO -> fix later to generate proper anchors
- ?>
- <!-- Navbar links -->
- <div class="collapse navbar-collapse" id="collapsibleNavbar">
-   <ul class="navbar-nav">
-     <li class="nav-item">
-       <a class="nav-link" href="/presentation/list">Előadás</a>
-     </li>
-     <li class="nav-item">
-       <a class="nav-link" href="/member/list"> Tagok </a>
-     </li>
-     <li class="nav-item">
-       <a class="nav-link" href="/institution/list">Intézmény</a>
-     </li>
-     <?php if($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
+     <ul class="navbar-nav me-auto">
+       <?php if($this->ion_auth->logged_in()): ?>
        <li class="nav-item">
-         <a class="nav-link" href="/status/list">Státuszok</a>
+         <a class="nav-link" href="/presentation/list">Előadás</a>
        </li>
-     <?php endif; ?>
-     <?php if($this->ion_auth->in_group(['admin'], false, false)) : ?>
        <li class="nav-item">
-         <a class="nav-link" href="/county/list">Megye</a>
+         <a class="nav-link" href="/member/list">Tagok</a>
        </li>
-     <?php endif; ?>
-
-
-
-   </ul>
-
-
-
-
-   <form class="form-inline ml-auto my-2" >
-      <?php if($this->ion_auth->is_admin()): ?>
-        <?php echo '<a href="/auth" class="btn btn-danger form-control m-2">'. 'ADMIN' .'</a>'; ?>
+       <li class="nav-item">
+         <a class="nav-link" href="/institution/list">Intézmény</a>
+       </li>
+       <?php if($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
+         <li class="nav-item">
+           <a class="nav-link" href="/status/list">Státuszok</a>
+         </li>
+       <?php endif; ?>
+       <?php if($this->ion_auth->in_group(['admin'], false, false)) : ?>
+         <li class="nav-item">
+           <a class="nav-link" href="/county/list">Megye</a>
+         </li>
+       <?php endif; ?>
       <?php endif; ?>
-      <?php echo '<a href="/auth/logout" class="btn btn-info form-control">'. 'Kijelentkezés' .'</a>'; ?>
-   </form>
- <?php else : ?>
-   <form class="form-inline ml-auto my-2" >
-     <?php echo '<a href="/auth/login" class="btn btn-info form-control">'. 'Bejelentkezés' .'</a>'; ?>
-   </form>
-    <?php endif; ?>
- </div>
+     </ul>
 
+     <form class="d-flex" style="margin-bottom: 0">
+       <?php if($this->ion_auth->is_admin()) : ?>
+         <?php echo '<a href="/auth" class="btn btn-sm btn-danger  my-2 mx-1">'. 'ADMIN' .'</a>'; ?>
+       <?php endif; ?>
+       <?php if($this->ion_auth->logged_in()) : ?>
+         <?php echo '<a href="/auth/logout" class="btn btn-sm btn-info my-2 mx-1">'. 'Kijelentkezés' .'</a>'; ?>
+       <?php else : ?>
+         <?php echo '<a href="/auth/login" class="btn btn-sm btn-info my-2 mx-1">'. 'Bejelentkezés' .'</a>'; ?>
+       <?php endif; ?>
+     </form>
+   </div>
+ </div>
 </nav>

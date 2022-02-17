@@ -17,7 +17,7 @@
                 <!-- <th>Azonosító</th> -->
                 <th><?php echo lang('status_name'); ?></th>
                 <?php if($this->ion_auth->in_group(['admin'], false, false)) : ?>
-                  <th class="text-right"> <?php echo lang('operations'); ?> </th>
+                  <th class="text-center"> <?php echo lang('operations'); ?> </th>
                 <?php endif; ?>
 
             </tr>
@@ -29,7 +29,7 @@
                     <td> <?=$record->nev?> </td>
 
                     <?php if($this->ion_auth->in_group(['admin'], false, false)) : ?>
-                      <td class="text-right">
+                      <td class="text-center" style="width: 85px">
                           <?php echo anchor(base_url('status/delete/'.$record->id), '<h5 class="fas fa-trash text-info"></h5>'); ?>
                           <?php echo anchor(base_url('status/update/'.$record->id), '<h5 class="fas fa-edit text-info"></h5>'); ?>
                       </td>
@@ -39,7 +39,7 @@
             <?php endforeach; ?>
         </tbody>
     </table>
-    <p class="text-right"> <?php echo lang('quantity'); ?> <?=count($records)?>  <?php echo lang('quantity_measure'); ?></p>
+    <p class="text-end text-secondary"> <?php echo lang('quantity'); ?> <?=count($records)?>  <?php echo lang('quantity_measure'); ?></p>
 
 <?php endif; ?>
 

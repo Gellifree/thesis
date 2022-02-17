@@ -21,7 +21,7 @@
         <?php foreach ($records as $record): ?>
             <tr>
                 <td> <?=$record->nev?> </td>
-                <td class="text-right">
+                <td class="text-center" style="width: 85px">
                   <?php echo anchor(base_url('county/delete/'.$record->id), '<h5 class="fas fa-trash text-info"></h5>'); ?>
               </td>
 
@@ -31,7 +31,7 @@
   </table>
 
 
-    <p class="text-right"> <?php echo lang('quantity') ?> <?=count($records)?>  <?php echo lang('quantity_measure') ?></p>
+    <p class="text-end text-secondary"> <?php echo lang('quantity') ?> <?=count($records)?>  <?php echo lang('quantity_measure') ?></p>
 <?php endif; ?>
 
 <?php echo anchor(base_url('county/insert'), lang('add'), ['class' => 'btn btn-info']); ?>

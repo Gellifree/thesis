@@ -12,9 +12,9 @@
 <?php if($records == null || empty($records)): ?>
     <p class="m-3"> Nincs rögzítve eggyetlen intézmény sem. </p>
 <?php else: ?>
-    <input class="form-control" id="searchInput" type="text" placeholder="Szűrés a táblázatban..">
+    <!-- <input class="form-control" id="searchInput" type="text" placeholder="Szűrés a táblázatban.."> -->
     <br>
-    <table class="table table-bordered table-responsive-sm">
+    <table class="table table-bordered table-responsive">
         <thead>
             <tr>
                 <!-- <th>Azonosító</th> -->
@@ -31,7 +31,7 @@
                     <td> <?=$record->nev?> </td>
                     <td> <?=$record->megye_nev?> </td>
                     <td> <?=$record->telefon?> </td>
-                    <td class="text-right">
+                    <td class="text-center" style="width: 85px">
                         <?php echo anchor(base_url('institution/list/'.$record->id), '<h5 class="fas fa-info-circle text-info "></h5>'); ?>
 
                         <?php if($this->ion_auth->in_group(['admin'], false, false)) : ?>
@@ -44,8 +44,9 @@
             <?php endforeach; ?>
         </tbody>
     </table>
-    <p class="text-right">Lekérdezett rekordok: <?=count($records)?>  db.</p>
+    <p class="text-end text-secondary">Lekérdezett rekordok: <?=count($records)?>  db.</p>
 
+    <!--
     <script>
     $(document).ready(function(){
       $("#searchInput").on("keyup", function() {
@@ -56,6 +57,7 @@
       });
     });
     </script>
+  -->
 
 
 <?php endif; ?>
