@@ -1,14 +1,14 @@
 <?php $this->load->view('common/bootstrap'); ?>
 <?php $this->load->view('common/navbar'); ?>
-
+<body class="bg-light">
 <div class="container my-2 border shadow-sm text-white bg-dark rounded">
 <h6 class="m-2"><?=$title?></h6>
 </div>
 
-<div class="container p-3 bg-white">
+<div class="container p-3 ">
 
 <div class="row">
-  <div class="col-lg-4 mb-3">
+  <div class="col-lg-3 mb-3">
     <div class="card  shadow-sm">
       <img class="card-img-top" src="/public/images/presentation.png" alt="Card image">
       <div class="card-body">
@@ -35,7 +35,7 @@
 
   </div>
   <!-- TODO hozzáadás implementálása -->
-  <div class="col-lg-8  p-3 border bg-white shadow-sm rounded mb-3">
+  <div class="col-lg-9  p-3 border bg-white shadow-sm rounded mb-3">
     <h5>Kapcsolodó tagok</h5>
     <ul class="list-group mt-3 mb-4">
     <?php foreach ($has_members as $member): ?>
@@ -65,7 +65,4 @@
 
   <?php echo anchor(base_url('presentation/list'), 'Vissza a listázó nézetre', ['class' => 'btn btn-outline-info mt-3 shadow-sm']) ?>
 </div>
-
-
-
 </div>
