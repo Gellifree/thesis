@@ -16,6 +16,7 @@
             <tr>
                 <!-- <th>Azonosító</th> -->
                 <th> <?php echo lang('presentation_name') ?> </th>
+                <th class="text-center"> Állapot </th>
                 <th class="text-center"> <?php echo lang('operations'); ?> </th>
             </tr>
         </thead>
@@ -23,7 +24,28 @@
             <?php foreach ($records as $record): ?>
                 <tr>
                     <!-- <td> <?=$record->id?> </td> -->
-                    <td> <?=$record->nev?> </td>
+                    <?php
+                      $date_now = new DateTime();
+                      $presentation_date = new DateTime($record->idopont);
+                    ?>
+                    <?php if ($presentation_date > $date_now) : ?>
+                      <td> <?=$record->nev?> </td>
+                    <?php else : ?>
+                      <td class="text-secondary"> <?=$record->nev?> <span class="float-end">(Időpont lejárt)</span> </td>
+                    <?php endif; ?>
+
+
+                    <td class="text-center " style="width: 200px">
+                      <?php if ($record->allapot == 0) : ?>
+                        <span class="text-info">Egyeztetett</span>
+                      <?php elseif ($record->allapot == 1) : ?>
+                        <span class="text-warning">Még nem egyeztetett</span>
+                      <?php elseif ($record->allapot == 2) : ?>
+                        <span class="text-success">Sikeresen teljesített</span>
+                      <?php else : ?>
+                        <span class="text-danger">Sikertelen</span>
+                      <?php endif; ?>
+                    </td>
                     <td class="text-center" style="width: 85px">
                       <?php echo anchor(base_url('presentation/list/'.$record->id), '<h5 class="fas fa-info-circle text-info"></h5>'); ?>
                       <?php echo anchor(base_url('presentation/delete/'.$record->id), '<h5 class="fas fa-trash text-info"></h5>'); ?>

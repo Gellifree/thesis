@@ -15,19 +15,33 @@
         <h4 class="card-title text-center"><?=$record->nev?></h4>
         <ul class="list-group">
           <li class="list-group-item"> Megnevezés : <?=$record->nev?></li>
-          <li class="list-group-item"> Időpont : <?=$record->idopont?>  </li>
+
+          <?php
+            $date_now = new DateTime();
+            $presentation_date = new DateTime($record->idopont);
+          ?>
+
+          <?php if (($presentation_date > $date_now) or ($record->allapot == "2")) : ?>
+            <li class="list-group-item"> Időpont : <?=$record->idopont?> </li>
+          <?php else : ?>
+            <li class="list-group-item text-secondary"> Időpont : <?=$record->idopont?> <h5 class="fas fa-exclamation-triangle text-danger float-end mt-1"></h5> </li>
+          <?php endif; ?>
+
+
+
+
           <li class="list-group-item"> Állapot :
             <?php if ($record->allapot == 0) : ?>
-              Eggyeztetett
+              <span class="text-info">Egyeztetett</span>
             <?php elseif ($record->allapot == 1) : ?>
-              Még nem eggyeztetett
+              <span class="text-warning">Még nem egyeztetett</span>
             <?php elseif ($record->allapot == 2) : ?>
-              Sikeresen teljesített
+              <span class="text-success">Sikeresen teljesített</span>
             <?php else : ?>
-              Sikertelen
+              <span class="text-danger">Sikertelen</span>
             <?php endif; ?>
           </li>
-          <li class="list-group-item"> Iskola : <?=$record->intezmeny_nev?> </li>
+          <li class="list-group-item"> Iskola : <?php echo anchor(base_url('institution/list/'.$record->intezmeny_id), $record->intezmeny_nev) ?>   </li>
         </ul>
       </div>
     </div>

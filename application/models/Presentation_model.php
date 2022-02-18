@@ -24,7 +24,7 @@ class Presentation_model extends CI_Model
 
     public function get_one($id)
     {
-        $this->db->select('e.id, e.nev, e.idopont, e.allapot, e.iskola, i.nev intezmeny_nev');
+        $this->db->select('e.id, e.nev, e.idopont, e.allapot, e.iskola, i.nev intezmeny_nev, i.id intezmeny_id');
         $this->db->from('eloadas e');
         $this->db->join('intezmeny i', 'i.id = e.iskola', 'inner');
         $this->db->where('e.id', $id);
