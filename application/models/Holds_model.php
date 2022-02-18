@@ -24,7 +24,7 @@ class Holds_model extends CI_Model
 
     public function get_presentation_list($member_id)
     {
-        $this->db->select('t.eloadas, t.tag, e.nev eloadas_nev');
+        $this->db->select('t.eloadas, t.tag, e.id eloadas_id, e.nev eloadas_nev');
         $this->db->from('tartja t');
         $this->db->join('eloadas e', 'e.id = t.eloadas', 'inner');
         $this->db->where('t.tag', $member_id);
@@ -35,7 +35,7 @@ class Holds_model extends CI_Model
 
     public function get_user_list($presentation_id)
     {
-        $this->db->select('t.eloadas, t.tag, ta.nev tag_nev');
+        $this->db->select('t.eloadas, t.tag, ta.id tag_id, ta.nev tag_nev');
         $this->db->from('tartja t');
         $this->db->join('tag ta', 'ta.id = t.tag', 'inner');
         $this->db->where('t.eloadas', $presentation_id);

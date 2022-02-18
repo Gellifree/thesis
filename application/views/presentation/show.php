@@ -45,7 +45,8 @@
 
     <ul class="list-group mt-3 mb-4">
     <?php foreach ($has_members as $member): ?>
-      <li class="list-group-item p-2"> <?php echo $member->tag_nev ?>
+      <li class="list-group-item p-2">
+        <?php echo anchor(base_url('member/list/'.$member->tag_id), $member->tag_nev) ?>
         <?php echo anchor(base_url('presentation/delete_member/'.$member->tag.'/'.$record->id), '<h5 class="fas fa-trash text-info float-end m-1"></h5>'); ?>
       </li>
     <?php endforeach ?>

@@ -47,8 +47,9 @@ class Institution extends CI_Controller
             }
 
             $view_params = [
-               'title'  => 'Részletes rekordadatok',
-               'record' => $record
+               'title'        => 'Részletes rekordadatok',
+               'record'       => $record,
+               'institutions' => $this->institution_model->get_presentations($institution_id)
            ];
 
 

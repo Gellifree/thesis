@@ -38,13 +38,16 @@
 
     <ul class="list-group mt-3 mb-4">
     <?php foreach ($has_presentations as $presentation): ?>
-      <li class="list-group-item"> <?php echo $presentation->eloadas_nev ?>
+      <li class="list-group-item">
+        <?php echo anchor(base_url('presentation/list/'. $presentation->eloadas_id), $presentation->eloadas_nev)  ?>
         <?php echo anchor(base_url('member/delete_presentation/'.$presentation->eloadas.'/'.$record->id), '<h5 class="fas fa-trash text-info float-end"></h5>'); ?>
       </li>
 
     <?php endforeach ?>
     </ul>
-        <?php endif; ?>
+    <?php endif; ?>
+
+
     <?php
 
     echo form_open();

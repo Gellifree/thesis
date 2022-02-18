@@ -31,8 +31,23 @@
       </div>
     </div>
 
-    <div class="col-lg-9 mb-3 bg-white rounded shadow-sm border">
-      <!-- TODO: előadások listája  -->
+    <div class="col-lg-9 mb-3 bg-white rounded shadow-sm border p-3">
+      <h5>Kapcsolodó Előadások</h5>
+
+      <?php if ($institutions == null || empty($institutions)): ?>
+          <p class="text-secondary"> Nincs eggyetlen Előadás sem hozzárendelve ehhez az Intézményhez </p>
+      <?php else: ?>
+        <ul class="list-group mt-3 mb-4">
+        <?php foreach ($institutions as $institution): ?>
+          <li class="list-group-item">
+            <?php echo anchor(base_url('presentation/list/'.$institution->eloadas_id),  $institution->eloadas_nev); ?>
+
+          </li>
+
+        <?php endforeach ?>
+        </ul>
+        <?php endif; ?>
+
     </div>
     <?php echo anchor(base_url('institution/list'), 'Vissza a listázó nézetre', ['class' => 'btn btn-outline-info mt-3 shadow-sm']) ?>
   </div>

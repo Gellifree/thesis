@@ -33,6 +33,16 @@ class Institution_model extends CI_Model
         return $this->db->get()->row();
     }
 
+    public function get_presentations($institution_id)
+    {
+        $this->db->select('i.id, e.id eloadas_id, e.nev eloadas_nev');
+        $this->db->from('intezmeny i');
+        $this->db->join('eloadas e', 'i.id = e.iskola', 'inner');
+        $this->db->where('i.id', $institution_id);
+
+        return $this->db->get()->result();
+    }
+
     public function delete($id)
     {
         $this->db->where('id', $id);
