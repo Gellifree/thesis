@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark p-2">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-2 fixed-top shadow">
  <div class="container-fluid">
    <a class="navbar-brand" href="/">Roma Szakkollégium</a>
-   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+   <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
      <span class="navbar-toggler-icon"></span>
    </button>
    <div class="collapse navbar-collapse" id="mynavbar">
@@ -32,10 +32,10 @@
 
      <form class="d-flex" style="margin-bottom: 0">
        <?php if ($this->ion_auth->is_admin()) : ?>
-         <?php echo '<a href="/auth" class="btn btn-sm btn-danger  my-2 mx-1">'. 'ADMIN' .'</a>'; ?>
+         <?php echo '<a href="/auth" class="btn btn-sm btn-danger  my-2 mx-1 form-control"">'. 'ADMIN' .'</a>'; ?>
        <?php endif; ?>
        <?php if ($this->ion_auth->logged_in()) : ?>
-         <?php echo '<a href="/auth/logout" class="btn btn-sm btn-info my-2 mx-1">'. 'Kijelentkezés' .'</a>'; ?>
+         <?php echo '<a href="/auth/logout" class="btn btn-sm btn-info my-2 mx-1 form-control">'. 'Kijelentkezés' .'</a>'; ?>
        <?php else : ?>
          <?php echo '<a href="/auth/login" class="btn btn-sm btn-info my-2 mx-1">'. 'Bejelentkezés' .'</a>'; ?>
        <?php endif; ?>

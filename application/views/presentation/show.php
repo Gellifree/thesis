@@ -1,6 +1,7 @@
 <?php $this->load->view('common/bootstrap'); ?>
 <?php $this->load->view('common/navbar'); ?>
-<body class="bg-light">
+<title><?=$title?></title>
+
 <div class="container my-2 border shadow-sm text-white bg-dark rounded">
 <h6 class="m-2"><?=$title?></h6>
 </div>
@@ -14,7 +15,6 @@
       <div class="card-body">
         <h4 class="card-title text-center"><?=$record->nev?></h4>
         <ul class="list-group">
-          <li class="list-group-item"> Megnevezés : <?=$record->nev?></li>
 
           <?php
             $date_now = new DateTime();

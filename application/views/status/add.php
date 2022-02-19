@@ -1,7 +1,7 @@
 <?php $this->load->view('common/bootstrap'); ?>
 <?php $this->load->view('common/navbar'); ?>
+<title><?=lang('status_add_title')?></title>
 
-<body class="bg-light">
 
 <div class="container my-2 border shadow-sm text-white bg-dark rounded">
 <h6 class="m-2"> <?php echo lang('status_add_title')?> </h6>

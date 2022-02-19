@@ -1,16 +1,16 @@
 <?php $this->load->view('common/bootstrap'); ?>
 <?php $this->load->view('common/navbar'); ?>
-
+<title><?=$title?></title>
 <div class="container my-2 border shadow-sm text-white bg-dark rounded">
 <h6 class="m-2"><?=$title?></h6>
 </div>
 
-<body class="bg-light">
+
   <div class="container border shadow-smt bg-white p-3">
     <?php if ($records == null || empty($records)): ?>
       <p class="text-secondary"> Nincs rögzítve eggyetlen megye sem. </p>
     <?php else: ?>
-  <table class="table table-bordered">
+  <table class="table table-bordered table-hover">
     <thead>
         <tr>
             <th> Megye </th>

@@ -1,7 +1,7 @@
 <?php $this->load->view('common/bootstrap'); ?>
 <?php $this->load->view('common/navbar'); ?>
+<title><?=$title?></title>
 
-<body class="bg-light">
 
 <div class="container my-2 border shadow-sm text-white bg-dark rounded">
 <h6 class="m-2"> <?=$title?> </h6>

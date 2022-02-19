@@ -1,11 +1,11 @@
 <?php $this->load->view('common/bootstrap'); ?>
 <?php $this->load->view('common/navbar'); ?>
-
+<title><?=$title?></title>
 <div class="container my-2 border shadow-sm text-white bg-dark rounded">
 <h6 class="m-2"><?=$title?></h6>
 </div>
 
-<body class="bg-light">
+
 
 
 <div class="container border shadow-smt bg-white p-3">
@@ -13,8 +13,8 @@
     <p class="text-secondary"> Nincs rögzítve eggyetlen intézmény sem. </p>
 <?php else: ?>
     <!-- <input class="form-control" id="searchInput" type="text" placeholder="Szűrés a táblázatban.."> -->
-    <br>
-    <table class="table table-bordered table-responsive">
+    <div class="table-responsive">
+    <table class="table table-bordered table-hover">
         <thead>
             <tr>
                 <!-- <th>Azonosító</th> -->
@@ -30,7 +30,7 @@
                     <!-- <td> <?=$record->id?> </td> -->
                     <td> <?=$record->nev?> </td>
                     <td> <?=$record->megye_nev?> </td>
-                    <td>  <?=($record->telefon == null ? 'Nincs rögzítve.' : $record->telefon)?> </td>
+                    <td>  <?=($record->telefon == null ? '<span class="text-secondary"> Nincs rögzítve. </span>' : $record->telefon)?> </td>
                     <td class="text-center" style="width: 85px">
                         <?php echo anchor(base_url('institution/list/'.$record->id), '<h5 class="fas fa-info-circle text-info "></h5>'); ?>
 
@@ -44,6 +44,7 @@
             <?php endforeach; ?>
         </tbody>
     </table>
+    </div>
     <p class="text-end text-secondary">Lekérdezett rekordok: <?=count($records)?>  db.</p>
 
     <!--

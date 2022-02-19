@@ -9,3 +9,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<div style="margin-top: 75px;">
+
+</div>
+<body class="bg-light">
