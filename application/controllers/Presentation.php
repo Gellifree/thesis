@@ -24,6 +24,17 @@ class Presentation extends CI_Controller
         echo "index page of presentation";
     }
 
+    public function check_holds_user($member, $presentation_id) {
+
+      $record = $this->holds_model->get_one($presentation_id, $member);
+      if($record == null || empty($record)) {
+        return true;
+      } else {
+        $this->form_validation->set_message('check_holds_user', '<div class="alert alert-danger">Ez a felhasználó egyszer már hozzá lett rendelve ehhez az előadáshoz!</div>');
+        return false;
+      }
+    }
+
     public function list($presentation_id = null)
     {
         if (!$this->ion_auth->logged_in()) {
@@ -33,9 +44,9 @@ class Presentation extends CI_Controller
 
         if ($presentation_id == null) {
             $view_params = [
-        'title'     => lang('presentation_title'),
-        'records'   => $this->presentation_model->get_list()
-      ];
+              'title'     => lang('presentation_title'),
+              'records'   => $this->presentation_model->get_list()
+            ];
 
             $this->load->view('presentation/list', $view_params);
         } else {
@@ -50,13 +61,16 @@ class Presentation extends CI_Controller
 
             $this->load->helper('form');
             $this->load->library('form_validation');
-            $this->form_validation->set_rules('tagok', 'Tagok', 'required');
+
+            $this->form_validation->set_rules('tagok', 'Tagok', 'required|callback_check_holds_user['.$presentation_id.']');
+
 
             if ($this->form_validation->run() == true) {
                 if ($this->holds_model->add_user_to_presentation($this->input->post('tagok'), $presentation_id)) {
                     redirect(base_url('presentation/list'));
                 } else {
                     // TODO: redundancia eltávolítása
+
                     $members = [];
                     $list = $this->member_model->get_list();
                     foreach ($list as &$item) {
@@ -64,15 +78,16 @@ class Presentation extends CI_Controller
                     }
 
                     $view_params = [
-                'title'               => 'Részletes rekordadatok',
-                'record'              => $record,
-                'has_members'         => $this->holds_model->get_user_list($presentation_id),
-                'members'             => $members,
-            ];
+                      'title'               => 'Részletes rekordadatok',
+                      'record'              => $record,
+                      'has_members'         => $this->holds_model->get_user_list($presentation_id),
+                      'members'             => $members,
+                    ];
 
                     $this->load->view('presentation/show', $view_params);
                 }
             } else {
+
                 $members = [];
                 $list = $this->member_model->get_list();
                 foreach ($list as &$item) {
@@ -80,11 +95,11 @@ class Presentation extends CI_Controller
                 }
 
                 $view_params = [
-            'title'               => 'Részletes rekordadatok',
-            'record'              => $record,
-            'has_members'         => $this->holds_model->get_user_list($presentation_id),
-            'members'             => $members,
-        ];
+                  'title'               => 'Részletes rekordadatok',
+                  'record'              => $record,
+                  'has_members'         => $this->holds_model->get_user_list($presentation_id),
+                  'members'             => $members,
+                ];
 
                 $this->load->view('presentation/show', $view_params);
             }
@@ -116,10 +131,10 @@ class Presentation extends CI_Controller
             }
 
             $view_params = [
-        'title'         => 'Előadás hozzáadása',
-        'institutions'  => $institutions,
-        'reconciled'    => [0 => 'Eggyeztetett', 1 => 'Még nem eggyeztetett', 2 => 'Sikeresen teljesített', 3 => 'Sikertelen']
-      ];
+              'title'         => 'Előadás hozzáadása',
+              'institutions'  => $institutions,
+              'reconciled'    => [0 => 'Eggyeztetett', 1 => 'Még nem eggyeztetett', 2 => 'Sikeresen teljesített', 3 => 'Sikertelen']
+            ];
 
             $this->load->view('presentation/add', $view_params);
         }
@@ -165,11 +180,11 @@ class Presentation extends CI_Controller
             }
 
             $view_params = [
-        'title'         => 'Előadás módosítása',
-        'record'        => $record,
-        'institutions'  => $institutions,
-        'reconciled'    => [0 => 'Eggyeztetett', 1 => 'Még nem eggyeztetett', 2 => 'Sikeresen teljesített', 3 => 'Sikertelen']
-      ];
+              'title'         => 'Előadás módosítása',
+              'record'        => $record,
+              'institutions'  => $institutions,
+              'reconciled'    => [0 => 'Eggyeztetett', 1 => 'Még nem eggyeztetett', 2 => 'Sikeresen teljesített', 3 => 'Sikertelen']
+            ];
 
             $this->load->helper('form');
             $this->load->view('presentation/edit', $view_params);

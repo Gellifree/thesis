@@ -51,6 +51,7 @@
   <!-- TODO hozzáadás implementálása -->
   <div class="col-lg-9  p-3 border bg-white shadow-sm rounded mb-3">
     <h5>Kapcsolodó tagok</h5>
+    <?php echo form_error('tagok'); ?>
 
     <?php if ($has_members == null || empty($has_members)): ?>
         <p class="text-secondary"> Nincs eggyetlen Tag sem hozzárendelve ehhez az előadáshoz. </p>

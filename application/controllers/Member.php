@@ -28,6 +28,18 @@ class Member extends CI_Controller
         echo "index page of member";
     }
 
+
+    public function check_holds_user($presentation_id, $member) {
+
+      $record = $this->holds_model->get_one($presentation_id, $member);
+      if($record == null || empty($record)) {
+        return true;
+      } else {
+        $this->form_validation->set_message('check_holds_user', '<div class="alert alert-danger"> Ez az előadás egyszer már hozzá lett rendelve ehhez az taghoz!</div>');
+        return false;
+      }
+    }
+
     public function list($member_id = null)
     {
         if (!$this->ion_auth->logged_in()) {
@@ -58,7 +70,7 @@ class Member extends CI_Controller
 
 
             $this->load->library('form_validation');
-            $this->form_validation->set_rules('eloadasok', 'Előadás', 'required');
+            $this->form_validation->set_rules('eloadasok', 'Előadás', 'required|callback_check_holds_user['.$member_id.']');
             if ($this->form_validation->run() == true) {
                 if ($this->holds_model->add_presentation_to_user($this->input->post('eloadasok'), $member_id)) {
                     redirect(base_url('member/list'));
