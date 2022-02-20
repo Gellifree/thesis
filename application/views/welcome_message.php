@@ -16,18 +16,73 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<h6 class="my-2 mx-2">Üdvözlöm az Egri Roma Szakkollégium nyilvántartó oldalán!</h6>
 </div>
 
-<div class="container border shadow-sm rounded mt-3 bg-white p-2">
-	 <?php if ($this->ion_auth->logged_in()): ?>
-	<p class="text-secondary m-2">
-		Ön sikeresen bejelentkezett.
-	</p>
-	<?php else : ?>
-	<p class="text-secondary m-2">
-		Amennyiben rendelkezik hozzáféréssel, kérem a bejelentkezés gombra kattintás
-			után adja meg a bejelentkezési adatait.
-	</p>
-	<?php endif; ?>
-</div>
+<?php if ($this->ion_auth->logged_in()): ?>
+	<div class="container border shadow-sm rounded mt-3 bg-white p-2">
+		<p class="text-secondary m-2">
+		 <?php echo $this->ion_auth->user()->row()->last_name?> sikeresen bejelentkezett.
+		</p>
+	</div>
+
+<?php if ($this->ion_auth->is_admin()): ?>
+	<div class="bg-dark container shadow-sm text-white rounded mt-4 p-1">
+		<h6 class="my-2 mx-2">Kimutatások</h6>
+	</div>
+	<div class="container border shadow-sm rounded mt-3 bg-white p-3">
+	 <!-- <p class="text-secondary m-2"> Ön Admin-ként van bejelentkezve.</p>-->
+
+	 <!-- <h6 class="m-1 my-3 text-dark">Előadások statisztikai adatai</h6> -->
+	 <ul class="list-group">
+	 	<li class="list-group-item"> Sikeres előadások száma: <?=count($successfull_presentations)?> db.</li>
+		<li class="list-group-item"> Sikertelen előadások száma: <?=count($not_successfull_presentations)?> db.</li>
+		<li class="list-group-item"> Egyeztetésre váró előadások száma: <?=count($waiting_presentations)?> db.</li>
+		<li class="list-group-item"> Egyeztetett előadások száma: <?=count($not_waiting_presentations)?> db.</li>
+	 </ul>
+	</div>
+<?php elseif($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
+	<div class="container border shadow-sm rounded mt-3 bg-white p-2">
+	 <p class="text-secondary m-2">	Ön Admin Segéd-ként van bejelentkezve.</p>
+	</div>
+<?php else : ?>
+	<div class="bg-dark container shadow-sm text-white rounded mt-4 p-1">
+		<h6 class="my-2 mx-2">Felhasználó segédlet</h6>
+	</div>
+
+	<div class="container border shadow-sm rounded mt-3 bg-white p-3">
+	 <h6>Hogyan kezdjek neki?</h6>
+	 <ol class="list-group">
+	 	<li class="text-secondary list-group-item">
+			1. Amikor eldöntötted, hogy előadást fogsz tartani egy intézménynél, ellenőrzid le, hogy az intézmény már benne van-e az adatbázisban!
+		</li>
+		<li class="list-group-item text-secondary ms-5">
+			1.1 Amennyiben nincs, kis kutatómunkát kell végezned, összegyűjteni az intézmény adatait, és hozzáadni az intézmények listánál.
+		</li>
+		<li class="list-group-item text-secondary ms-5">
+			1.2 Ha az általad kiválasztott intézményt már felvitte valaki, akkor hozzáadhatod az előadásodat!
+		</li>
+		<li class="text-secondary list-group-item border">
+			2. Az <a href="/institution/list">előadások</a> pont alatt, add meg az előadás nevét, dátumát, állapotát, és válaszd ki a legördülű listából, hogy melyik intézménybe fogsz menni!
+		</li>
+		<li class="text-secondary list-group-item ">
+			3. Ha felvitted az előadást, még nem vagy kész. Menj az előadás nevénél az <h5 class="fas fa-info-circle text-info"></h5> ikonra, és rendeld hozzá az előadáshoz a tagokat akik részt fognak venni rajta!
+			Ezt nem csak az előadásnál, de egy Tag részletes adatainál is megteheted!
+		</li>
+		<li class="list-group-item text-secondary ms-5">
+			3.1 Ha valamilyen oknál fogja nincs a neved a <a href="/member/list">Tag</a> listában, keress fel egy Adminisztrátort, vagy Adminisztrátor segédet!
+		</li>
+		<li class="text-secondary list-group-item border">
+			4. Ha változott az előadásod állapota (Teljesítetted, vagy visszaszóltak hogy nem mehetsz stb.) akkor az előadás <h5 class="fas fa-edit text-info"></h5> (szerkesztés) ikonjára kattintva, módosítsd az előadás állapotát.
+		</li>
+	 </ol>
+	</div>
+<?php endif; ?>
+<?php else : ?>
+	<div class="container border shadow-sm rounded mt-3 bg-white p-2">
+		<p class="text-secondary m-2">
+			Amennyiben rendelkezik hozzáféréssel, kérem a bejelentkezés gombra kattintás után adja meg a bejelentkezési adatait.
+		</p>
+	</div>
+<?php endif; ?>
+
 
 </body>
 </html>

@@ -32,14 +32,52 @@ class Presentation_model extends CI_Model
         return $this->db->get()->row();
     }
 
+    public function count_successfull()
+    {
+        $this->db->select('e.id');
+        $this->db->from('eloadas e');
+        $this->db->where('e.allapot', 2); // 2 -> sikeres
+
+        return $this->db->get()->result();
+    }
+
+    public function count_not_successfull()
+    {
+        $this->db->select('e.id');
+        $this->db->from('eloadas e');
+        $this->db->where('e.allapot', 3); // 2 -> sikeres
+
+        return $this->db->get()->result();
+    }
+
+    public function count_waiting()
+    {
+        $this->db->select('e.id');
+        $this->db->from('eloadas e');
+        $this->db->where('e.allapot', 1); // 2 -> sikeres
+
+        return $this->db->get()->result();
+    }
+
+    public function count_not_waiting()
+    {
+        $this->db->select('e.id');
+        $this->db->from('eloadas e');
+        $this->db->where('e.allapot', 0); // 2 -> sikeres
+
+        return $this->db->get()->result();
+    }
+
+
+
     public function insert($nev, $idopont, $allapot, $iskola)
     {
         $record = [
-      'nev'           => $nev,
-      'idopont'       => $idopont,
-      'allapot'       => $allapot,
-      'iskola'        => $iskola
-    ];
+          'nev'           => $nev,
+          'idopont'       => $idopont,
+          'allapot'       => $allapot,
+          'iskola'        => $iskola
+        ];
 
         $this->db->insert('eloadas', $record);
         return $this->db->insert_id();
@@ -48,11 +86,11 @@ class Presentation_model extends CI_Model
     public function update($id, $nev, $idopont, $allapot, $iskola)
     {
         $record = [
-      'nev'           => $nev,
-      'idopont'       => $idopont,
-      'allapot'       => $allapot,
-      'iskola'        => $iskola
-    ];
+          'nev'           => $nev,
+          'idopont'       => $idopont,
+          'allapot'       => $allapot,
+          'iskola'        => $iskola
+        ];
 
         $this->db->where('id', $id);
         return $this->db->update('eloadas', $record);
