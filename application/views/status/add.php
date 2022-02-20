@@ -20,18 +20,20 @@ echo form_input(
     ['placeholder' => lang('status_name'), 'class' => 'form-control']
 );
 
+echo '<div class="d-grid">';
 echo form_input(
     ['type' => 'submit', 'name' => 'submit_button'],
     lang('send'),
-    ['class' => 'btn btn-warning my-3 float-end']
+    ['class' => 'btn btn-info my-3 ']
 );
+echo '</div>';
 
 echo form_close();
 ?>
 
 
 <div class="d-grid">
-<?php echo anchor(base_url('status/list'), lang('go_back_to_list'), ['class' => 'btn btn-outline-info me-2']); ?>
+<?php echo anchor(base_url('status/list'), lang('go_back_to_list'), ['class' => 'btn btn-outline-info my-2']); ?>
 </div>
 
 </div>

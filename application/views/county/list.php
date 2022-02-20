@@ -34,7 +34,8 @@
     <p class="text-end text-secondary"> <?php echo lang('quantity') ?> <?=count($records)?>  <?php echo lang('quantity_measure') ?></p>
 <?php endif; ?>
 
+<div class="d-grid">
 <?php echo anchor(base_url('county/insert'), lang('add'), ['class' => 'btn btn-info']); ?>
-
+</div>
 
 </div>

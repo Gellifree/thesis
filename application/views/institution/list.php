@@ -33,12 +33,11 @@
                     <td>  <?=($record->telefon == null ? '<span class="text-secondary"> Nincs rögzítve. </span>' : $record->telefon)?> </td>
                     <td class="text-center" style="width: 85px">
                         <?php echo anchor(base_url('institution/list/'.$record->id), '<h5 class="fas fa-info-circle text-info "></h5>'); ?>
+                        <?php echo anchor(base_url('institution/update/'.$record->id), '<h5 class="fas fa-edit text-info"></h5>'); ?>
 
                         <?php if ($this->ion_auth->in_group(['admin'], false, false)) : ?>
                           <?php echo anchor(base_url('institution/delete/'.$record->id), '<h5 class="fas fa-trash text-info "></h5>'); ?>
                         <?php endif; ?>
-
-                        <?php echo anchor(base_url('institution/update/'.$record->id), '<h5 class="fas fa-edit text-info"></h5>'); ?>
                     </td>
                 </tr>
             <?php endforeach; ?>
@@ -62,7 +61,8 @@
 
 
 <?php endif; ?>
-
-<?php echo anchor(base_url('institution/insert'), lang('add'), ['class' => 'btn btn-info']); ?>
+<div class="d-grid">
+  <?php echo anchor(base_url('institution/insert'), lang('add'), ['class' => 'btn btn-info']); ?>
+</div>
 
 </div>

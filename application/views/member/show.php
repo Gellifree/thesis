@@ -44,9 +44,9 @@
 
     <ul class="list-group mt-3 mb-4">
     <?php foreach ($has_presentations as $presentation): ?>
-      <li class="list-group-item">
+      <li class="list-group-item p-2">
         <?php echo anchor(base_url('presentation/list/'. $presentation->eloadas_id), $presentation->eloadas_nev)  ?>
-        <?php echo anchor(base_url('member/delete_presentation/'.$presentation->eloadas.'/'.$record->id), '<h5 class="fas fa-trash text-info float-end"></h5>'); ?>
+        <?php echo anchor(base_url('member/delete_presentation/'.$presentation->eloadas.'/'.$record->id), '<h5 class="fas fa-trash text-info float-end m-1"></h5>'); ?>
       </li>
 
     <?php endforeach ?>
@@ -58,22 +58,26 @@
 
     echo form_open();
     echo form_dropdown(
-      ['name' => 'eloadasok', 'class' => 'btn btn-info m-1'],
+      ['name' => 'eloadasok', 'class' => 'form-select'],
       $presentations
     );
 
+    echo '<div class="d-grid">';
     echo form_button(
       ['type' => 'submit'],
-      lang('send'),
-      ['class' => 'btn btn-warning m-1 float-end']
+      'Előadás hozzárendelése',
+      ['class' => 'btn btn-info my-3']
     );
+    echo '</div>';
 
     echo form_close();
 
     ?>
-
+    <div class="d-grid">
+      <?php echo anchor(base_url('member/list'), 'Vissza a listázó nézetre', ['class' => 'btn btn-outline-info shadow-sm']) ?>
+    </div>
 
   </div>
-    <?php echo anchor(base_url('member/list'), 'Vissza a listázó nézetre', ['class' => 'btn btn-outline-info mt-3 shadow-sm']) ?>
+
 </div>
 </div>

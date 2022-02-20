@@ -75,7 +75,9 @@
 
 <?php endif; ?>
 <?php if ($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
-  <?php echo anchor(base_url('member/insert'), lang('add'), ['class' => 'btn btn-info']); ?>
+  <div class="d-grid">
+    <?php echo anchor(base_url('member/insert'), lang('add'), ['class' => 'btn btn-info']); ?>
+  </div>
 <?php endif; ?>
 
 

@@ -71,21 +71,27 @@
 
     echo form_open();
     echo form_dropdown(
-        ['name' => 'tagok', 'class' => 'btn btn-info m-1'],
+        ['name' => 'tagok', 'class' => 'form-select'],
         $members
     );
 
+
+    echo '<div class="d-grid">';
     echo form_button(
         ['type' => 'submit'],
-        lang('send'),
-        ['class' => 'btn btn-warning m-1 float-end']
+        'Tag hozzárendelése',
+        ['class' => 'btn btn-info my-3']
     );
+    echo '</div>';
 
     echo form_close();
     ?>
 
+    <div class="d-grid">
+      <?php echo anchor(base_url('presentation/list'), 'Vissza a listázó nézetre', ['class' => 'btn btn-outline-info float-end shadow-sm']) ?>
+    </div>
+
   </div>
 
-  <?php echo anchor(base_url('presentation/list'), 'Vissza a listázó nézetre', ['class' => 'btn btn-outline-info mt-3 shadow-sm']) ?>
 </div>
 </div>

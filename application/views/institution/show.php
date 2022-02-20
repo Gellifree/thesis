@@ -48,9 +48,10 @@
         <?php endforeach ?>
         </ul>
         <?php endif; ?>
-
+        <div class="d-grid">
+          <?php echo anchor(base_url('institution/list'), 'Vissza a listázó nézetre', ['class' => 'btn btn-outline-info mt-3 shadow-sm']) ?>
+      </div>
     </div>
-    <?php echo anchor(base_url('institution/list'), 'Vissza a listázó nézetre', ['class' => 'btn btn-outline-info mt-3 shadow-sm']) ?>
   </div>
 
 </div>

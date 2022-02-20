@@ -49,8 +49,8 @@
                     </td>
                     <td class="text-center" style="width: 85px">
                       <?php echo anchor(base_url('presentation/list/'.$record->id), '<h5 class="fas fa-info-circle text-info"></h5>'); ?>
-                      <?php echo anchor(base_url('presentation/delete/'.$record->id), '<h5 class="fas fa-trash text-info"></h5>'); ?>
                       <?php echo anchor(base_url('presentation/update/'.$record->id), '<h5 class="fas fa-edit text-info"></h5>'); ?>
+                      <?php echo anchor(base_url('presentation/delete/'.$record->id), '<h5 class="fas fa-trash text-info"></h5>'); ?>
                     </td>
                 </tr>
             <?php endforeach; ?>
@@ -59,6 +59,11 @@
     <p class="text-end text-secondary"> <?php echo lang('quantity'); ?> <?=count($records)?>  <?php echo lang('quantity_measure'); ?></p>
 
 <?php endif; ?>
-    <?php echo anchor(base_url('presentation/insert'), lang('add'), ['class' => 'btn btn-info']); ?>
+
+
+
+<div class="d-grid">
+  <?php echo anchor(base_url('presentation/insert'), 'Előadás hozzáadása', ['class' => 'btn btn-info']); ?>
+</div>
 
 </div>

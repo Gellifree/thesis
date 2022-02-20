@@ -56,21 +56,23 @@ echo form_input(
 
 echo form_error('megye');
 echo form_dropdown(
-    ['name' => 'megye', 'class' => 'btn btn-info m-1'],
+    ['name' => 'megye', 'class' => 'form-select my-2'],
     $counties
 );
 
+echo '<div class="d-grid">';
 echo form_button(
     ['type' => 'submit'],
     lang('send'),
-    ['class' => 'btn btn-warning m-1 float-end']
+    ['class' => 'btn btn-info my-2 ']
 );
+echo '</div>';
 
 
 echo form_close();
 ?>
 <div class="d-grid">
-  <?php echo anchor(base_url('institution/list'), lang('go_back_to_list'), ['class' => 'btn btn-outline-info m-1']); ?>
+  <?php echo anchor(base_url('institution/list'), lang('go_back_to_list'), ['class' => 'btn btn-outline-info my-2']); ?>
 </div>
 
 
