@@ -14,7 +14,7 @@
 <?php else: ?>
     <!-- <input class="form-control" id="searchInput" type="text" placeholder="Szűrés a táblázatban.."> -->
     <div class="table-responsive">
-    <table class="table table-bordered table-hover">
+    <table class="table table-bordered table-hover" id="list">
         <thead>
             <tr>
                 <!-- <th>Azonosító</th> -->
@@ -46,18 +46,17 @@
     </div>
     <p class="text-end text-secondary">Lekérdezett rekordok: <?=count($records)?>  db.</p>
 
-    <!--
-    <script>
-    $(document).ready(function(){
-      $("#searchInput").on("keyup", function() {
-        var value = $(this).val().toLowerCase();
-        $("#db_result tr").filter(function() {
-          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    <script type="text/javascript">
+    $(document).ready(function() {
+        var table = $('#list').DataTable({
+            searchPanes: false
         });
-      });
+        table.searchPanes.container().prependTo(table.table().container());
+        table.searchPanes.resizePanes();
     });
+
     </script>
-  -->
+
 
 
 <?php endif; ?>

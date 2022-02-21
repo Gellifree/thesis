@@ -71,6 +71,9 @@ echo '</div>';
 
 echo form_close();
 ?>
+
+
+
 <div class="d-grid">
   <?php echo anchor(base_url('institution/list'), lang('go_back_to_list'), ['class' => 'btn btn-outline-info my-2']); ?>
 </div>

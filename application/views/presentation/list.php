@@ -12,7 +12,7 @@
 <?php if ($records == null || empty($records)): ?>
     <p class="text-secondary"> Nincs rögzítve eggyetlen előadás sem. </p>
 <?php else: ?>
-    <table class="table table-bordered table-responsive table-hover">
+    <table class="table table-bordered table-responsive table-hover" id="list">
         <thead>
             <tr>
                 <!-- <th>Azonosító</th> -->
@@ -59,6 +59,17 @@
     <p class="text-end text-secondary"> <?php echo lang('quantity'); ?> <?=count($records)?>  <?php echo lang('quantity_measure'); ?></p>
 
 <?php endif; ?>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    var table = $('#list').DataTable({
+        searchPanes: false
+    });
+    table.searchPanes.container().prependTo(table.table().container());
+    table.searchPanes.resizePanes();
+});
+
+</script>
 
 
 
