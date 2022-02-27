@@ -8,7 +8,7 @@
 </div>
 
 <div class="container border my-3 p-3 bg-white">
-
+<h6>A csillaggal jelölt mezők kitöltése kötelező.</h6>
 <?php
 
 echo form_open();
@@ -18,7 +18,7 @@ echo form_error('nev');
 echo form_input(
     ['type' => 'text', 'name' => 'nev'],
     set_value('nev', $record->nev),
-    ['placeholder' => lang('member_name'), 'class' => 'form-control my-2']
+    ['placeholder' => lang('member_name') . '*', 'class' => 'form-control my-2']
 );
 
 
@@ -26,7 +26,7 @@ echo form_error('osztondij');
 echo form_input(
     ['type' => 'number', 'name' => 'osztondij'],
     set_value('osztondij', $record->osztondij),
-    ['placeholder' => lang('member_scholarship'), 'class' => 'form-control my-2']
+    ['placeholder' => lang('member_scholarship') . '*', 'class' => 'form-control my-2']
 );
 
 
@@ -34,11 +34,12 @@ echo form_error('email');
 echo form_input(
     ['type' => 'email', 'name' => 'email'],
     set_value('email', $record->e_mail),
-    ['placeholder' => 'E-mail', 'class' => 'form-control my-2']
+    ['placeholder' => 'E-mail*', 'class' => 'form-control my-2']
 );
 
 
 echo form_error('tagsag_kezdete');
+echo '<label class="form-text mx-2"> Csatlakozás dátuma </label>';
 echo form_input(
     ['type' => 'date', 'name' => 'tagsag_kezdete'],
     set_value('tagsag_kezdete', $record->tagsag_kezdete),
@@ -47,6 +48,7 @@ echo form_input(
 
 
 echo form_error('status_id');
+echo '<label class="form-text mx-2"> Státusz* </label>';
 echo form_dropdown(
     ['name' => 'status_id', 'class' => 'form-select my-2'],
     $statuses,

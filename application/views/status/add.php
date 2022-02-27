@@ -9,7 +9,7 @@
 
 
 <div class="container border my-3 p-3 bg-white">
-
+  <h6>A csillaggal jelölt mezők kitöltése kötelező.</h6>
 <?php
 echo form_open();
 
@@ -17,7 +17,7 @@ echo form_error('status_name');
 echo form_input(
     ['type' => 'text', 'name' => 'status_name', 'required' => 'required', 'minlength' => 2],
     set_value('status_name', ''),
-    ['placeholder' => lang('status_name'), 'class' => 'form-control']
+    ['placeholder' => lang('status_name') . '*', 'class' => 'form-control']
 );
 
 echo '<div class="d-grid">';

@@ -15,21 +15,21 @@ echo form_error('nev');
 echo form_input(
     ['type' => 'text', 'name' => 'nev'],
     $record->nev,
-    ['placeholder' => 'Megnevezés', 'class' => 'form-control my-2']
+    ['placeholder' => 'Megnevezés*', 'class' => 'form-control my-2']
 );
 
 echo form_error('cim');
 echo form_input(
     ['type' => 'text', 'name' => 'cim'],
     $record->cim,
-    ['placeholder' => 'Intézmény címe', 'class' => 'form-control my-2']
+    ['placeholder' => 'Intézmény címe*', 'class' => 'form-control my-2']
 );
 
 echo form_error('igazgato_neve');
 echo form_input(
     ['type' => 'text', 'name' => 'igazgato_neve'],
     $record->igazgato_neve,
-    ['placeholder' => 'Igazgató neve', 'class' => 'form-control my-2']
+    ['placeholder' => 'Igazgató neve*', 'class' => 'form-control my-2']
 );
 
 echo form_error('e_mail');

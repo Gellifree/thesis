@@ -7,7 +7,7 @@
 <h6 class="m-2"> <?=$title?> </h6>
 </div>
 <div class="container border my-3 p-3 bg-white">
-
+<h6 class="m-2"> <?php echo lang('status_edit_title') ?></h6>
 
 <?php
 
@@ -17,7 +17,7 @@ echo form_error('nev');
 echo form_input(
     ['type' => 'text', 'name' => 'nev'],
     '',
-    ['placeholder' => 'Megye neve', 'class' => 'form-control my-2']
+    ['placeholder' => 'Megye neve*', 'class' => 'form-control my-2']
 );
 
 echo '<div class="d-grid">';

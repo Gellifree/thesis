@@ -48,7 +48,7 @@
                         <?php echo anchor(base_url('member/list/'.$record->id), '<h5 class="fas fa-info-circle text-info"></h5>'); ?>
                         <?php if ($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
                           <?php echo anchor(base_url('member/update/'.$record->id), '<h5 class="fas fa-edit text-info"></h5>'); ?>
-                          <?php echo anchor(base_url('member/delete/'.$record->id), '<h5 class="fas fa-trash text-info"></h5>'); ?>
+                          <?php echo '<h5 data-bs-toggle="modal" data-bs-target="#rec' . $record->id . '" class="fas fa-trash text-info"></h5>'; ?>
                         <?php endif; ?>
 
                     </td>
@@ -56,6 +56,33 @@
             <?php endforeach; ?>
         </tbody>
     </table>
+
+    <?php foreach ($records as $record): ?>
+      <div class="modal fade" id="<?='rec' . $record->id?>">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Tag törlése</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <p class="text-secondary">Biztos hogy törölni akarja a következő tagot: <em> <?=$record->nev?> </em> ?</p>
+              <button type="button" class="btn btn-info" data-bs-dismiss="modal">Mégsem</button>
+              <?php echo anchor(base_url('member/delete/'.$record->id), '<button class="btn btn-danger float-end">Törlés</button>'); ?>
+            </div>
+          </div>
+        </div>
+      </div>
+    <?php endforeach; ?>
+
+
+
+
+
     <p class="text-end text-secondary"> <?php echo lang('quantity') ?> <?=count($records)?>  <?php echo lang('quantity_measure') ?></p>
 
     <script type="text/javascript">

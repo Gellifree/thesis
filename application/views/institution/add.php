@@ -7,6 +7,7 @@
 <h6 class="m-2"> <?=$title?> </h6>
 </div>
 <div class="container border my-3 p-3 bg-white">
+  <h6>A csillaggal jelölt mezők kitöltése kötelező.</h6>
 <?php
 
 echo form_open();
@@ -15,21 +16,21 @@ echo form_error('nev');
 echo form_input(
     ['type' => 'text', 'name' => 'nev'],
     '',
-    ['placeholder' => 'Megnevezés', 'class' => 'form-control my-2']
+    ['placeholder' => 'Megnevezés*', 'class' => 'form-control my-2']
 );
 
 echo form_error('cim');
 echo form_input(
     ['type' => 'text', 'name' => 'cim'],
     '',
-    ['placeholder' => 'Intézmény címe', 'class' => 'form-control my-2']
+    ['placeholder' => 'Intézmény címe*', 'class' => 'form-control my-2']
 );
 
 echo form_error('igazgato_neve');
 echo form_input(
     ['type' => 'text', 'name' => 'igazgato_neve'],
     '',
-    ['placeholder' => 'Igazgató neve', 'class' => 'form-control my-2']
+    ['placeholder' => 'Igazgató neve*', 'class' => 'form-control my-2']
 );
 
 echo form_error('e_mail');
