@@ -36,13 +36,13 @@ class Member_model extends CI_Model
     public function insert($nev, $osztondij, $email, $tagsag_kezdete, $status_id, $aktiv)
     {
         $record = [
-      'nev'             => $nev,
-      'osztondij'       => $osztondij,
-      'e_mail'          => $email,
-      'tagsag_kezdete'  => $tagsag_kezdete,
-      'statusz'         => $status_id,
-      'aktiv'           => $aktiv
-    ];
+          'nev'             => $nev,
+          'osztondij'       => $osztondij,
+          'e_mail'          => $email,
+          'tagsag_kezdete'  => $tagsag_kezdete,
+          'statusz'         => $status_id,
+          'aktiv'           => $aktiv
+        ];
 
         $this->db->insert('tag', $record);
         return $this->db->insert_id();
@@ -51,16 +51,24 @@ class Member_model extends CI_Model
     public function update($id, $nev, $osztondij, $email, $tagsag_kezdete, $status_id, $aktiv)
     {
         $record = [
-      'nev'             => $nev,
-      'osztondij'       => $osztondij,
-      'e_mail'          => $email,
-      'tagsag_kezdete'  => $tagsag_kezdete,
-      'statusz'         => $status_id,
-      'aktiv'           => $aktiv
-    ];
+          'nev'             => $nev,
+          'osztondij'       => $osztondij,
+          'e_mail'          => $email,
+          'tagsag_kezdete'  => $tagsag_kezdete,
+          'statusz'         => $status_id,
+          'aktiv'           => $aktiv
+        ];
 
         $this->db->where('id', $id);
         return $this->db->update('tag', $record);
+    }
+
+    public function count_full_scholarship_amount()
+    {
+      $this->db->select_sum('t.osztondij');
+      $this->db->from('tag t');
+
+      return $this->db->get()->result();
     }
 
     public function delete($id)

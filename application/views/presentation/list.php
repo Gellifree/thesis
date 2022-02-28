@@ -84,6 +84,7 @@
 
 <?php endif; ?>
 
+<!--
 <script type="text/javascript">
 $(document).ready(function() {
     var table = $('#list').DataTable({
@@ -94,7 +95,7 @@ $(document).ready(function() {
 });
 
 </script>
-
+-->
 
 
 <div class="d-grid">

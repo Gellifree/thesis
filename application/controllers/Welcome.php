@@ -24,6 +24,8 @@ class Welcome extends CI_Controller
      {
          parent::__construct();
          $this->load->model('presentation_model');
+         $this->load->model('member_model');
+         $this->load->model('institution_model');
      }
 
 
@@ -33,7 +35,10 @@ class Welcome extends CI_Controller
           'successfull_presentations'           => $this->presentation_model->count_successfull(),
           'not_successfull_presentations'       => $this->presentation_model->count_not_successfull(),
           'waiting_presentations'               => $this->presentation_model->count_waiting(),
-          'not_waiting_presentations'           => $this->presentation_model->count_not_waiting()
+          'not_waiting_presentations'           => $this->presentation_model->count_not_waiting(),
+          'number_of_members'                   => $this->member_model->get_list(),
+          'sum_of_scholarship'                  => $this->member_model->count_full_scholarship_amount(),
+          'number_of_institutions'              => $this->institution_model->get_list(),
         ];
 
         $this->load->view('welcome_message', $view_params);

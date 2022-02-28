@@ -43,6 +43,9 @@
           </li>
           <li class="list-group-item"> Iskola : <?php echo anchor(base_url('institution/list/'.$record->intezmeny_id), $record->intezmeny_nev) ?>   </li>
         </ul>
+        <div class="d-grid">
+          <?php echo anchor(base_url('presentation/update/'.$record->id), 'Előadás szerkesztése', ['class' => 'btn btn-info my-3']) ?>
+        </div>
       </div>
     </div>
 

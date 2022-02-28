@@ -30,15 +30,40 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<div class="container border shadow-sm rounded mt-3 bg-white p-3">
 	 <!-- <p class="text-secondary m-2"> Ön Admin-ként van bejelentkezve.</p>-->
 
-	 <!-- <h6 class="m-1 my-3 text-dark">Előadások statisztikai adatai</h6> -->
+	 <h6 class="my-2">Előadások statisztikai adatai</h6>
 	 <ul class="list-group">
 	 	<li class="list-group-item"> Sikeres előadások száma: <?=count($successfull_presentations)?> db.</li>
 		<li class="list-group-item"> Sikertelen előadások száma: <?=count($not_successfull_presentations)?> db.</li>
 		<li class="list-group-item"> Egyeztetésre váró előadások száma: <?=count($waiting_presentations)?> db.</li>
 		<li class="list-group-item"> Egyeztetett előadások száma: <?=count($not_waiting_presentations)?> db.</li>
 	 </ul>
+
+	 <button class="btn btn-info my-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+			Admin panel kinyitása
+	 </button>
 	</div>
-<?php elseif($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
+
+	<!-- Offcanvas Sidebar -->
+	<div class="offcanvas offcanvas-end" id="demo">
+ 		<div class="offcanvas-header bg-dark text-white">
+	 		<h1 class="offcanvas-title">Admin panel</h1>
+	 		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+ 		</div>
+ 		<div class="offcanvas-body">
+			<p>Adatbázisban szereplő tagok száma: <b><?=count($number_of_members)?></b>  </p>
+			<p>Adatbázisban szereplő intézmények száma: <b><?=count($number_of_institutions)?></b>  </p>
+			<p>Összes kifizetett ösztöndíj havonta:
+			<b>
+			<?php foreach ($sum_of_scholarship as $sum): ?>
+				<?=$sum->osztondij?>
+			<?php endforeach; ?>
+			</b>
+			HUF.
+			</p>
+ 		</div>
+	</div>
+
+<?php elseif ($this->ion_auth->in_group(['admin-helper'], false, false)) : ?>
 	<div class="container border shadow-sm rounded mt-3 bg-white p-2">
 	 <p class="text-secondary m-2">	Ön Admin Segéd-ként van bejelentkezve.</p>
 	</div>
