@@ -9,8 +9,8 @@
 <div class="container p-3 ">
 
 <div class="row">
-  <div class="col-lg-3 mb-3">
-    <div class="card  shadow-sm">
+  <div class="col-lg-3 mb-3 p-0">
+    <div class="card shadow-sm ">
       <img class="card-img-top" src="/public/images/presentation.png" alt="Card image">
       <div class="card-body">
         <h4 class="card-title text-center"><?=$record->nev?></h4>
@@ -64,7 +64,10 @@
 
   </div>
   <!-- TODO hozzáadás implementálása -->
-  <div class="col-lg-9  p-3 border bg-white shadow-sm rounded mb-3">
+  <div class="col-sm-1">
+
+  </div>
+  <div class="col-lg-8  p-3 border bg-white shadow-sm rounded mb-3">
     <h5>Kapcsolodó tagok</h5>
     <?php echo form_error('tagok'); ?>
 
