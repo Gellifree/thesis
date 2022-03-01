@@ -12,7 +12,7 @@
 <?php if ($records == null || empty($records)): ?>
     <p class="text-secondary"> Nincs rögzítve eggyetlen előadás sem. </p>
 <?php else: ?>
-    <table class="table table-bordered table-responsive table-hover" id="list">
+    <table class="table table-bordered table-responsive table-hover" id="presentation_table">
         <thead>
             <tr>
                 <!-- <th>Azonosító</th> -->
@@ -85,6 +85,19 @@
             <?php endforeach; ?>
         </tbody>
     </table>
+
+    <script type="text/javascript">
+    $('#presentation_table').DataTable( {
+        paging: false,
+        ordering: true,
+        searching: false,
+        info: false,
+        columnDefs: [
+            { orderable: false, targets: 2 }
+        ],
+    } );
+    </script>
+
 
     <?php foreach ($records as $record): ?>
       <div class="modal fade" id="<?='rec' . $record->id?>">

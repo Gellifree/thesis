@@ -26,7 +26,7 @@
     ); */
     ?>
 
-    <table class="table table-bordered table-hover" id='list'>
+    <table class="table table-bordered table-hover" id='member_table'>
         <thead>
             <tr>
                 <!-- <th>Azonosító</th> -->
@@ -46,7 +46,7 @@
                     <td> <?=$record->statusz_nev?> </td>
 
                     <?php if ($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
-                      <td> <?=$record->osztondij?> HUF </td>
+                      <td> <?=$record->osztondij?> </td>
                     <?php endif; ?>
 
                     <td class="text-center" style="width: 85px">
@@ -61,6 +61,17 @@
             <?php endforeach; ?>
         </tbody>
     </table>
+    <script type="text/javascript">
+    $('#member_table').DataTable( {
+        paging: false,
+        ordering: true,
+        searching: false,
+        info: false,
+        columnDefs: [
+            { orderable: false, targets: 3 }
+        ],
+    } );
+    </script>
 
     <?php foreach ($records as $record): ?>
       <div class="modal fade" id="<?='rec' . $record->id?>">
@@ -84,9 +95,7 @@
       </div>
     <?php endforeach; ?>
 
-    <link rel="stylesheet" type="text/css" href="/public/DataTables/datatables.css"/>
 
-    <script type="text/javascript" src="/public/DataTables/datatables.js"></script>
 
 
 

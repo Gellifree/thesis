@@ -10,7 +10,7 @@
     <?php if ($records == null || empty($records)): ?>
       <p class="text-secondary"> Nincs rögzítve eggyetlen megye sem. </p>
     <?php else: ?>
-  <table class="table table-bordered table-hover" id="list">
+  <table class="table table-bordered table-hover" id="county_table">
     <thead>
         <tr>
             <th> Megye </th>
@@ -29,6 +29,18 @@
         <?php endforeach; ?>
     </tbody>
   </table>
+
+  <script type="text/javascript">
+  $('#county_table').DataTable( {
+      paging: false,
+      ordering: true,
+      searching: false,
+      info: false,
+      columnDefs: [
+          { orderable: false, targets: 1 }
+      ],
+  } );
+  </script>
 
 
   <?php foreach ($records as $record): ?>
@@ -56,17 +68,6 @@
 
     <p class="text-end text-secondary"> <?php echo lang('quantity') ?> <?=count($records)?>  <?php echo lang('quantity_measure') ?></p>
 <?php endif; ?>
-
-<script type="text/javascript">
-$(document).ready(function() {
-    var table = $('#list').DataTable({
-        searchPanes: false
-    });
-    table.searchPanes.container().prependTo(table.table().container());
-    table.searchPanes.resizePanes();
-});
-
-</script>
 
 
 <div class="d-grid">

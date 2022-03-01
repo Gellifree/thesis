@@ -14,7 +14,7 @@
 <?php else: ?>
     <!-- <input class="form-control" id="searchInput" type="text" placeholder="Szűrés a táblázatban.."> -->
     <div class="table-responsive">
-    <table class="table table-bordered table-hover" id="list">
+    <table class="table table-bordered table-hover" id="institution_table">
         <thead>
             <tr>
                 <!-- <th>Azonosító</th> -->
@@ -43,6 +43,20 @@
             <?php endforeach; ?>
         </tbody>
     </table>
+
+    <script type="text/javascript">
+    $('#institution_table').DataTable( {
+        paging: false,
+        ordering: true,
+        searching: false,
+        info: false,
+        columnDefs: [
+            { orderable: false, targets: 3 }
+        ],
+    } );
+    </script>
+
+
     </div>
 
 
@@ -72,17 +86,6 @@
 
 
     <p class="text-end text-secondary">Lekérdezett rekordok: <?=count($records)?>  db.</p>
-
-    <script type="text/javascript">
-    $(document).ready(function() {
-        var table = $('#list').DataTable({
-            searchPanes: false
-        });
-        table.searchPanes.container().prependTo(table.table().container());
-        table.searchPanes.resizePanes();
-    });
-
-    </script>
 
 
 
