@@ -78,12 +78,36 @@
       <li class="list-group-item p-2">
         <?php echo anchor(base_url('member/list/'.$member->tag_id), $member->tag_nev) ?>
         <?php if($record->allapot == 0 or $record->allapot == 1) : ?>
-          <?php echo anchor(base_url('presentation/delete_member/'.$member->tag.'/'.$record->id), '<h5 class="fas fa-trash text-info float-end m-1"></h5>'); ?>
+          <?php echo '<h5 data-bs-toggle="modal" data-bs-target="#rec' . $member->tag . '" class="fas fa-trash text-info float-end m-1"></h5>'; ?>
         <?php endif ?>
       </li>
     <?php endforeach ?>
     </ul>
     <?php endif; ?>
+
+    <?php foreach ($has_members as $member): ?>
+      <div class="modal fade" id="<?='rec' . $member->tag?>">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Tag hozzárendelésének eltávolítása</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <p class="text-secondary">Biztos hogy törölni akarja <em><?=$member->tag_nev?></em> hozzárendelését? (<?=$record->nev?>)</p>
+              <button type="button" class="btn btn-info" data-bs-dismiss="modal">Mégsem</button>
+              <?php echo anchor(base_url('presentation/delete_member/'.$member->tag.'/'.$record->id), '<button class="btn btn-danger float-end">Törlés</button>'); ?>
+            </div>
+          </div>
+        </div>
+      </div>
+    <?php endforeach; ?>
+
+
 
     <?php if($record->allapot == 0 or $record->allapot == 1) : ?>
 

@@ -83,11 +83,11 @@ class Member extends CI_Controller
                     }
 
                     $view_params = [
-              'title'               => 'Részletes rekordadatok',
-              'record'              => $record,
-              'has_presentations'   => $this->holds_model->get_presentation_list($member_id),
-              'presentations'       => $presentations,
-          ];
+                      'title'               => 'Részletes rekordadatok',
+                      'record'              => $record,
+                      'has_presentations'   => $this->holds_model->get_presentation_list($member_id),
+                      'presentations'       => $presentations,
+                    ];
 
                     $this->load->view('member/show', $view_params);
                 }
@@ -99,11 +99,11 @@ class Member extends CI_Controller
                 }
 
                 $view_params = [
-            'title'               => 'Részletes rekordadatok',
-            'record'              => $record,
-            'has_presentations'   => $this->holds_model->get_presentation_list($member_id),
-            'presentations'       => $presentations,
-        ];
+                  'title'               => 'Részletes rekordadatok',
+                  'record'              => $record,
+                  'has_presentations'   => $this->holds_model->get_presentation_list($member_id),
+                  'presentations'       => $presentations,
+                ];
 
                 $this->load->view('member/show', $view_params);
             }
@@ -148,10 +148,10 @@ class Member extends CI_Controller
             }
 
             $view_params = [
-        'title'     => lang('member_add_title'),
-        'aktiv'     => [1 => lang('member_active'), 0 => lang('member_in_active')],
-        'statuses'  => $statuses
-      ];
+              'title'     => lang('member_add_title'),
+              'aktiv'     => [1 => lang('member_active'), 0 => lang('member_in_active')],
+              'statuses'  => $statuses
+            ];
 
             $this->load->view('member/add', $view_params);
         }
