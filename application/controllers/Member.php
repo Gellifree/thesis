@@ -119,7 +119,7 @@ class Member extends CI_Controller
 
         $this->load->library('form_validation');
 
-        $this->form_validation->set_rules('nev', lang('member_name'), 'required');
+        $this->form_validation->set_rules('nev', lang('member_name'), 'required|min_length[3]');
         $this->form_validation->set_rules('osztondij', lang('member_scholarship'), 'required|greater_than[0]');
         $this->form_validation->set_rules('email', 'E-mail', 'required');
         $this->form_validation->set_rules('aktiv', 'Aktivitás', 'required');

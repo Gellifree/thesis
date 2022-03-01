@@ -1,24 +1,25 @@
 <?php $this->load->view('common/bootstrap'); ?>
 <?php $this->load->view('common/navbar'); ?>
 <body class="bg-light">
-<div class="container border shadow-sm rounded bg-white mt-4">
+<div class="container border shadow-sm rounded bg-white mt-4 p-4">
 
 
 <h1><?php echo lang('index_heading');?></h1>
-<p><?php echo lang('index_subheading');?></p>
+<p class="text-secondary"><?php echo lang('index_subheading');?></p>
 
-<div id="infoMessage"><?php echo $message;?></div>
+<div id="infoMessage" class="text-secondary"><?php echo $message;?></div>
 
-<table cellpadding=0 cellspacing=10 class="table">
-	<tr>
-		<th><?php echo lang('index_fname_th');?></th>
-		<th><?php echo lang('index_lname_th');?></th>
-		<th><?php echo lang('index_email_th');?></th>
-		<th><?php echo lang('index_groups_th');?></th>
-		<th><?php echo lang('index_status_th');?></th>
-		<th><?php echo lang('index_action_th');?></th>
-	</tr>
-	<?php foreach ($users as $user):?>
+<div class="table-responsive">
+	<table cellpadding=0 cellspacing=10 class="table">
+		<tr class="bg-dark text-white border">
+			<th><?php echo lang('index_fname_th');?></th>
+			<th><?php echo lang('index_lname_th');?></th>
+			<th><?php echo lang('index_email_th');?></th>
+			<th><?php echo lang('index_groups_th');?></th>
+			<th><?php echo lang('index_status_th');?></th>
+			<th><?php echo lang('index_action_th');?></th>
+		</tr>
+		<?php foreach ($users as $user):?>
 		<tr>
             <td><?php echo htmlspecialchars($user->first_name, ENT_QUOTES, 'UTF-8');?></td>
             <td><?php echo htmlspecialchars($user->last_name, ENT_QUOTES, 'UTF-8');?></td>
@@ -29,11 +30,11 @@
                 <?php endforeach?>
 			</td>
 			<td><?php echo ($user->active) ? anchor("auth/deactivate/".$user->id, lang('index_active_link')) : anchor("auth/activate/". $user->id, lang('index_inactive_link'));?></td>
-			<td><?php echo anchor("auth/edit_user/".$user->id, 'Edit') ;?></td>
+			<td class="text-center" style="width: 90px"><?php echo anchor("auth/edit_user/".$user->id, '<h5 class="fas fa-edit text-info"></h5>') ;?></td>
 		</tr>
-	<?php endforeach;?>
-</table>
-
-<p><?php echo anchor('auth/create_user', lang('index_create_user_link'))?> | <?php echo anchor('auth/create_group', lang('index_create_group_link'))?></p>
+		<?php endforeach;?>
+	</table>
+</div>
+<p><?php echo anchor('auth/create_user', lang('index_create_user_link'), ['class' => 'btn btn-info'])?> | <?php echo anchor('auth/create_group', lang('index_create_group_link'), ['class' => 'btn btn-info'])?></p>
 
 </div>

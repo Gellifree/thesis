@@ -14,21 +14,21 @@ echo form_open();
 
 echo form_error('nev');
 echo form_input(
-    ['type' => 'text', 'name' => 'nev'],
+    ['type' => 'text', 'name' => 'nev', 'required' => 'required', 'minlength' => 3],
     '',
     ['placeholder' => 'Megnevezés*', 'class' => 'form-control my-2']
 );
 
 echo form_error('cim');
 echo form_input(
-    ['type' => 'text', 'name' => 'cim'],
+    ['type' => 'text', 'name' => 'cim', 'required' => 'required', 'minlength' => 3],
     '',
     ['placeholder' => 'Intézmény címe*', 'class' => 'form-control my-2']
 );
 
 echo form_error('igazgato_neve');
 echo form_input(
-    ['type' => 'text', 'name' => 'igazgato_neve'],
+    ['type' => 'text', 'name' => 'igazgato_neve', 'required' => 'required', 'minlength' => 3],
     '',
     ['placeholder' => 'Igazgató neve*', 'class' => 'form-control my-2']
 );
@@ -57,7 +57,7 @@ echo form_input(
 
 echo form_error('megye');
 echo form_dropdown(
-    ['name' => 'megye', 'class' => 'form-select my-2'],
+    ['name' => 'megye', 'class' => 'form-select my-2', 'required' => 'required'],
     $counties
 );
 

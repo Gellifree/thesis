@@ -109,7 +109,7 @@ class Presentation extends CI_Controller
     public function insert()
     {
         $this->load->library('form_validation');
-        $this->form_validation->set_rules('nev', 'Előadás neve', 'required');
+        $this->form_validation->set_rules('nev', 'Előadás neve', 'required|min_length[3]');
         $this->form_validation->set_rules('idopont', 'Időpont', 'required');
         $this->form_validation->set_rules('allapot', 'Állapot (allapot)', 'required');
         $this->form_validation->set_rules('iskola', 'Intézmény', 'required');
@@ -157,7 +157,7 @@ class Presentation extends CI_Controller
 
         $this->load->library('form_validation');
 
-        $this->form_validation->set_rules('nev', 'Előadás neve', 'required');
+        $this->form_validation->set_rules('nev', 'Előadás neve', 'required|min_length[3]');
         $this->form_validation->set_rules('idopont', 'Időpont', 'required');
         $this->form_validation->set_rules('allapot', 'Állapot (allapot)', 'required');
         $this->form_validation->set_rules('iskola', 'Intézmény', 'required');

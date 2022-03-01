@@ -16,7 +16,7 @@ echo form_open();
 echo form_error('nev');
 
 echo form_input(
-    ['type' => 'text', 'name' => 'nev'],
+    ['type' => 'text', 'name' => 'nev', 'required' => 'required', 'minlength' => 3],
     set_value('nev', $record->nev),
     ['placeholder' => lang('member_name') . '*', 'class' => 'form-control my-2']
 );
@@ -24,7 +24,7 @@ echo form_input(
 
 echo form_error('osztondij');
 echo form_input(
-    ['type' => 'number', 'name' => 'osztondij'],
+    ['type' => 'number', 'name' => 'osztondij', 'required' => 'required', 'min' => 1],
     set_value('osztondij', $record->osztondij),
     ['placeholder' => lang('member_scholarship') . '*', 'class' => 'form-control my-2']
 );
@@ -32,7 +32,7 @@ echo form_input(
 
 echo form_error('email');
 echo form_input(
-    ['type' => 'email', 'name' => 'email'],
+    ['type' => 'email', 'name' => 'email', 'required' => 'required'],
     set_value('email', $record->e_mail),
     ['placeholder' => 'E-mail*', 'class' => 'form-control my-2']
 );
@@ -50,7 +50,7 @@ echo form_input(
 echo form_error('status_id');
 echo '<label class="form-text mx-2"> Státusz* </label>';
 echo form_dropdown(
-    ['name' => 'status_id', 'class' => 'form-select my-2'],
+    ['name' => 'status_id', 'class' => 'form-select my-2', 'required' => 'required'],
     $statuses,
     [ $record->statusz ]
 );
@@ -58,7 +58,7 @@ echo form_dropdown(
 
 echo form_error('aktiv');
 echo form_dropdown(
-    ['name' => 'aktiv', 'class' => 'form-select my-2'],
+    ['name' => 'aktiv', 'class' => 'form-select my-2', 'required' => 'required'],
     $aktiv,
     [ $record->aktiv ]
 );

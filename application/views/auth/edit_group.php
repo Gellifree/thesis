@@ -1,13 +1,13 @@
 <?php $this->load->view('common/bootstrap'); ?>
 <?php $this->load->view('common/navbar'); ?>
 <body class="bg-light">
-<div class="container border shadow-sm rounded bg-white mt-4">
+<div class="container border shadow-sm rounded bg-white mt-4 p-3">
 
 
 <h1><?php echo lang('edit_group_heading');?></h1>
-<p><?php echo lang('edit_group_subheading');?></p>
+<p class="text-secondary"><?php echo lang('edit_group_subheading');?></p>
 
-<div id="infoMessage"><?php echo $message;?></div>
+<div class="text-secondary" id="infoMessage"><?php echo $message;?></div>
 
 <?php echo form_open(current_url());?>
 

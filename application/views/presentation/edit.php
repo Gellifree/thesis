@@ -14,7 +14,7 @@ echo form_open();
 
 echo form_error('nev');
 echo form_input(
-    ['type' => 'text', 'name' => 'nev'],
+    ['type' => 'text', 'name' => 'nev', 'required' => 'required', 'minlength' => 3],
     $record->nev,
     ['placeholder' => 'Megnevezés*', 'class' => 'form-control my-2']
 );
@@ -22,7 +22,7 @@ echo form_input(
 echo form_error('idopont');
 echo '<label class="form-text mx-2"> Előadás tervezett időpontja* </label>';
 echo form_input(
-    ['type' => 'date', 'name' => 'idopont'],
+    ['type' => 'date', 'name' => 'idopont', 'required' => 'required',],
     $record->idopont,
     ['class' => 'form-control my-2']
 );
@@ -30,7 +30,7 @@ echo form_input(
 echo form_error('allapot');
 echo '<label class="form-text mx-2"> Előadás állapota* </label>';
 echo form_dropdown(
-    ['name' => 'allapot', 'class' => 'form-select my-2'],
+    ['name' => 'allapot', 'class' => 'form-select my-2', 'required' => 'required',],
     $reconciled,
     [ $record->allapot ]
 );
@@ -39,7 +39,7 @@ echo form_dropdown(
 echo form_error('iskola');
 echo '<label class="form-text mx-2"> Az intézmény* </label>';
 echo form_dropdown(
-    ['name' => 'iskola', 'class' => 'form-select'],
+    ['name' => 'iskola', 'class' => 'form-select', 'required' => 'required',],
     $institutions,
     [ $record->iskola ]
 );

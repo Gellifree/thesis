@@ -1,7 +1,7 @@
 <?php $this->load->view('common/bootstrap'); ?>
 <?php $this->load->view('common/navbar'); ?>
 <body class="bg-light">
-<div class="container border shadow-sm rounded bg-white mt-4">
+<div class="container border shadow-sm rounded bg-white mt-4 p-3">
 
 
 <h1><?php echo lang('deactivate_heading');?></h1>

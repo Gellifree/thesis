@@ -15,7 +15,7 @@ echo form_open();
 
 echo form_error('nev');
 echo form_input(
-    ['type' => 'text', 'name' => 'nev'],
+    ['type' => 'text', 'name' => 'nev', 'required' => 'required', 'minlength' => 2],
     '',
     ['placeholder' => 'Megye neve*', 'class' => 'form-control my-2']
 );
