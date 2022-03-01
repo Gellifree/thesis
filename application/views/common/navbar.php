@@ -8,6 +8,11 @@
 
      <ul class="navbar-nav me-auto">
        <?php if ($this->ion_auth->logged_in()): ?>
+
+
+
+
+
        <li class="nav-item">
          <a class="nav-link" href="/presentation/list">Előadás</a>
        </li>
@@ -29,6 +34,15 @@
        <?php endif; ?>
       <?php endif; ?>
      </ul>
+     <li class="me-5">
+      <span class="text-white me-2">Nyelv megváltoztatása erre: </span>
+      <?php if($this->session->userdata('site_lang') == "hungarian") :  ?>
+       <?php echo anchor(base_url() . 'LangSwitch/switchLanguage/english', 'Angol', ['class' => 'btn btn-info btn-sm'])?>
+     <?php else: ?>
+       <?php echo anchor(base_url() . 'LangSwitch/switchLanguage/hungarian', 'Hungarian', ['class' => 'btn btn-info btn-sm'])?>
+     <?php endif?>
+     </li>
+
 
      <form class="d-flex" style="margin-bottom: 0">
        <?php if ($this->ion_auth->is_admin()) : ?>
