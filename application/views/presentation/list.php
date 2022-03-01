@@ -25,15 +25,34 @@
             <?php foreach ($records as $record): ?>
                 <tr>
                     <!-- <td> <?=$record->id?> </td> -->
+
                     <?php
                       $date_now = new DateTime();
                       $presentation_date = new DateTime($record->idopont);
                     ?>
-                    <?php if ($presentation_date > $date_now) : ?>
-                      <td> <?=$record->nev?> </td>
+
+                    <?php if ($presentation_date < $date_now) : ?>
+                      <?php if($record->allapot == "2") : ?>
+                        <td class=" text-secondary"> <?=$record->nev?>  <h5 class="fas fa-check-square text-success float-end mt-1"></h5> </td>
+
+                      <?php else :?>
+                        <?php if($record->allapot == "3") : ?>
+                          <td class=" text-secondary"> <?=$record->nev?> </td>
+                        <?php else: ?>
+                        <td class=" text-secondary"> <?=$record->nev?> <h5 title="Az előadás időpontja már lejárt! Állítsa át az állapotát Sikeresre vagy Sikertelenre!" data-bs-toggle="tooltip"  class="fas fa-exclamation-triangle text-danger float-end mt-1"></h5> </td>
+
+                        <script>
+                          var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+                          var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                            return new bootstrap.Tooltip(tooltipTriggerEl)
+                          })
+                        </script>
+                        <?php endif ?>
+                      <?php endif ?>
                     <?php else : ?>
-                      <td class="text-secondary"> <?=$record->nev?> <span class="float-end">(Időpont lejárt)</span> </td>
-                    <?php endif; ?>
+                      <td class=""> <?=$record->nev?>  </td>
+                    <?php endif ?>
+
 
 
                     <td class="text-center " style="width: 200px">

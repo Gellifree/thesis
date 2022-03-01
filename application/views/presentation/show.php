@@ -77,11 +77,21 @@
     <?php foreach ($has_members as $member): ?>
       <li class="list-group-item p-2">
         <?php echo anchor(base_url('member/list/'.$member->tag_id), $member->tag_nev) ?>
-        <?php echo anchor(base_url('presentation/delete_member/'.$member->tag.'/'.$record->id), '<h5 class="fas fa-trash text-info float-end m-1"></h5>'); ?>
+        <?php if($record->allapot == 0 or $record->allapot == 1) : ?>
+          <?php echo anchor(base_url('presentation/delete_member/'.$member->tag.'/'.$record->id), '<h5 class="fas fa-trash text-info float-end m-1"></h5>'); ?>
+        <?php endif ?>
       </li>
     <?php endforeach ?>
     </ul>
     <?php endif; ?>
+
+    <?php if($record->allapot == 0 or $record->allapot == 1) : ?>
+
+
+    <div class="alert alert-info">
+      <strong>Figyelem!</strong> Amint az előadás állapota, Sikeresre, vagy Sikertelenre lett állítva nincs lehetőség a taglista változtatásán!
+    </div>
+
     <?php
 
     echo form_open();
@@ -101,6 +111,7 @@
 
     echo form_close();
     ?>
+  <?php endif ?>
 
     <div class="d-grid">
       <?php echo anchor(base_url('presentation/list'), 'Vissza a listázó nézetre', ['class' => 'btn btn-outline-info float-end shadow-sm']) ?>
