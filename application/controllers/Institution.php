@@ -113,9 +113,10 @@ class Institution extends CI_Controller
         }
 
         $this->load->library('form_validation');
-        $this->form_validation->set_rules('nev', 'Intézmény neve', 'required');
-        $this->form_validation->set_rules('cim', 'Cím', 'required');
-        $this->form_validation->set_rules('igazgato_neve', 'Igazgató neve', 'required');
+        $this->form_validation->set_rules('nev', 'Intézmény neve', 'required|min_length[3]');
+        $this->form_validation->set_rules('cim', 'Cím', 'required|min_length[3]');
+        $this->form_validation->set_rules('igazgato_neve', 'Igazgató neve', 'required|min_length[3]');
+        $this->form_validation->set_rules('megye', 'Megye', 'required');
 
         if ($this->form_validation->run() == true) {
             $nev = $this->input->post('nev');
