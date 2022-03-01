@@ -50,7 +50,17 @@
                         <?php endif ?>
                       <?php endif ?>
                     <?php else : ?>
-                      <td class=""> <?=$record->nev?>  </td>
+                      <?php if(($presentation_date > $date_now) and ($record->allapot == "2")) : ?>
+                        <td class="text-dark"> <?=$record->nev?> <h5 title="Előadás a beállított dátum előtt sikeresnek jelölve!" data-bs-toggle="tooltip" class="fas fa-question-circle float-end text-warning"></h5></td>
+                        <script>
+                          var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+                          var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                            return new bootstrap.Tooltip(tooltipTriggerEl)
+                          })
+                        </script>
+                      <?php else: ?>
+                        <td class=""> <?=$record->nev?> </td>
+                      <?php endif?>
                     <?php endif ?>
 
 
