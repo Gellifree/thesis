@@ -1,5 +1,10 @@
 <?php $this->load->view('common/bootstrap'); ?>
 <?php $this->load->view('common/navbar'); ?>
+
+
+
+
+
 <title><?=$title?></title>
 <div class="container my-2 border shadow-sm text-white bg-dark rounded">
 <h6 class="m-2"><?=$title?></h6>
@@ -79,23 +84,13 @@
       </div>
     <?php endforeach; ?>
 
+    <link rel="stylesheet" type="text/css" href="/public/DataTables/datatables.css"/>
 
+    <script type="text/javascript" src="/public/DataTables/datatables.js"></script>
 
 
 
     <p class="text-end text-secondary"> <?php echo lang('quantity') ?> <?=count($records)?>  <?php echo lang('quantity_measure') ?></p>
-
-    <script type="text/javascript">
-    $(document).ready(function() {
-        var table = $('#list').DataTable({
-            searchPanes: false
-        });
-        table.searchPanes.container().prependTo(table.table().container());
-        table.searchPanes.resizePanes();
-    });
-
-    </script>
-
 
 <?php endif; ?>
 <?php if ($this->ion_auth->in_group(['admin', 'admin-helper'], false, false)) : ?>
