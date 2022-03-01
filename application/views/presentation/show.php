@@ -64,10 +64,7 @@
 
   </div>
   <!-- TODO hozzáadás implementálása -->
-  <div class="col-sm-1">
-
-  </div>
-  <div class="col-lg-8  p-3 border bg-white shadow-sm rounded mb-3">
+  <div class="col-lg-9  p-3 border bg-white shadow-sm rounded mb-3">
     <h5>Kapcsolodó tagok</h5>
     <?php echo form_error('tagok'); ?>
 

@@ -9,7 +9,7 @@
 <div class="container p-3">
 
 <div class="row">
-  <div class="col-lg-3 mb-3">
+  <div class="col-lg-3 mb-3 p-0">
     <div class="card">
       <img class="card-img-top" src="/public/images/member_rect.png" alt="Member placeholder image">
       <div class="card-body">

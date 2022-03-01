@@ -14,7 +14,7 @@
 <div class="container p-3">
 
   <div class="row">
-    <div class="col-lg-3 mb-3 ">
+    <div class="col-lg-3 mb-3 p-0">
       <div class="card rounded shadow-sm border">
         <img class="card-img-top" src="/public/images/institution.png" alt="Card image">
         <div class="card-body">
