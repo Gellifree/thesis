@@ -7,7 +7,7 @@
 <h6 class="m-2"> <?=$title?> </h6>
 </div>
 <div class="container border my-3 p-3 bg-white">
-<h6>A csillaggal jelölt mezők kitöltése kötelező.</h6>
+<h6><?php echo lang('marked_required'); ?></h6>
 <?php
 
 echo form_open();
@@ -16,11 +16,11 @@ echo form_error('nev');
 echo form_input(
         ['type' => 'text', 'name' => 'nev', 'required' => 'required', 'minlength' => 3],
         '',
-        ['placeholder' => 'Megnevezés*', 'class' => 'form-control my-2']
+        ['placeholder' => lang('presentation_name') . '*', 'class' => 'form-control my-2']
 );
 
 echo form_error('idopont');
-echo '<label class="form-text mx-2"> Előadás tervezett időpontja* </label>';
+echo '<label class="form-text mx-2"> '.lang('presentation_planned_date').'* </label>';
 echo form_input(
         ['type' => 'date', 'name' => 'idopont', 'required' => 'required'],
         '',
@@ -28,7 +28,7 @@ echo form_input(
 );
 
 echo form_error('allapot');
-echo '<label class="form-text mx-2"> Előadás állapota* </label>';
+echo '<label class="form-text mx-2"> '. lang('presentation_state') .'* </label>';
 echo form_dropdown(
   ['name' => 'allapot', 'class' => 'my-2 form-select', 'required' => 'required'],
   $reconciled
@@ -36,7 +36,7 @@ echo form_dropdown(
 
 
 echo form_error('iskola');
-echo '<label class="form-text mx-2"> Az intézmény* </label>';
+echo '<label class="form-text mx-2"> '.lang('presentation_institute').'* </label>';
 echo form_dropdown(
   ['name' => 'iskola', 'class' => 'form-select', 'required' => 'required'],
   $institutions

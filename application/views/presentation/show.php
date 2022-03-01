@@ -23,10 +23,10 @@
 
           <?php if ($presentation_date < $date_now) : ?>
             <?php if($record->allapot == "2") : ?>
-              <li class="list-group-item text-secondary"> Időpont : <?=$record->idopont?> <h5 class="fas fa-check-square text-success float-end mt-1"></h5> </li>
+              <li class="list-group-item text-secondary"> <?php echo lang('date_of_the_presentation'); ?> : <?=$record->idopont?> <h5 class="fas fa-check-square text-success float-end mt-1"></h5> </li>
 
             <?php else :?>
-              <li class="list-group-item text-secondary"> Időpont : <?=$record->idopont?> <h5 title="Az előadás időpontja már lejárt!" data-bs-toggle="tooltip"  class="fas fa-exclamation-triangle text-danger float-end mt-1"></h5> </li>
+              <li class="list-group-item text-secondary"> <?php echo lang('date_of_the_presentation'); ?> : <?=$record->idopont?> <h5 title="Az előadás időpontja már lejárt!" data-bs-toggle="tooltip"  class="fas fa-exclamation-triangle text-danger float-end mt-1"></h5> </li>
 
               <script>
                 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
@@ -36,27 +36,27 @@
               </script>
             <?php endif ?>
           <?php else : ?>
-            <li class="list-group-item"> Időpont : <?=$record->idopont?>  </li>
+            <li class="list-group-item"><?php echo lang('date_of_the_presentation'); ?> : <?=$record->idopont?>  </li>
           <?php endif ?>
 
 
 
 
-          <li class="list-group-item"> Állapot :
+          <li class="list-group-item"> <?php echo lang('presentation_state'); ?> :
             <?php if ($record->allapot == 0) : ?>
-              <span class="text-info">Egyeztetett</span>
+              <span class="text-info"> <?php echo lang('presentation_agreed'); ?></span>
             <?php elseif ($record->allapot == 1) : ?>
-              <span class="text-warning">Még nem egyeztetett</span>
+              <span class="text-warning"> <?php echo lang('presentation_not_yet_aggreed'); ?></span>
             <?php elseif ($record->allapot == 2) : ?>
-              <span class="text-success">Sikeresen teljesített</span>
+              <span class="text-success"> <?php echo lang('presentation_successful'); ?></span>
             <?php else : ?>
-              <span class="text-danger">Sikertelen</span>
+              <span class="text-danger"> <?php echo lang('presentation_unsuccessful'); ?></span>
             <?php endif; ?>
           </li>
-          <li class="list-group-item"> Iskola : <?php echo anchor(base_url('institution/list/'.$record->intezmeny_id), $record->intezmeny_nev) ?>   </li>
+          <li class="list-group-item"> <?php echo lang('presentation_institute'); ?> : <?php echo anchor(base_url('institution/list/'.$record->intezmeny_id), $record->intezmeny_nev) ?>   </li>
         </ul>
         <div class="d-grid">
-          <?php echo anchor(base_url('presentation/update/'.$record->id), 'Előadás szerkesztése', ['class' => 'btn btn-info my-3']) ?>
+          <?php echo anchor(base_url('presentation/update/'.$record->id), lang('edit_presentation'), ['class' => 'btn btn-info my-3']) ?>
         </div>
       </div>
     </div>
@@ -65,11 +65,11 @@
   </div>
   <!-- TODO hozzáadás implementálása -->
   <div class="col-lg-9  p-3 border bg-white shadow-sm rounded mb-3">
-    <h5>Kapcsolodó tagok</h5>
+    <h5> <?php echo lang('related_members'); ?> </h5>
     <?php echo form_error('tagok'); ?>
 
     <?php if ($has_members == null || empty($has_members)): ?>
-        <p class="text-secondary"> Nincs eggyetlen Tag sem hozzárendelve ehhez az előadáshoz. </p>
+        <p class="text-secondary"> <?php echo lang('no_members_assigned'); ?> </p>
     <?php else: ?>
 
 
@@ -92,15 +92,15 @@
 
             <!-- Modal Header -->
             <div class="modal-header">
-              <h4 class="modal-title">Tag hozzárendelésének eltávolítása</h4>
+              <h4 class="modal-title"> <?php echo lang('unassign_member'); ?> </h4>
               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
 
             <!-- Modal body -->
             <div class="modal-body">
-              <p class="text-secondary">Biztos hogy törölni akarja <em><?=$member->tag_nev?></em> hozzárendelését? (<?=$record->nev?>)</p>
-              <button type="button" class="btn btn-info" data-bs-dismiss="modal">Mégsem</button>
-              <?php echo anchor(base_url('presentation/delete_member/'.$member->tag.'/'.$record->id), '<button class="btn btn-danger float-end">Törlés</button>'); ?>
+              <p class="text-secondary"> <?php echo lang('delete_member_from_pres'); ?> <em><?=$member->tag_nev?></em> (<?=$record->nev?>)</p>
+              <button type="button" class="btn btn-info" data-bs-dismiss="modal"><?php echo lang('no'); ?></button>
+              <?php echo anchor(base_url('presentation/delete_member/'.$member->tag.'/'.$record->id), '<button class="btn btn-danger float-end">'. lang('yes') .'</button>'); ?>
             </div>
           </div>
         </div>
@@ -113,7 +113,7 @@
 
 
     <div class="alert alert-info">
-      <strong>Figyelem!</strong> Amint az előadás állapota, Sikeresre, vagy Sikertelenre lett állítva nincs lehetőség a taglista változtatásán!
+      <?php echo lang('attention_state_change'); ?>
     </div>
 
     <?php
@@ -128,7 +128,7 @@
     echo '<div class="d-grid">';
     echo form_button(
         ['type' => 'submit'],
-        'Tag hozzárendelése',
+        lang('assign_member'),
         ['class' => 'btn btn-info my-3']
     );
     echo '</div>';
@@ -138,7 +138,7 @@
   <?php endif ?>
 
     <div class="d-grid">
-      <?php echo anchor(base_url('presentation/list'), 'Vissza a listázó nézetre', ['class' => 'btn btn-outline-info float-end shadow-sm']) ?>
+      <?php echo anchor(base_url('presentation/list'), lang('go_back_to_list'), ['class' => 'btn btn-outline-info float-end shadow-sm']) ?>
     </div>
 
   </div>

@@ -1,4 +1,4 @@
-<?php $this->load->view('common/bootstrap'); ?>
+ <?php $this->load->view('common/bootstrap'); ?>
 <?php $this->load->view('common/navbar'); ?>
 <title><?=$title?></title>
 
@@ -7,7 +7,7 @@
 <h6 class="m-2"> <?=$title?> </h6>
 </div>
 <div class="container border my-3 p-3 bg-white">
-<h6>A csillaggal jelölt mezők kitöltése kötelező.</h6>
+<h6> <?php echo lang('marked_required') ?> </h6>
 <?php
 
 echo form_open();
@@ -16,11 +16,11 @@ echo form_error('nev');
 echo form_input(
     ['type' => 'text', 'name' => 'nev', 'required' => 'required', 'minlength' => 3],
     $record->nev,
-    ['placeholder' => 'Megnevezés*', 'class' => 'form-control my-2']
+    ['placeholder' => lang('presentation_name') . '*', 'class' => 'form-control my-2']
 );
 
 echo form_error('idopont');
-echo '<label class="form-text mx-2"> Előadás tervezett időpontja* </label>';
+echo '<label class="form-text mx-2">'.lang('presentation_planned_date').'* </label>';
 echo form_input(
     ['type' => 'date', 'name' => 'idopont', 'required' => 'required',],
     $record->idopont,
@@ -28,7 +28,7 @@ echo form_input(
 );
 
 echo form_error('allapot');
-echo '<label class="form-text mx-2"> Előadás állapota* </label>';
+echo '<label class="form-text mx-2">'.lang('presentation_state').'* </label>';
 echo form_dropdown(
     ['name' => 'allapot', 'class' => 'form-select my-2', 'required' => 'required',],
     $reconciled,
@@ -37,7 +37,7 @@ echo form_dropdown(
 
 
 echo form_error('iskola');
-echo '<label class="form-text mx-2"> Az intézmény* </label>';
+echo '<label class="form-text mx-2">'.lang('presentation_institute').'* </label>';
 echo form_dropdown(
     ['name' => 'iskola', 'class' => 'form-select', 'required' => 'required',],
     $institutions,
@@ -47,7 +47,7 @@ echo form_dropdown(
 echo '<div class="d-grid">';
 echo form_button(
     ['type' => 'submit'],
-    lang('send'),
+    lang('edit_presentation'),
     ['class' => 'btn btn-info my-3']
 );
 echo '</div>';

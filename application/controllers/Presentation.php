@@ -25,7 +25,6 @@ class Presentation extends CI_Controller
     }
 
     public function check_holds_user($member, $presentation_id) {
-
       $record = $this->holds_model->get_one($presentation_id, $member);
       if($record == null || empty($record)) {
         return true;
@@ -78,7 +77,7 @@ class Presentation extends CI_Controller
                     }
 
                     $view_params = [
-                      'title'               => 'Részletes rekordadatok',
+                      'title'               => lang('presentation_show_title'),
                       'record'              => $record,
                       'has_members'         => $this->holds_model->get_user_list($presentation_id),
                       'members'             => $members,
@@ -95,7 +94,7 @@ class Presentation extends CI_Controller
                 }
 
                 $view_params = [
-                  'title'               => 'Részletes rekordadatok',
+                  'title'               => lang('presentation_show_title'),
                   'record'              => $record,
                   'has_members'         => $this->holds_model->get_user_list($presentation_id),
                   'members'             => $members,
@@ -131,9 +130,9 @@ class Presentation extends CI_Controller
             }
 
             $view_params = [
-              'title'         => 'Előadás hozzáadása',
+              'title'         => lang('add_presentation'),
               'institutions'  => $institutions,
-              'reconciled'    => [0 => 'Eggyeztetett', 1 => 'Még nem eggyeztetett', 2 => 'Sikeresen teljesített', 3 => 'Sikertelen']
+              'reconciled'    => [0 => lang('presentation_agreed'), 1 => lang('presentation_not_yet_aggreed'), 2 => lang('presentation_successful'), 3 => lang('presentation_unsuccessful')]
             ];
 
             $this->load->view('presentation/add', $view_params);
@@ -180,10 +179,10 @@ class Presentation extends CI_Controller
             }
 
             $view_params = [
-              'title'         => 'Előadás módosítása',
+              'title'         => lang('edit_presentation'),
               'record'        => $record,
               'institutions'  => $institutions,
-              'reconciled'    => [0 => 'Eggyeztetett', 1 => 'Még nem eggyeztetett', 2 => 'Sikeresen teljesített', 3 => 'Sikertelen']
+              'reconciled'    => [0 => lang('presentation_agreed'), 1 => lang('presentation_not_yet_aggreed'), 2 => lang('presentation_successful'), 3 => lang('presentation_unsuccessful')]
             ];
 
             $this->load->helper('form');

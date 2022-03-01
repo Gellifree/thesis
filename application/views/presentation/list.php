@@ -10,14 +10,14 @@
 
 <div class="container border shadow-smt bg-white p-3">
 <?php if ($records == null || empty($records)): ?>
-    <p class="text-secondary"> Nincs rögzítve eggyetlen előadás sem. </p>
+    <p class="text-secondary"> <?php echo lang('no_presentations'); ?> </p>
 <?php else: ?>
     <table class="table table-bordered table-responsive table-hover" id="presentation_table">
         <thead>
             <tr>
                 <!-- <th>Azonosító</th> -->
                 <th> <?php echo lang('presentation_name') ?> </th>
-                <th class="text-center"> Állapot </th>
+                <th class="text-center"> <?php echo lang('presentation_state') ?> </th>
                 <th class="text-center"> <?php echo lang('operations'); ?> </th>
             </tr>
         </thead>
@@ -39,7 +39,7 @@
                         <?php if($record->allapot == "3") : ?>
                           <td class=" text-secondary"> <?=$record->nev?> </td>
                         <?php else: ?>
-                        <td class=" text-secondary"> <?=$record->nev?> <h5 title="Az előadás időpontja már lejárt! Állítsa át az állapotát Sikeresre vagy Sikertelenre!" data-bs-toggle="tooltip"  class="fas fa-exclamation-triangle text-danger float-end mt-1"></h5> </td>
+                        <td class=" text-secondary"> <?=$record->nev?> <h5 title="<?php echo lang('presentation_date_expired'); ?>" data-bs-toggle="tooltip"  class="fas fa-exclamation-triangle text-danger float-end mt-1"></h5> </td>
 
                         <script>
                           var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
@@ -51,7 +51,7 @@
                       <?php endif ?>
                     <?php else : ?>
                       <?php if(($presentation_date > $date_now) and ($record->allapot == "2")) : ?>
-                        <td class="text-dark"> <?=$record->nev?> <h5 title="Előadás a beállított dátum előtt sikeresnek jelölve!" data-bs-toggle="tooltip" class="fas fa-question-circle float-end text-warning"></h5></td>
+                        <td class="text-dark"> <?=$record->nev?> <h5 title="<?php echo lang('marked_too_soon'); ?>" data-bs-toggle="tooltip" class="fas fa-question-circle float-end text-warning"></h5></td>
                         <script>
                           var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
                           var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
@@ -67,13 +67,13 @@
 
                     <td class="text-center " style="width: 200px">
                       <?php if ($record->allapot == 0) : ?>
-                        <span class="text-info">Egyeztetett</span>
+                        <span class="text-info"><?php echo lang('presentation_agreed'); ?></span>
                       <?php elseif ($record->allapot == 1) : ?>
-                        <span class="text-warning">Még nem egyeztetett</span>
+                        <span class="text-warning"><?php echo lang('presentation_not_yet_aggreed'); ?></span>
                       <?php elseif ($record->allapot == 2) : ?>
-                        <span class="text-success">Sikeresen teljesített</span>
+                        <span class="text-success"><?php echo lang('presentation_successful'); ?></span>
                       <?php else : ?>
-                        <span class="text-danger">Sikertelen</span>
+                        <span class="text-danger"><?php echo lang('presentation_unsuccessful'); ?></span>
                       <?php endif; ?>
                     </td>
                     <td class="text-center" style="width: 85px">
@@ -106,15 +106,15 @@
 
             <!-- Modal Header -->
             <div class="modal-header">
-              <h4 class="modal-title">Előadás törlése</h4>
+              <h4 class="modal-title"> <?php echo lang('delete_presentation_title'); ?> </h4>
               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
 
             <!-- Modal body -->
             <div class="modal-body">
-              <p class="text-secondary">Biztos hogy törölni akarja a rekordot <em>(<?=$record->nev?>)</em>?</p>
-              <button type="button" class="btn btn-info" data-bs-dismiss="modal">Mégsem</button>
-              <?php echo anchor(base_url('presentation/delete/'.$record->id), '<button class="btn btn-danger float-end">Törlés</button>'); ?>
+              <p class="text-secondary"> <?php echo lang('delete_confirm_message'); ?> <em>(<?=$record->nev?>)</em>?</p>
+              <button type="button" class="btn btn-info" data-bs-dismiss="modal"> <?php echo lang('no'); ?> </button>
+              <?php echo anchor(base_url('presentation/delete/'.$record->id), '<button class="btn btn-danger float-end">'. lang('yes') .'</button>'); ?>
             </div>
           </div>
         </div>
@@ -126,22 +126,9 @@
 
 <?php endif; ?>
 
-<!--
-<script type="text/javascript">
-$(document).ready(function() {
-    var table = $('#list').DataTable({
-        searchPanes: false
-    });
-    table.searchPanes.container().prependTo(table.table().container());
-    table.searchPanes.resizePanes();
-});
-
-</script>
--->
-
 
 <div class="d-grid">
-  <?php echo anchor(base_url('presentation/insert'), 'Előadás hozzáadása', ['class' => 'btn btn-info']); ?>
+  <?php echo anchor(base_url('presentation/insert'), lang('add_presentation'), ['class' => 'btn btn-info']); ?>
 </div>
 
 </div>
