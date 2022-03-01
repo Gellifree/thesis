@@ -140,10 +140,10 @@ class Institution extends CI_Controller
             }
 
             $view_params = [
-          'title'     => 'Intézmény szerkesztése',
-          'record'    => $record,
-          'counties'  => $counties
-        ];
+              'title'     => 'Intézmény szerkesztése',
+              'record'    => $record,
+              'counties'  => $counties
+            ];
 
             $this->load->helper('form');
             $this->load->view('institution/edit', $view_params);

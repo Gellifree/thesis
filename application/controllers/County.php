@@ -51,7 +51,7 @@ class County extends CI_Controller
             $view_params = [
                'title'  => 'Részletes rekordadatok',
                'record' => $record
-           ];
+            ];
 
             $this->load->view('county/show', $view_params);
         }
@@ -72,8 +72,8 @@ class County extends CI_Controller
             redirect(base_url('county/list'));
         } else {
             $view_params = [
-          'title'   => 'Megye hozzáadása'
-        ];
+              'title'   => 'Megye hozzáadása'
+            ];
 
             $this->load->helper('form');
             $this->load->view('county/add', $view_params);

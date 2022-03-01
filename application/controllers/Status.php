@@ -34,9 +34,9 @@ class Status extends CI_Controller
         }
 
         $view_params = [
-      'title'      => lang('status_list_title'),
-      'records'    => $this->status_model->get_list()
-    ];
+          'title'      => lang('status_list_title'),
+          'records'    => $this->status_model->get_list()
+        ];
         $this->load->view('status/list', $view_params);
     }
 
@@ -95,8 +95,8 @@ class Status extends CI_Controller
             }
         } else {
             $view_params = [
-          'record' => $record
-        ];
+              'record' => $record
+            ];
             $this->load->helper('form');
             $this->load->view('status/edit', $view_params);
         }

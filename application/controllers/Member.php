@@ -206,11 +206,11 @@ class Member extends CI_Controller
 
 
             $view_params = [
-          'title'     => lang('member_add_title'),
-          'record'    => $record,
-          'aktiv'     => [1 => lang('member_active'), 0 => lang('member_in_active')],
-          'statuses'  => $statuses
-        ];
+              'title'     => lang('member_add_title'),
+              'record'    => $record,
+              'aktiv'     => [1 => lang('member_active'), 0 => lang('member_in_active')],
+              'statuses'  => $statuses
+            ];
             $this->load->helper('form');
             $this->load->view('member/edit', $view_params);
         }

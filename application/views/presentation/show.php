@@ -21,11 +21,23 @@
             $presentation_date = new DateTime($record->idopont);
           ?>
 
-          <?php if (($presentation_date > $date_now) or ($record->allapot == "2")) : ?>
-            <li class="list-group-item"> Időpont : <?=$record->idopont?> </li>
+          <?php if ($presentation_date < $date_now) : ?>
+            <?php if($record->allapot == "2") : ?>
+              <li class="list-group-item text-secondary"> Időpont : <?=$record->idopont?> <h5 class="fas fa-check-square text-success float-end mt-1"></h5> </li>
+
+            <?php else :?>
+              <li class="list-group-item text-secondary"> Időpont : <?=$record->idopont?> <h5 title="Az előadás időpontja már lejárt!" data-bs-toggle="tooltip"  class="fas fa-exclamation-triangle text-danger float-end mt-1"></h5> </li>
+
+              <script>
+                var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+                var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                  return new bootstrap.Tooltip(tooltipTriggerEl)
+                })
+              </script>
+            <?php endif ?>
           <?php else : ?>
-            <li class="list-group-item text-secondary"> Időpont : <?=$record->idopont?> <h5 class="fas fa-exclamation-triangle text-danger float-end mt-1"></h5> </li>
-          <?php endif; ?>
+            <li class="list-group-item"> Időpont : <?=$record->idopont?>  </li>
+          <?php endif ?>
 
 
 
