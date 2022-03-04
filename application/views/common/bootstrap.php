@@ -14,9 +14,9 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
 <!-- DataTables -->
-<link rel="stylesheet" type="text/css" href="public/DataTables/datatables.css"/>
+<link rel="stylesheet" type="text/css" href="/public/DataTables/datatables.css"/>
 
-<script type="text/javascript" src="public/DataTables/datatables.js"></script>
+<script type="text/javascript" src="/public/DataTables/datatables.js"></script>
 
 
 

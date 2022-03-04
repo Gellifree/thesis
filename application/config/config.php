@@ -24,7 +24,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-//$config['base_url'] = 'https://192.168.1.101/thesis/';
+//$config['base_url'] = 'https://localhost/thesis/';
 $config['base_url'] = 'https://ekke-rszk.herokuapp.com';
 
 /*
