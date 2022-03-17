@@ -30,3 +30,7 @@ $lang['login']                  = 'Login';
 
 $lang['change_lang_to']         = 'Change language to: ';
 $lang['marked_required']        = 'Fields marked with an asterisk are required.';
+
+$lang['welcome_message_title']	= 'Welcome on the Roma Student Group administrative page!';
+$lang['welcome_message']				= 'If you have access, please enter your login credentials after clicking the login button.';
+
