@@ -13,7 +13,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <?php $this->load->view('common/navbar'); ?>
 
 <div class="bg-dark container shadow-sm text-white rounded mt-4 p-1">
-	<h6 class="my-2 mx-2">Üdvözlöm az Egri Roma Szakkollégium nyilvántartó oldalán!</h6>
+	<h6 class="my-2 mx-2"> <?php echo lang('welcome_message_title') ?> </h6>
 </div>
 
 <?php if ($this->ion_auth->logged_in()): ?>
@@ -103,7 +103,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <?php else : ?>
 	<div class="container border shadow-sm rounded mt-3 bg-white p-2">
 		<p class="text-secondary m-2">
-			Amennyiben rendelkezik hozzáféréssel, kérem a bejelentkezés gombra kattintás után adja meg a bejelentkezési adatait.
+			<?php echo lang('welcome_message') ?>
 		</p>
 	</div>
 <?php endif; ?>
