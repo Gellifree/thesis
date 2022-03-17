@@ -30,3 +30,6 @@ $lang['login']                  = 'Bejelentkezés';
 
 $lang['change_lang_to']         = 'Nyelv megváltoztatása erre: ';
 $lang['marked_required']        = 'A csillaggal jelölt mezők kitöltése kötelező.';
+
+$lang['welcome_message_title']	= 'Üdvözlöm az Egri Roma Szakkollégium nyilvántartó oldalán!';
+$lang['welcome_message']				= 'Amennyiben rendelkezik hozzáféréssel, kérem a bejelentkezés gombra kattintás után adja meg a bejelentkezési adatait.';
